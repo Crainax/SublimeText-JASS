@@ -1,0 +1,278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "key",
+		"selected_items":
+		[
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/写给新手们-轮回之狱初级攻略.txt.dump",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-地狱单通恶魔2.39B版本恶魔单通地狱新手呕血文字攻略by_oh770502.txt.dump",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2.39B版本新手恶魔单通地狱呕血文字攻略.txt.dump",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2.39B版本新手恶魔单通地狱呕血文字攻略.txt",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-地狱单通恶魔2.39B版本恶魔单通地狱新手呕血文字攻略by_oh770502.txt",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/写给新手们-轮回之狱初级攻略.txt",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-战争单通玄雪29波by_oh770502.txt.dump",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-战争单通玄雪29波by_oh770502.txt",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/自杀J.txt.dump",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/自杀J.txt",
+		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程.htm",
+		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/amber_menu.html",
+		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程.htm.dump",
+		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/amber_menu.htm.dump",
+		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/VJass正文目录.html",
+		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/amber_menu.htm",
+		"/G/War3/Maps/Xlimon/edit/test3.j",
+		"/G/War3/Maps/Xlimon/edit/test2.j",
+		"/G/War3/Maps/Xlimon/edit/test1.j",
+		"/G/War3/Maps/Xlimon/api/YDJ/Base/YDWEBase_common.j",
+		"/G/War3/Maps/Xlimon/mpq/ydwe/ui/TriggerStrings.txt",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/plugin/jasshelper/blizzard.j",
+		"/G/War3/Maps/Xlimon/test/cmd.bat",
+		"/G/War3/Maps/Xlimon/test/test2.j",
+		"/G/War3/Maps/Xlimon/test/test1.j",
+		"/G/War3/Maps/Xlimon/test/backups/backupsdata.txt",
+		"/G/War3/Maps/Xlimon/test/logs/pjass.txt",
+		"/G/War3/Maps/Xlimon/test/logs/outputwar3map.j",
+		"/G/War3/Maps/Xlimon/test/logs/inputwar3map.j",
+		"/G/War3/Maps/Xlimon/test/logs/currentmapscript.j",
+		"/D/Program Files (x86)/jasshelper/common.j",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/share/script/slk.lua",
+		"/G/War3/Maps/Xlimon/data/todo.md",
+		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3a.ini",
+		"/D/冰封/魔兽改图/war3tool/jass/WE词典/Datas/fanyi.txt",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/example(演示地图)/存档/说明.txt.dump",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/example(演示地图)/存档/说明.txt",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWEJumpTimer.j.dump",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWEJumpTimer.j",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWECreateLine.j.dump",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWECreateLine.j",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/backups/backupsdata.txt",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/share/mpq/config",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/share/mpq/units/ui/miscdata.txt",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/share/mpq/ydwe/ui/TriggerData.txt",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/logs/pjass.txt.dump",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/logs/pjass.txt",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/logs/outputwar3map.j",
+		"/D/Program Files (x86)/YDWE1.30.6正式版/plugin/jasshelper/common.j",
+		"/G/War3/Maps/Test/SD1/war3map.w3a.ini",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/AceJump/README.md",
+		"/D/Program Files/Sublime Text 3/xlimon.sublime-project",
+		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3u.ini",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Program Files (x86)/w3x2lni-master/template/unit.ini",
+		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3i.ini",
+		"/D/Program Files (x86)/w3x2lni-master/template/ability.ini",
+		"/D/Program Files (x86)/w3x2lni-master/template/upgrade.ini",
+		"/D/Program Files (x86)/w3x2lni-master/template/misc.ini",
+		"/D/Program Files (x86)/w3x2lni-master/template/doodad.ini",
+		"/D/Program Files (x86)/w3x2lni-master/template/item.ini",
+		"/D/Program Files (x86)/w3x2lni-master/script/w3x2lni.lua",
+		"/D/Program Files (x86)/w3x2lni-master/script/info.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.txt.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3b.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3d.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3h.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3i.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3q.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3t.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3u.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3mapextra.txt",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3mapmisc.txt",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3mapskin.txt",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.j",
+		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3t.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapmisc.txt",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapskin.txt",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3t.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.txt.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3u.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.j",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapextra.txt",
+		"/D/冰封/魔兽/地图勾画/技能/新建文本文档.txt",
+		"/G/War3/Maps/Test/SD1/war3mapmisc.txt",
+		"/G/War3/Maps/Test/SD1/war3map.w3u.ini",
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3a.ini",
+		"/D/w3x2lni_v1.2/config.ini",
+		"/D/冰封/冰封有关的/常用functions.txt.dump",
+		"/D/冰封/冰封有关的/常用functions.txt",
+		"/D/Program Files (x86)/w3x2lni/template/unit.ini",
+		"/C/Users/XlinonCrainax/AppData/Local/Temp/Temp1_Warcraftchange-v4.22.zip/说明.txt"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"i",
+			"yd_PlayerColor",
+			"debug",
+			"/",
+			"ExecuteFunc",
+			"function xxx",
+			"蓬莱",
+			"n008"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "p.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

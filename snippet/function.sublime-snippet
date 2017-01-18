@@ -6,3 +6,11 @@ endfunction]]></content>
     <scope>source.jass</scope>
     <description>Function</description>
 </snippet>
+<snippet>
+    <content><![CDATA[globals
+	${0:// body...}
+endglobals]]></content>
+    <tabTrigger>function</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Globals</description>
+</snippet>
