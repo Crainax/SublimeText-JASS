@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[loop
+	exitwhen ${1:i} > ${2:1}
+	${0:// body...}
+	set ${1} = ${1} +1
+endloop]]></content>
+    <tabTrigger>loop</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Loop</description>
+</snippet>
