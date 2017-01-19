@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[//! textmacro ${1:Default} takes ${2:Type}
+	${0:// body...}
+//! endtextmacro]]></content>
+    <tabTrigger>textmacro</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Textmacro</description>
+</snippet>
