@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[library_once ${1:library_name} initializer ${2:Init${1}} requires ${3:other_library_name} 
+	${0:// body...}
+endlibrary]]></content>
+    <tabTrigger>library</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Library</description>
+</snippet>
