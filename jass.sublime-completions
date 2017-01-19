@@ -1,6 +1,8 @@
 {
     "scope": "source.jass",
     "completions": [
+        "this",
+        "super",
         "local",
         "set",
         "call",
@@ -16,6 +18,8 @@
         "code",
         "boolean",
         "handle",
+        "create()",
+        "destroy()",
         "event",
         "player",
         "widget",
