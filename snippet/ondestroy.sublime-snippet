@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[method onDestroy takes nothing returns nothing
+	${0:// body...}
+endmethod]]></content>
+    <tabTrigger>ondestroy</tabTrigger>
+    <scope>source.jass</scope>
+    <description>OnDestroyMethod</description>
+</snippet>

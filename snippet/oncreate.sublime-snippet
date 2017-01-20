@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[static method create takes ${1:nothing} returns ${2:struct_name}
+   	local ${2} ${3:var} = ${2}.allocate()
+	${0:// body...}
+	return ${3}
+endmethod]]></content>
+    <tabTrigger>oncreate</tabTrigger>
+    <scope>source.jass</scope>
+    <description>OnCreateMethod</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[${1:private }${2:static }method ${3:method_name} takes ${4:nothing} returns ${5:nothing}
+	${0:// body...}
+endmethod]]></content>
+    <tabTrigger>method</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Method</description>
+</snippet>
