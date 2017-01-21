@@ -20,7 +20,7 @@
 			"file": "snippet/interface.sublime-snippet",
 			"settings":
 			{
-				"buffer_size": 206,
+				"buffer_size": 216,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -309,15 +309,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 206,
+						"buffer_size": 216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								181,
-								181
+								50,
+								50
 							]
 						],
 						"settings":

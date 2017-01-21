@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[interface
+    <content><![CDATA[interface ${1:name}
 	${0:// body...}
 endinterface]]></content>
     <tabTrigger>interface</tabTrigger>
