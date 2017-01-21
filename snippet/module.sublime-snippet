@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[module ${1:module_name}}
+	${0:// body...}
+endloop]]></content>
+    <tabTrigger>module</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Module</description>
+</snippet>

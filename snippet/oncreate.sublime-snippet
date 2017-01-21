@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[static method create takes ${1:nothing} returns ${2:struct_name}
-   	local ${2} ${3:var} = ${2}.allocate()
+    <content><![CDATA[static method create takes ${1:nothing} returns thistype
+   	local thistype ${2:var} = thistype.allocate()
 	${0:// body...}
-	return ${3}
+	return ${2}
 endmethod]]></content>
     <tabTrigger>oncreate</tabTrigger>
     <scope>source.jass</scope>
