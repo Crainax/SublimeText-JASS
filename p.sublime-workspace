@@ -8,19 +8,20 @@
 	"buffers":
 	[
 		{
-			"file": "snippet/loop.sublime-snippet",
+			"contents": "Searching 22 files for \"readonly\" (whole word)\n\nC:\\Users\\XlinonCrainax\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeText-JASS\\jass.json:\n  150  \t\t\t\"name\": \"storage.modifier.jass\",\n  151  \n  152: \t\t\t\"match\": \"\\\\b(extends|stub|implements|final|private|protected|public|readonly|constant|static)\\\\b\"\n  153  \t\t},\n  154  \n\nC:\\Users\\XlinonCrainax\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeText-JASS\\jass.plist:\n  190  \t\t<dict>\n  191  \t\t\t<key>match</key>\n  192: \t\t\t<string>\\b(extends|stub|implements|final|private|protected|public|readonly|constant|static)\\b</string>\n  193  \t\t\t<key>name</key>\n  194  \t\t\t<string>storage.modifier.jass</string>\n\nC:\\Users\\XlinonCrainax\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeText-JASS\\jass.sublime-completions:\n  168          \"protected\",\n  169          \"public\",\n  170:         \"readonly\",\n  171          \"constant\",\n  172          \"textmacro\",\n\nC:\\Users\\XlinonCrainax\\AppData\\Roaming\\Sublime Text 3\\Packages\\SublimeText-JASS\\jass.tmlanguage:\n  190  \t\t<dict>\n  191  \t\t\t<key>match</key>\n  192: \t\t\t<string>\\b(extends|implements|final|private|protected|public|readonly|constant|stub|static)\\b</string>\n  193  \t\t\t<key>name</key>\n  194  \t\t\t<string>storage.modifier.jass</string>\n\n4 matches across 4 files\n",
 			"settings":
 			{
-				"buffer_size": 232,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 1240,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
 			}
 		},
 		{
-			"file": "snippet/interface.sublime-snippet",
+			"file": "jass.tmlanguage",
 			"settings":
 			{
-				"buffer_size": 216,
+				"buffer_size": 64089,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -75,11 +76,13 @@
 	],
 	"file_history":
 	[
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/oncreate.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.sublime-completions",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.plist",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.json",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/interface.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/loop.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/oncreate.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/function.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/module.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/ondestroy.sublime-snippet",
@@ -91,7 +94,6 @@
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/LICENSE",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/globals.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/textmacro.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/loop.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/function.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/JASS.sublime-package",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/globals.sublime-snippet",
@@ -206,6 +208,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"readonly",
+			"static",
+			"ExecuteFunc",
+			"typeid",
+			"static",
 			"dialog",
 			"nothing",
 			"returns",
@@ -276,28 +283,57 @@
 			[
 				{
 					"buffer": 0,
-					"file": "snippet/loop.sublime-snippet",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 232,
+						"buffer_size": 1240,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										269,
+										277
+									],
+									[
+										531,
+										539
+									],
+									[
+										819,
+										827
+									],
+									[
+										1097,
+										1105
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								148,
-								148
+								1114,
+								1114
 							]
 						],
 						"settings":
 						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 420.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -305,27 +341,29 @@
 				},
 				{
 					"buffer": 1,
-					"file": "snippet/interface.sublime-snippet",
+					"file": "jass.tmlanguage",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 216,
+						"buffer_size": 64089,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
+								22254,
+								22254
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 14559.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
