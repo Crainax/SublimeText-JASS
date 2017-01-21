@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[interface
+	${0:// body...}
+endinterface]]></content>
+    <tabTrigger>interface</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Interface</description>
+</snippet>
