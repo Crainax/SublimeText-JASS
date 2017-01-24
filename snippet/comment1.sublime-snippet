@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[/*
+    ${0:Body}
+*/]]></content>
+    <tabTrigger>CM</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Comment</description>
+</snippet>
