@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[call DisplayTextToPlayer(Player(${1:0}),0.,0.,/*
+    	*/ "${0:text}")]]></content>
+    <tabTrigger>display</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Display text.</description>
+</snippet>

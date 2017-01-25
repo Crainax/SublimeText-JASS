@@ -1,8 +1,10 @@
 <snippet>
-    <content><![CDATA[if (${1:true}) then
-	${0:// body...}
-endif]]></content>
-    <tabTrigger>if</tabTrigger>
+    <content><![CDATA[//---------------------------------------------------------------------------------------------------
+
+
+
+//---------------------------------------------------------------------------------------------------]]></content>
+    <tabTrigger>CMM</tabTrigger>
     <scope>source.jass</scope>
-    <description>If Block</description>
+    <description>Big Divider</description>
 </snippet>
