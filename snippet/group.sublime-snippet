@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[call GroupEnumUnitsInRange(${1:l_group}, ${3:x}, ${4:y}, ${5:radius}, null)
 loop
-    set ${2} = FirstOfGroup(${1})
+    set ${2:l_unit} = FirstOfGroup(${1})
     exitwhen ${2} == null
     call GroupRemoveUnit(${1}, ${2})
     ${0://body}
