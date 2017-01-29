@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[call DestroyEffect(AddSpecialEffect(${1:"Abilities\\Spells\\Human\\MassTeleport\\MassTeleportCaster.mdl"}, ${2:x}, ${3:y} ))]]></content>
+    <tabTrigger>effect</tabTrigger>
+    <scope>source.jass</scope>
+    <description>CreateAndRemoveAnEffect</description>
+</snippet>

@@ -54,28 +54,19 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet"
-	],
 	"file_history":
 	[
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/simulateUnitSpell.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTextTag.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/effect.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/damage.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/comment1.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/CMM.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/iff.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/group.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/soutv.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/sout.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/newgroup.sublime-snippet",
-		"/G/War3/Maps/Loopinghell/轮回之狱/war3map.w3t.ini",
-		"/G/War3/Maps/Loopinghell/轮回2.52/war3map.w3t.ini",
-		"/G/War3/Maps/Loopinghell/patch",
+		"/Users/crainax/war3/LH/file/war3map.w3t.ini",
+		"/Users/crainax/war3/LH/file/war3map.w3a.ini",
+		"/Users/crainax/war3/LH/file/war3map.w3u.ini",
+		"/Users/crainax/war3/LH/file/war3map.w3q.ini",
+		"/Users/crainax/war3/LH/file/brainhold.txt",
+		"/Users/crainax/war3/LH/file/war3map.w3b.ini",
+		"/Users/crainax/war3/LH/file/war3map.w3s",
+		"/Users/crainax/war3/LH/testlog.txt",
+		"/Users/crainax/war3/LH/patch",
+		"/Users/crainax/war3/LH/轮回2.52/war3map.w3t.ini",
+		"/Users/crainax/war3/LH/轮回之狱/war3map.w3t.ini",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/sout.sublime-snippet",
 		"/G/War3/Maps/Loopinghell/轮回2.52/war3map.w3i.ini",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
@@ -188,11 +179,14 @@
 		"/G/War3/Maps/Test/SD1/war3map.w3u.ini",
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3a.ini",
 		"/D/w3x2lni_v1.2/config.ini",
-		"/D/冰封/冰封有关的/常用functions.txt.dump"
+		"/D/冰封/冰封有关的/常用functions.txt.dump",
+		"/D/冰封/冰封有关的/常用functions.txt",
+		"/D/Program Files (x86)/w3x2lni/template/unit.ini",
+		"/C/Users/XlinonCrainax/AppData/Local/Temp/Temp1_Warcraftchange-v4.22.zip/说明.txt"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -207,15 +201,70 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"caster",
-			"green",
-			":l_unit",
-			":l_group",
-			"l_unit",
-			"l_group",
-			"ydl_unit",
-			"ydl_group",
-			"BJDebugMsg",
+			"gg_trg______________002",
+			"TSpellZhousiActions",
+			"TSpellZhousiConditions",
+			"Trig______________002",
+			"IssueImmediateOrder",
+			"hs01",
+			"Aloc",
+			"hs00",
+			"元",
+			"\\+9",
+			"500000000",
+			"\\+5",
+			"+6",
+			"\\+6",
+			"虚",
+			"基础值",
+			"\\+5",
+			"\\+4",
+			"\\+3",
+			"\\+4",
+			"\\+5",
+			"\\+1",
+			"\\+2",
+			"\\+1",
+			"\\+2",
+			"Amgl",
+			"A0BK",
+			"\\+1",
+			"DataB",
+			"7.5000",
+			"DataA1",
+			"DataA",
+			"\\{",
+			"AB01",
+			"16",
+			"50",
+			"0000",
+			"\\{",
+			"AB03",
+			"AB02",
+			"AB01",
+			"光灵",
+			"Amgl",
+			"A04E",
+			"AB01",
+			"宝石",
+			"闪电",
+			"闪电链",
+			"A0BQ",
+			"法魂Lv.Max",
+			"法魂Lv.5",
+			"法魂Lv.3",
+			"A06V",
+			"法魂.*1",
+			"A07E",
+			"A09E",
+			"ANss",
+			"AImb",
+			"A07U",
+			"魔法阻挡",
+			"法魂",
+			"魔法阻挡",
+			"魔法",
+			"魔法书2",
 			"死亡勋章",
 			"石化护符",
 			"魔法术书",
@@ -279,18 +328,12 @@
 			"LoadInteger",
 			"function",
 			"i",
-			"yd_PlayerColor",
-			"debug",
-			"/",
-			"ExecuteFunc",
-			"function xxx",
-			"蓬莱",
-			"n008"
+			"yd_PlayerColor"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"|",
@@ -306,7 +349,7 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
+		"whole_word": false,
 		"wrap": false
 	},
 	"groups":
@@ -319,7 +362,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -353,10 +396,10 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "p.sublime-project",
+	"project": "JASS.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -366,8 +409,32 @@
 		"selected_items":
 		[
 			[
-				"cmm",
-				"snippet/CMM.sublime-snippet"
+				"w3",
+				"file/war3map.w3q.ini"
+			],
+			[
+				"patch",
+				"patch"
+			],
+			[
+				"w3u",
+				"file/war3map.w3u.ini"
+			],
+			[
+				"patc",
+				"patch"
+			],
+			[
+				"test",
+				"testlog.txt"
+			],
+			[
+				"w3t",
+				"file/war3map.w3t.ini"
+			],
+			[
+				"testlog",
+				"testlog.txt"
 			]
 		],
 		"width": 0.0
@@ -397,7 +464,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 275.0,
 	"status_bar_visible": true,
 	"template_settings":

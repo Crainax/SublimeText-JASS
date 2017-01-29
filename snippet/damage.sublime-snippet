@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[call UnitDamageTarget( ${1:attacker}, ${2:attackedunit}, ${3:damage}, false, true, ${4:ATTACK_TYPE_MAGIC}, ${5:DAMAGE_TYPE_MAGIC}, WEAPON_TYPE_WHOKNOWS )]]></content>
+    <tabTrigger>damage</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Damage</description>
+</snippet>
