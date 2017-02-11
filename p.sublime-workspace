@@ -61,6 +61,9 @@
 	],
 	"file_history":
 	[
+		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
+		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/unitlife.sublime-snippet",
+		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/newtrigger.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/simulateUnitSpell.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTextTag.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/effect.sublime-snippet",
@@ -185,10 +188,7 @@
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapextra.txt",
 		"/D/冰封/魔兽/地图勾画/技能/新建文本文档.txt",
 		"/G/War3/Maps/Test/SD1/war3mapmisc.txt",
-		"/G/War3/Maps/Test/SD1/war3map.w3u.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3a.ini",
-		"/D/w3x2lni_v1.2/config.ini",
-		"/D/冰封/冰封有关的/常用functions.txt.dump"
+		"/G/War3/Maps/Test/SD1/war3map.w3u.ini"
 	],
 	"find":
 	{
@@ -207,6 +207,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"TSpellHeiyan00",
 			"caster",
 			"green",
 			":l_unit",
@@ -365,6 +366,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"timer",
+				"snippet/createTimer.sublime-snippet"
+			],
+			[
+				"creatim",
+				"snippet/createTimer.sublime-snippet"
+			],
+			[
+				"createtimer",
+				"snippet/createTimer.sublime-snippet"
+			],
+			[
+				"unitlife",
+				"snippet/unitlife.sublime-snippet"
+			],
 			[
 				"cmm",
 				"snippet/CMM.sublime-snippet"

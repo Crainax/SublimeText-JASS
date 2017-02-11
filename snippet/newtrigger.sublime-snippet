@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+private function ${1:TName}Con takes nothing returns boolean
+	return true
+endfunction
+
+private function ${1}Act takes nothing returns nothing
+	// body...
+endfunction
+
+call TriggerRegisterAnyUnitEventBJ(${2:t},EVENT_PLAYER_UNIT_DEATH)
+call TriggerAddCondition(${2}, Condition(function ${1}Con))
+call TriggerAddAction(${2}, function ${1}Act)]]></content>
+    <tabTrigger>newtrigger</tabTrigger>
+    <scope>source.jass</scope>
+    <description>NewTrigger</description>
+</snippet>
