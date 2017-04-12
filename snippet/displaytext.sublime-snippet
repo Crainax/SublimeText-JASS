@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[call DisplayTextToPlayer(${1:Player(0)}, 0., 0., "${0:text}")]]></content>
+    <content><![CDATA[call DisplayTextToPlayer(${1:Player(0)}, 0., 0., "|cFFFF66CC【消息】|r${0:text}")]]></content>
     <tabTrigger>display</tabTrigger>
     <scope>source.jass</scope>
     <description>Display text.</description>
