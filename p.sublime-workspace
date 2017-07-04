@@ -11,6 +11,34 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "snippet/createTimer.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 762,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": " <snippet>\n    <content><![CDATA[call DisplayTextToPlayer(${1:Player(0)}, 0., 0., \"${0:text}\")]]></content>\n    <tabTrigger>display</tabTrigger>\n    <scope>source.jass</scope>\n    <description>Display text.</description>\n</snippet>",
+			"file": "snippet/displaytext.sublime-snippet",
+			"file_size": 235,
+			"file_write_time": 131299765053262057,
+			"settings":
+			{
+				"buffer_size": 231,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "snippet/comment1.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 178,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -56,8 +84,8 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet"
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet"
 	],
 	"file_history":
 	[
@@ -313,8 +341,96 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "snippet/createTimer.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								331,
+								331
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "snippet/displaytext.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "snippet/comment1.sublime-snippet",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
