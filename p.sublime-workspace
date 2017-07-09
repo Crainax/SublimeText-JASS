@@ -11,6 +11,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "snippet/sout.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 208,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "snippet/u2i.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 226,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -61,6 +79,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/u2i.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.plist",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
@@ -187,8 +206,7 @@
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3t.ini",
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.txt.ini",
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3u.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.j",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapextra.txt"
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.j"
 	],
 	"find":
 	{
@@ -315,8 +333,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "snippet/sout.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "snippet/u2i.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
