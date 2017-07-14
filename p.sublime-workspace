@@ -11,6 +11,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "snippet/sout.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 208,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "snippet/u2i.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 226,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -56,12 +74,23 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet"
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet"
 	],
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
+=======
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/u2i.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.plist",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/xy.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.sublime-completions",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.json",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
+>>>>>>> 0cc94ef494f3f621c9bddaa5bac558f2957cfc9f
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/unitlife.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/newtrigger.sublime-snippet",
@@ -81,10 +110,6 @@
 		"/G/War3/Maps/Loopinghell/patch",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/sout.sublime-snippet",
 		"/G/War3/Maps/Loopinghell/轮回2.52/war3map.w3i.ini",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.sublime-completions",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.plist",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.json",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/interface.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/loop.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/oncreate.sublime-snippet",
@@ -184,11 +209,7 @@
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3t.ini",
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.txt.ini",
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3u.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.j",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapextra.txt",
-		"/D/冰封/魔兽/地图勾画/技能/新建文本文档.txt",
-		"/G/War3/Maps/Test/SD1/war3mapmisc.txt",
-		"/G/War3/Maps/Test/SD1/war3map.w3u.ini"
+		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.j"
 	],
 	"find":
 	{
@@ -207,6 +228,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Damage",
+			"IsMaskedToPlayer",
 			"TSpellHeiyan00",
 			"caster",
 			"green",
@@ -313,8 +336,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "snippet/sout.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "snippet/u2i.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/XML/XML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

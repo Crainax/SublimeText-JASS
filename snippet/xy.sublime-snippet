@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[GetUnitX(${1:unit}),GetUnitY(${1})]]></content>
+    <tabTrigger>xy</tabTrigger>
+    <scope>source.jass</scope>
+    <description>GetunitXY</description>
+</snippet>
