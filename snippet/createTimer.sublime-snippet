@@ -1,25 +1,6 @@
 <snippet>
-    <content><![CDATA[key ${4}
-
-private function ${7:TimerFunction} takes nothing returns nothing
-	local timer ${1} = GetExpiredTimer()
-	local integer id = GetHandleId(${1})
-	local ${8:type} ${5} = Load${2}(${3},id,${4})
-	if (${9:true}) then
-		${0://body}
-	else
-		call PauseTimer(${1})
-		call FlushChildHashtable(${3},id)
-		call DestroyTimer(${1})
-	endif
-	${10:set ${5} = null}
-	set ${1} = null 
-endfunction
-
-local timer ${1:t} = CreateTimer()
-call Save${2:UnitHandle}(${3:spellTable},GetHandleId(${1}),${4:kXXXXXXX},${5:value})
-call TimerStart(${1},${6:time},true,function ${7:TimerFunction})
-set ${1} = null]]></content>
+    <content><![CDATA[set ${1:t} = CreateTimer()
+call TimerStart(${1},${2:time},${3:true},function ${4:TimerFunction})]]></content>
     <tabTrigger>createTimer</tabTrigger>
     <scope>source.jass</scope>
     <description>CreateNewTimer</description>

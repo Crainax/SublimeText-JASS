@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[call PauseTimer(${1:t})
+call DestroyTimer(${1})
+set ${1} = null]]></content>
+    <tabTrigger>destroyTimer</tabTrigger>
+    <scope>source.jass</scope>
+    <description>DestroyTimer</description>
+</snippet>

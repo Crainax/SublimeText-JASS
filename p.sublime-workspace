@@ -30,10 +30,11 @@
 			}
 		},
 		{
-			"file": "snippet/effect.sublime-snippet",
+			"file": "snippet/destroyTimer.sublime-snippet",
 			"settings":
 			{
-				"buffer_size": 303,
+				"buffer_size": 237,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -87,10 +88,13 @@
 	],
 	"file_history":
 	[
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/newTimer.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/timerStart1.sublime-snippet",
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/ydwecood.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/u2i.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.plist",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/xy.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.sublime-completions",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.json",
@@ -211,10 +215,7 @@
 		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3t.ini",
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapmisc.txt",
 		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapskin.txt",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3t.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.txt.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3u.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.j"
+		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.w3t.ini"
 	],
 	"find":
 	{
@@ -233,6 +234,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"createTimer",
+			"set",
+			"timerStart",
 			"Damage",
 			"IsMaskedToPlayer",
 			"TSpellHeiyan00",
@@ -387,8 +391,8 @@
 						"selection":
 						[
 							[
-								90,
-								90
+								226,
+								226
 							]
 						],
 						"settings":
@@ -406,24 +410,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "snippet/effect.sublime-snippet",
-					"semi_transient": true,
+					"file": "snippet/destroyTimer.sublime-snippet",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 303,
+						"buffer_size": 237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								236,
-								236
+								237,
+								237
 							]
 						],
 						"settings":
 						{
-							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/XML/XML.sublime-syntax"
 						},
