@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[call AdjustPlayerStateBJ( ${1:-1000}, ${2:GetOwningPlayer(GetBuyingUnit())}, PLAYER_STATE_RESOURCE_${3:LUMBER} )]]></content>
+    <tabTrigger>addLumber</tabTrigger>
+    <scope>source.jass</scope>
+    <description>addLumber</description>
+</snippet>

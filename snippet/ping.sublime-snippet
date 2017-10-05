@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[call PingMinimapForForce( GetForceOfPlayer(${1:GetOwningPlayer(seyu)}), ${2:x}, ${3:y}, ${4:2.00} )]]></content>
+    <tabTrigger>ping</tabTrigger>
+    <scope>source.jass</scope>
+    <description>pingMap</description>
+</snippet>

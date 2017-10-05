@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[GetPlayerState(${1:GetOwningPlayer(GetBuyingUnit())}, PLAYER_STATE_RESOURCE_LUMBER)]]></content>
+    <tabTrigger>lumber</tabTrigger>
+    <scope>source.jass</scope>
+    <description>getLumber</description>
+</snippet>

@@ -1,6 +1,8 @@
 <snippet>
-    <content><![CDATA[call CreateSpellTextTag(${1:"漂浮文字"},${2:whichUnit},${3:red%},${4:green%},${5:blue%},${6:second})]]></content>
-    <tabTrigger>createTexttag</tabTrigger>
+    <content><![CDATA[if ((GetPlayerSlotState(${1:ConvertedPlayer(i)}) == PLAYER_SLOT_STATE_PLAYING) and (GetPlayerController(${1}) == MAP_CONTROL_USER)) then
+	${0}
+endif]]></content>
+    <tabTrigger>isOnline</tabTrigger>
     <scope>source.jass</scope>
-    <description>createTexttag</description>
+    <description>PlayerOnline</description>
 </snippet>

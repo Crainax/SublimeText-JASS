@@ -1,6 +1,7 @@
 <snippet>
-    <content><![CDATA[loop
-	exitwhen ${1:i} > ${2:1}
+    <content><![CDATA[local integer ${1:i} = 1
+loop
+	exitwhen ${1} > ${2:1}
 	${0:// body...}
 	set ${1} = ${1} +1
 endloop]]></content>

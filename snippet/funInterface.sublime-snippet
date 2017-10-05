@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[function interface ${1:AfterBuffTime} takes ${2:player p} returns ${3:nothing}]]></content>
+    <tabTrigger>funInterface</tabTrigger>
+    <scope>source.jass</scope>
+    <description>funInterface</description>
+</snippet>
