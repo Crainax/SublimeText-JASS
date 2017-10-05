@@ -4,93 +4,521 @@
 		"selected_items":
 		[
 			[
-				"仙",
-				"仙炼石"
+				"createtimer",
+				"createTimer\tCreateNewTimer"
+			],
+			[
+				"createtim",
+				"CreateTimer"
+			],
+			[
+				"converpl",
+				"ConvertedPlayer"
+			],
+			[
+				"mod",
+				"ModuloInteger"
+			],
+			[
+				"udg_",
+				"udg_Second"
+			],
+			[
+				"udg",
+				"udg_H"
+			],
+			[
+				"getatt",
+				"GetAttackedUnitBJ"
+			],
+			[
+				"timer",
+				"timerdialog"
+			],
+			[
+				"issue",
+				"IssuePointOrder"
+			],
+			[
+				"getcha",
+				"GetEventPlayerChatString"
+			],
+			[
+				"Destrhundun",
+				"DestroyHundun2"
+			],
+			[
+				"getlastitem",
+				"GetLastCreatedItem"
+			],
+			[
+				"getchar",
+				"GetItemCharges"
+			],
+			[
+				"getkin",
+				"GetKillingUnitBJ"
+			],
+			[
+				"achi",
+				"achi2"
+			],
+			[
+				"subst",
+				"SubStringBJ"
+			],
+			[
+				"getattack",
+				"GetAttackedUnitBJ"
+			],
+			[
+				"cos",
+				"CosBJ"
+			],
+			[
+				"getunitlv",
+				"GetUnitAbilityLevel"
+			],
+			[
+				"Isu",
+				"IsUnitAlly"
+			],
+			[
+				"getattac",
+				"GetAttackedUnitBJ"
+			],
+			[
+				"getchat",
+				"GetEventPlayerChatString"
+			],
+			[
+				"BB",
+				"BBuqian1"
+			],
+			[
+				"IG",
+				"IGoldGame2"
+			],
+			[
+				"gg_",
+				"gg_rct_Game2"
+			],
+			[
+				"InitSich",
+				"InitSichenSpin"
+			],
+			[
+				"groupremo",
+				"GroupRemoveUnit"
+			],
+			[
+				"unithas",
+				"UnitHasBuffBJ"
+			],
+			[
+				"setunitmana",
+				"SetUnitManaPercentBJ"
+			],
+			[
+				"iSH",
+				"IShenyue"
+			],
+			[
+				"UNITSTATE",
+				"UNIT_STATE_MANA"
+			],
+			[
+				"metho",
+				"method"
+			],
+			[
+				"IMax",
+				"IMaxHuanying"
+			],
+			[
+				"EVENT_ATTACK",
+				"EVENT_PLAYER_UNIT_ATTACKED"
+			],
+			[
+				"Qixi",
+				"QixiHuodong"
+			],
+			[
+				"getitemtype",
+				"GetItemTypeId"
+			],
+			[
+				"IJie",
+				"IJie1"
+			],
+			[
+				"pawn",
+				"SetItemPawnable"
+			],
+			[
+				"flash",
+				"FlashHeroStr"
+			],
+			[
+				"fun",
+				"function\tFunction"
+			],
+			[
+				"BFengshuan",
+				"BFengshuangStart"
+			],
+			[
+				"base",
+				"baseX"
+			],
+			[
+				"Isbaje",
+				"IsBajueSpin"
+			],
+			[
+				"getunitdaa",
+				"GetUnitUserData"
+			],
+			[
+				"SetItemAtta",
+				"SetItemAttack"
+			],
+			[
+				"EVENTATTACK",
+				"EVENT_PLAYER_UNIT_ATTACKED"
+			],
+			[
+				"getunitdata",
+				"GetUnitUserData"
+			],
+			[
+				"ICom",
+				"IComboPointer"
+			],
+			[
+				"ICombo",
+				"ICombo"
+			],
+			[
+				"UJiank",
+				"UJianKeji1"
+			],
+			[
+				"exi",
+				"exitwhen"
+			],
+			[
+				"Duyue",
+				"DuyueTimer"
+			],
+			[
+				"Ukeji",
+				"UJianKeji1"
+			],
+			[
+				"group",
+				"GroupClear"
+			],
+			[
+				"IShili",
+				"IShilianType"
+			],
+			[
+				"setunitlife",
+				"SetUnitLifePercentBJ"
+			],
+			[
+				"MOd",
+				"ModuloInteger"
+			],
+			[
+				"Itime",
+				"IShilianTime"
+			],
+			[
+				"BShilian",
+				"BFirstShilian2"
+			],
+			[
+				"ITime",
+				"IShilianTime"
+			],
+			[
+				"IShilitime",
+				"IShilianTimes"
+			],
+			[
+				"BFir",
+				"BFirstShilian1"
+			],
+			[
+				"IType",
+				"IShilianType"
+			],
+			[
+				"functio",
+				"function"
+			],
+			[
+				"condition",
+				"Condition"
+			],
+			[
+				"location",
+				"IsLocationInRegion"
+			],
+			[
+				"rectcon",
+				"RectContainsLoc"
+			],
+			[
+				"rectin",
+				"RectContainsUnit"
+			],
+			[
+				"gethero",
+				"GetHeroProperName"
+			],
+			[
+				"playsou",
+				"PlaySoundBJ"
+			],
+			[
+				"GetXingl",
+				"GetXinglongCode"
+			],
+			[
+				"dialog",
+				"DialogDestroy"
+			],
+			[
+				"geteventdama",
+				"GetEventDamageSource"
+			],
+			[
+				"conplay",
+				"ConvertedPlayer"
+			],
+			[
+				"pickran",
+				"GroupPickRandomUnit"
+			],
+			[
+				"po",
+				"PolledWait"
+			],
+			[
+				"getreccen",
+				"GetRectCenterX"
+			],
+			[
+				"texttag",
+				"texttag"
+			],
+			[
+				"fu",
+				"function\tFunction"
+			],
+			[
+				"creattimer",
+				"CreateTimer"
+			],
+			[
+				"getspell",
+				"GetSpellAbilityUnit"
+			],
+			[
+				"B",
+				"BYaoShuxing"
+			],
+			[
+				"getrandom",
+				"GetRandomSubGroupEnum"
+			],
+			[
+				"functi",
+				"function"
+			],
+			[
+				"creattime",
+				"CreateTimer"
+			],
+			[
+				"Createtimer",
+				"CreateTimer"
+			],
+			[
+				"hundun",
+				"hundun1_playerID"
+			],
+			[
+				"EVENT_SPELL",
+				"EVENT_PLAYER_UNIT_SPELL_CAST"
+			],
+			[
+				"for",
+				"ForGroup"
+			],
+			[
+				"fro",
+				"ForGroup"
+			],
+			[
+				"mteho",
+				"method"
+			],
+			[
+				"SaveStr",
+				"SaveStringBJ"
+			],
+			[
+				"material",
+				"materials2"
+			],
+			[
+				"materi",
+				"materials1"
+			],
+			[
+				"unitahsite",
+				"UnitHasItemOfTypeBJ"
+			],
+			[
+				"MAGIC",
+				"DAMAGE_TYPE_MAGIC"
+			],
+			[
+				"setitemdenfe",
+				"SetItemDefense"
+			],
+			[
+				"unithasite",
+				"UnitHasItemOfTypeBJ"
+			],
+			[
+				"getitemtyp",
+				"GetItemTypeId"
+			],
+			[
+				"EVENTPLAYERITEM",
+				"EVENT_PLAYER_UNIT_USE_ITEM"
+			],
+			[
+				"setunitlifeb",
+				"SetUnitLifePercentBJ"
+			],
+			[
+				"GetRectX",
+				"GetRectCenterX"
+			],
+			[
+				"getdamage",
+				"GetEventDamageSource"
+			],
+			[
+				"seunitlife",
+				"SetUnitLifePercentBJ"
+			],
+			[
+				"setunitman",
+				"SetUnitManaPercentBJ"
+			],
+			[
+				"Ishuo",
+				"IsHuodong4"
+			],
+			[
+				"unitman",
+				"SetUnitManaPercentBJ"
+			],
+			[
+				"buff",
+				"UnitRemoveBuffs"
+			],
+			[
+				"immu",
+				"ImmuteDamageInterval"
+			],
+			[
+				"Issue",
+				"IssueTargetOrder"
+			],
+			[
+				"issu",
+				"IssueImmediateOrder"
+			],
+			[
+				"flush",
+				"FlushChildHashtable"
+			],
+			[
+				"TSichen",
+				"TSichenBuildingCon"
+			],
+			[
+				"Genyuetian",
+				"GenyuetiandiC"
+			],
+			[
+				"InitYan",
+				"InitYanmieSpin"
+			],
+			[
+				"UNIT_STATEL",
+				"UNIT_STATE_MAX_LIFE"
+			],
+			[
+				"C",
+				"CM\tComment"
+			],
+			[
+				"setunitma",
+				"SetUnitManaPercentBJ"
+			],
+			[
+				"unithasitem",
+				"UnitHasItemOfTypeBJ"
+			],
+			[
+				"wait",
+				"PolledWait"
+			],
+			[
+				"eff",
+				"effect\tCreateAndRemoveAnEffect"
+			],
+			[
+				"unithasi",
+				"UnitHasItemOfTypeBJ"
+			],
+			[
+				"getdying",
+				"GetDyingDestructable"
+			],
+			[
+				"SetItemAttack",
+				"SetItemAttackPerc"
+			],
+			[
+				"SetItemIntP",
+				"SetItemIntPerc"
+			],
+			[
+				"SetItemAgi",
+				"SetItemAgiPerc"
+			],
+			[
+				"SetItemDefe",
+				"SetItemDefensePer"
+			],
+			[
+				"func",
+				"function"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "snippet/sout.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 208,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/u2i.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 226,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/destroyTimer.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 237,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/loop.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 255,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/createTextTag.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 318,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/lumber.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 248,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/addLumber.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 280,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/funInterface.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 252,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "snippet/CMM.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 201,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -99,10 +527,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
-		"last_filter": "install",
+		"height": 147.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -116,11 +548,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 456.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 163.0,
 		"history":
 		[
 		]
@@ -136,156 +568,148 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet"
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS"
 	],
 	"file_history":
 	[
-<<<<<<< HEAD
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/ping.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/newtrigger.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/loop.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/newTimer.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/timerStart1.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/ydwecood.sublime-snippet",
-=======
-<<<<<<< HEAD
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
-=======
->>>>>>> 2e8283ecec82ca9b6fe0ced8e53c6bdb7d3b2485
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/u2i.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.plist",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/xy.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.sublime-completions",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.json",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
->>>>>>> 0cc94ef494f3f621c9bddaa5bac558f2957cfc9f
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/unitlife.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/newtrigger.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/simulateUnitSpell.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTextTag.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/effect.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/damage.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/comment1.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/CMM.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/iff.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/group.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/soutv.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/sout.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/newgroup.sublime-snippet",
-		"/G/War3/Maps/Loopinghell/轮回之狱/war3map.w3t.ini",
-		"/G/War3/Maps/Loopinghell/轮回2.52/war3map.w3t.ini",
-		"/G/War3/Maps/Loopinghell/patch",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/sout.sublime-snippet",
-		"/G/War3/Maps/Loopinghell/轮回2.52/war3map.w3i.ini",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/interface.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/oncreate.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/function.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/module.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/ondestroy.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/method.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/iff.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/library.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/struct.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/Newgen.tmTheme",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/LICENSE",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/globals.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/textmacro.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/function.sublime-snippet",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/JASS.sublime-package",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/globals.sublime-snippet",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/写给新手们-轮回之狱初级攻略.txt.dump",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-地狱单通恶魔2.39B版本恶魔单通地狱新手呕血文字攻略by_oh770502.txt.dump",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2.39B版本新手恶魔单通地狱呕血文字攻略.txt.dump",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2.39B版本新手恶魔单通地狱呕血文字攻略.txt",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-地狱单通恶魔2.39B版本恶魔单通地狱新手呕血文字攻略by_oh770502.txt",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/写给新手们-轮回之狱初级攻略.txt",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-战争单通玄雪29波by_oh770502.txt.dump",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/2攻略-战争单通玄雪29波by_oh770502.txt",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/自杀J.txt.dump",
-		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/自杀J.txt",
-		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程.htm",
-		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/amber_menu.html",
-		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程.htm.dump",
-		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/amber_menu.htm.dump",
-		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/VJass正文目录.html",
-		"/G/War3/projects/Vjass系列教程第一版【TigerCN】/Vjass系列教程_web/amber_menu.htm",
-		"/G/War3/Maps/Xlimon/edit/test3.j",
-		"/G/War3/Maps/Xlimon/edit/test2.j",
-		"/G/War3/Maps/Xlimon/edit/test1.j",
-		"/G/War3/Maps/Xlimon/api/YDJ/Base/YDWEBase_common.j",
-		"/G/War3/Maps/Xlimon/mpq/ydwe/ui/TriggerStrings.txt",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/plugin/jasshelper/blizzard.j",
-		"/G/War3/Maps/Xlimon/test/cmd.bat",
-		"/G/War3/Maps/Xlimon/test/test2.j",
-		"/G/War3/Maps/Xlimon/test/test1.j",
-		"/G/War3/Maps/Xlimon/test/backups/backupsdata.txt",
-		"/G/War3/Maps/Xlimon/test/logs/pjass.txt",
-		"/G/War3/Maps/Xlimon/test/logs/outputwar3map.j",
-		"/G/War3/Maps/Xlimon/test/logs/inputwar3map.j",
-		"/G/War3/Maps/Xlimon/test/logs/currentmapscript.j",
-		"/D/Program Files (x86)/jasshelper/common.j",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/share/script/slk.lua",
-		"/G/War3/Maps/Xlimon/data/todo.md",
-		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3a.ini",
-		"/D/冰封/魔兽改图/war3tool/jass/WE词典/Datas/fanyi.txt",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/example(演示地图)/存档/说明.txt.dump",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/example(演示地图)/存档/说明.txt",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWEJumpTimer.j.dump",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWEJumpTimer.j",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWECreateLine.j.dump",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/jass/YDWECreateLine.j",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/backups/backupsdata.txt",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/share/mpq/config",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/share/mpq/units/ui/miscdata.txt",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/share/mpq/ydwe/ui/TriggerData.txt",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/logs/pjass.txt.dump",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/logs/pjass.txt",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/logs/outputwar3map.j",
-		"/D/Program Files (x86)/YDWE1.30.6正式版/plugin/jasshelper/common.j",
-		"/G/War3/Maps/Test/SD1/war3map.w3a.ini",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/AceJump/README.md",
-		"/D/Program Files/Sublime Text 3/xlimon.sublime-project",
-		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3u.ini",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/D/Program Files (x86)/w3x2lni-master/template/unit.ini",
-		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3i.ini",
-		"/D/Program Files (x86)/w3x2lni-master/template/ability.ini",
-		"/D/Program Files (x86)/w3x2lni-master/template/upgrade.ini",
-		"/D/Program Files (x86)/w3x2lni-master/template/misc.ini",
-		"/D/Program Files (x86)/w3x2lni-master/template/doodad.ini",
-		"/D/Program Files (x86)/w3x2lni-master/template/item.ini",
-		"/D/Program Files (x86)/w3x2lni-master/script/w3x2lni.lua",
-		"/D/Program Files (x86)/w3x2lni-master/script/info.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.txt.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3b.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3d.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3h.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3i.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3q.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3t.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3map.w3u.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3mapextra.txt",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3mapmisc.txt",
-		"/G/War3/Maps/DeathCentery/天绝三世1/war3mapskin.txt",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3map.j",
-		"/G/War3/Maps/Xlimon/origin/Xlimon/war3map.w3t.ini",
-		"/G/War3/Maps/DeathCentery/天绝三世2/war3mapmisc.txt"
+		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/.gitignore",
+		"/G/War3/Maps/Loopinghell/YDWETimerPattern.j.dump",
+		"/G/War3/Maps/Loopinghell/edit/Achievement.j",
+		"/G/War3/Maps/Loopinghell/edit/Constant.j",
+		"/G/War3/Maps/Loopinghell/edit/Jizi.j",
+		"/G/War3/Maps/Loopinghell/edit/Ring.j",
+		"/G/War3/Maps/Loopinghell/edit/LHOther.j",
+		"/G/War3/Maps/Loopinghell/edit/Structs.j",
+		"/G/War3/Maps/Loopinghell/edit/ItemSpell.j",
+		"/G/War3/Maps/Loopinghell/edit/NetVersion.j",
+		"/G/War3/Maps/Loopinghell/edit/ChallangerDZ.j",
+		"/G/War3/Maps/Loopinghell/edit/Spin.j",
+		"/G/War3/Maps/Loopinghell/edit/Taiya.j",
+		"/G/War3/Maps/Loopinghell/edit/CommonVersion.j",
+		"/G/War3/Maps/Loopinghell/patch.txt",
+		"/C/Users/XlinonCrainax/Downloads/deskpins-1.30/readme.txt",
+		"/G/War3/Maps/Loopinghell/api/YDJ/AntiBJLeak/detail/GetPlayersMatching.cfg",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/30道问题成就攻略 (1).txt.dump",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/30道问题成就攻略 (1).txt",
+		"/C/Users/XlinonCrainax/Documents/tencent files/413997411/FileRecv/30道问题成就攻略.txt.dump",
+		"/C/Users/XlinonCrainax/Documents/tencent files/413997411/FileRecv/30道问题成就攻略.txt",
+		"/G/War3/Maps/Loopinghell/edit/SameItem.j",
+		"/G/War3/Maps/Loopinghell/edit/DebugNet.j",
+		"/G/War3/Maps/Loopinghell/edit/Box.j",
+		"/G/War3/Maps/Loopinghell/edit/item.j",
+		"/G/War3/Maps/Loopinghell/edit/Diffculty.j",
+		"/G/War3/Maps/Loopinghell/edit/ChallangerMode.j",
+		"/G/War3/Maps/Loopinghell/edit/ChatCommand.j",
+		"/G/War3/Maps/Loopinghell/edit/PIV.j",
+		"/G/War3/Maps/Loopinghell/edit/Boss.j",
+		"/G/War3/Maps/Loopinghell/html/VIP2.html",
+		"/G/War3/Maps/Loopinghell/html/lunhui2.js",
+		"/G/War3/Maps/Loopinghell/edit/Continous.j",
+		"/G/War3/Maps/Loopinghell/edit/Mengji.j",
+		"/G/War3/Maps/Loopinghell/edit/LHBase.j",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/更新至3.3.92版本混沌装备+1介绍轮回之狱所有装备物品装备图文介绍 .txt.dump",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/更新至3.3.92版本混沌装备+1介绍轮回之狱所有装备物品装备图文介绍 .txt",
+		"/D/Program Files (x86)/YDWE1.30.6含官方API版/plugin/warcraft3/dzclient_api.ini",
+		"/G/War3/Maps/Loopinghell/html/lunhui.js",
+		"/G/War3/Maps/Loopinghell/html/VIP.html",
+		"/G/War3/Maps/Loopinghell/edit/BaseVersion.j",
+		"/G/War3/Maps/Loopinghell/api/YDJ/AntiBJLeak/detail/MakeUnitsPassiveForPlayer.cfg",
+		"/C/Users/XlinonCrainax/Desktop/3.390更新日志.txt",
+		"/G/War3/Maps/Loopinghell/edit/Xiaoting.j",
+		"/G/War3/Maps/Loopinghell/edit/Attr.j",
+		"/G/War3/Maps/Loopinghell/edit/Xinglong.j",
+		"/G/War3/Maps/Loopinghell/edit/Sichen.j",
+		"/G/War3/Maps/Loopinghell/edit/testmain.j",
+		"/G/War3/Maps/Loopinghell/edit/SpellBase.j",
+		"/G/War3/Maps/Loopinghell/edit/DzAPI.j",
+		"/G/War3/Maps/Loopinghell/edit/Diamond.j",
+		"/G/War3/Maps/Loopinghell/edit/Seyu.j",
+		"/G/War3/Maps/Loopinghell/edit/Battle.j",
+		"/G/War3/Maps/Loopinghell/edit/CangLing.j",
+		"/G/War3/Maps/Loopinghell/edit/Chenji.j",
+		"/G/War3/Maps/Loopinghell/edit/MiJing.j",
+		"/G/War3/Maps/Loopinghell/edit/CenterBase.j",
+		"/G/War3/Maps/Loopinghell/edit/Aura.j",
+		"/G/War3/Maps/Loopinghell/edit/Huanyi.j",
+		"/G/War3/Maps/Loopinghell/edit/Qixi.j",
+		"/C/Users/XlinonCrainax/Desktop/Ares丶1999.txt",
+		"/C/Users/XlinonCrainax/Desktop/Peter小菜鸟.txt",
+		"/G/War3/Maps/Loopinghell/api/YDJ/YDWEGeneralBounsSystem.cfg",
+		"/G/War3/Maps/Loopinghell/api/YDTrigger/BJOptimization/Hero.h.dump",
+		"/G/War3/Maps/Loopinghell/edit/Debug.j",
+		"/G/War3/Maps/Loopinghell/edit/Hundun.j",
+		"/G/War3/Maps/Loopinghell/edit/Revive.j",
+		"/G/War3/Maps/Loopinghell/edit/Test.j",
+		"/G/War3/Maps/Loopinghell/edit/Moqi.j",
+		"/G/War3/Maps/Loopinghell/edit/Juexing.j",
+		"/G/War3/Maps/Loopinghell/edit/Arena.j",
+		"/C/Users/XlinonCrainax/Desktop/咸菜拉条子.txt",
+		"/G/War3/Maps/Loopinghell/edit/MonsterSpell.j",
+		"/D/Program Files (x86)/YDWE1.30.6含官方API版/jass/YDWETimerPattern.j.dump",
+		"/D/Program Files (x86)/YDWE1.30.6含官方API版/jass/YDWETimerPattern.j",
+		"/D/Program Files (x86)/YDWE1.30.6含官方API版/jass/YDWETimerSystem.j.dump",
+		"/D/Program Files (x86)/YDWE1.30.6含官方API版/jass/YDWETimerSystem.j",
+		"/G/War3/Maps/Loopinghell/api/YDTrigger/BJOptimization/Quest.h.dump",
+		"/G/War3/Maps/Loopinghell/edit/JBase.j",
+		"/G/War3/Maps/Loopinghell/edit/Shen.j",
+		"/G/War3/Maps/Loopinghell/api/YDJ/system/rb/blizzard.j",
+		"/G/War3/Maps/Loopinghell/mpq/ydwe/ui/TriggerStrings.txt",
+		"/G/War3/Maps/Loopinghell/edit/Beast.j",
+		"/G/War3/Maps/Loopinghell/edit/ItemAttr.j",
+		"/G/War3/Maps/Loopinghell/edit/Tees.j",
+		"/G/War3/Maps/Loopinghell/轮回2.85/replaceabletextures/commandbuttonsdisabled/disbtnbinglian.blp",
+		"/G/War3/Maps/Loopinghell/edit/Lichi.j",
+		"/G/War3/Maps/Loopinghell/edit/新图思路.txt",
+		"/G/War3/Maps/Loopinghell/api/YDTrigger/SaveLoadSystem/Has_Clear.h.dump",
+		"/G/War3/Maps/Loopinghell/edit/Shilian.j",
+		"/G/War3/Maps/Loopinghell/api/YDJ/system/rb/common.j",
+		"/C/Users/XlinonCrainax/Desktop/咯咯咯咯咯咯丶.txt",
+		"/C/Users/XlinonCrainax/Desktop/Struggles.txt",
+		"/C/Users/XlinonCrainax/Desktop/D丶Moo.txt",
+		"/C/Users/XlinonCrainax/Desktop/燥起来丶.txt",
+		"/G/War3/Maps/Loopinghell/edit/MiniGame.j",
+		"/C/Users/XlinonCrainax/Documents/Tencent Files/413997411/FileRecv/3.360更新日志.txt",
+		"/G/War3/Maps/Loopinghell/edit/HanShang.j",
+		"/D/Program Files (x86)/DzAPI/DzAPI/jass/DzAPI.j",
+		"/D/Program Files (x86)/DzAPI/DzAPI/plugin/warcraft3/dzclient_api.ini",
+		"/D/Program Files (x86)/DzAPI/DzAPIConfig.ini.dump",
+		"/D/Program Files (x86)/DzAPI/DzAPIConfig.ini",
+		"/C/Users/XlinonCrainax/Desktop/3.380更新日志.txt",
+		"/G/War3/Maps/Loopinghell/edit/Mirror.j",
+		"/G/War3/Maps/Loopinghell/edit/Simulate.j",
+		"/G/War3/Maps/Loopinghell/edit/Yanmie.j",
+		"/D/Program Files (x86)/YDWE1.30.6含官方API版/plugin/YDTrigger.ini",
+		"/D/Program Files (x86)/DzAPI/DzAPI/share/mpq/ydtrigger/ui/TriggerData.txt",
+		"/G/War3/Maps/Loopinghell/edit/Sheyan.j",
+		"/G/War3/Maps/Loopinghell/edit/HeiYan.j",
+		"/G/War3/Maps/Loopinghell/edit/Kaisa.j",
+		"/G/War3/Maps/Loopinghell/api/YDTrigger/SaveLoadSystem/HTSet_Get.h.dump",
+		"/G/War3/Maps/Loopinghell/edit/Xiaoyue.j",
+		"/C/Users/XlinonCrainax/Desktop/雏梦.txt",
+		"/C/Users/XlinonCrainax/Desktop/峰sky.txt",
+		"/G/War3/Maps/Loopinghell/轮回3.317/heroskins/heromoonpriestess/nightelffemaleyanjin.blp",
+		"/G/War3/Maps/Loopinghell/edit/RandomHero.j",
+		"/C/Users/XlinonCrainax/Desktop/窒息的瞬间的全皮肤激活码.txt",
+		"/G/War3/Maps/Loopinghell/api/YDJ/AntiBJLeak/MainMacro.h",
+		"/C/Users/XlinonCrainax/Desktop/3.370更新日志.txt",
+		"/G/War3/Maps/Loopinghell/edit/Purgatory.j",
+		"/G/War3/Maps/Loopinghell/七夕奖励.txt",
+		"/G/War3/Maps/Loopinghell/轮回3.317/war3map.j",
+		"/G/War3/Maps/Loopinghell/api/YDJ/AntiBJLeak/detail/NudgeUnitsInRectEnum.cfg",
+		"/G/War3/Maps/Loopinghell/api/YDTrigger/BJOptimization/detail/Hero/HeroStatCheck.h.dump",
+		"/G/War3/Maps/Loopinghell/api/YDTrigger/BJOptimization/detail/Hero/HeroStatCheck.h",
+		"/C/Users/XlinonCrainax/Desktop/3.360更新日志.txt",
+		"/C/Users/XlinonCrainax/Desktop/吹箫大将军.txt"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 131.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -293,391 +717,31 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"funInterface",
-			"chongdongs[i]",
-			"funInterface",
-			"createTexttag",
-			"createTimer",
-			"set",
-			"timerStart",
-			"Damage",
-			"IsMaskedToPlayer",
-			"TSpellHeiyan00",
-			"caster",
-			"green",
-			":l_unit",
-			":l_group",
-			"l_unit",
-			"l_group",
-			"ydl_unit",
-			"ydl_group",
-			"BJDebugMsg",
-			"死亡勋章",
-			"石化护符",
-			"魔法术书",
-			"巨魔之力",
-			"幻象权杖",
-			"魔法项链",
-			"鬼泣之炉",
-			"恶魔",
-			"恶魔陨石",
-			"恶魔岩石",
-			"·Lv0",
-			"恶魔岩石",
-			"战魂",
-			"LvMax",
-			"n魔法术书·LvMax",
-			"·LvMax",
-			"恶魔岩石",
-			"超仙",
-			"法魂Lv.Max",
-			"法魂",
-			"仙炼石",
-			"1200木头+仙炼石",
-			"法魂",
-			"战魂",
-			"中级回",
-			"中级",
-			"readonly",
-			"static",
-			"ExecuteFunc",
-			"typeid",
-			"static",
-			"dialog",
-			"nothing",
-			"returns",
-			"super",
-			"Loop",
-			"TriggerAddAction",
-			"super",
-			"this",
-			"requi",
-			"WEAPON_TYPE_WOOD_HEAVY_BASH",
-			"\",\\n",
-			"\"\\b",
-			"\",\\n",
-			"WEAPON_TYPE_WOOD_HEAVY_BASH",
-			"\\b\"",
-			"\\b",
-			"bj_([\\w]*)(?= *?\\=)",
-			"|",
-			"constant",
-			"AI_DIFFICULTY_NORMAL",
-			"call",
-			"optinal",
-			"|",
-			"endloop",
-			"|",
-			"local",
-			"|",
-			"integer",
-			"null",
-			"LoadInteger",
-			"function",
-			"i",
-			"yd_PlayerColor",
-			"debug",
-			"/",
-			"ExecuteFunc",
-			"function xxx",
-			"蓬莱",
-			"n008"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
-			"|",
-			"",
-			"|",
-			"\",",
-			"\"",
-			"\",\\n\"",
-			"\",\"",
-			"\",",
-			"\\"
 		],
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": true,
-		"wrap": false
+		"whole_word": false,
+		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 8,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "snippet/sout.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 208,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								75,
-								75
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "snippet/u2i.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 226,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "snippet/destroyTimer.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								237,
-								237
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "snippet/loop.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 255,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								75,
-								75
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "snippet/createTextTag.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								170,
-								170
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "snippet/lumber.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								222,
-								222
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "snippet/addLumber.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								181,
-								181
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "snippet/funInterface.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "snippet/CMM.sublime-snippet",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 201,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								201,
-								201
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -714,7 +778,7 @@
 	"project": "p.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -724,57 +788,537 @@
 		"selected_items":
 		[
 			[
-				"ping",
-				"snippet\\ping.sublime-snippet"
+				"lichi",
+				"edit\\Lichi.j"
 			],
 			[
-				"funinte",
-				"snippet\\funInterface.sublime-snippet"
+				"xinglong",
+				"edit\\Xinglong.j"
 			],
 			[
-				"loop",
-				"snippet\\loop.sublime-snippet"
+				"mengji",
+				"edit\\Mengji.j"
 			],
 			[
-				"timer",
-				"snippet/createTimer.sublime-snippet"
+				"boss",
+				"edit\\Boss.j"
 			],
 			[
-				"creatim",
-				"snippet/createTimer.sublime-snippet"
+				"itemspell",
+				"edit\\ItemSpell.j"
 			],
 			[
-				"createtimer",
-				"snippet/createTimer.sublime-snippet"
+				"mie",
+				"edit\\Yanmie.j"
 			],
 			[
-				"unitlife",
-				"snippet/unitlife.sublime-snippet"
+				"constant",
+				"edit\\Constant.j"
 			],
 			[
-				"cmm",
-				"snippet/CMM.sublime-snippet"
+				"patpatch",
+				"api\\YDJ\\AntiBJLeak\\detail\\GetPlayersMatching.cfg"
+			],
+			[
+				"taiya",
+				"edit\\Taiya.j"
+			],
+			[
+				"patch",
+				"patch.txt"
+			],
+			[
+				"commonver",
+				"edit\\CommonVersion.j"
+			],
+			[
+				"chatcom",
+				"edit\\ChatCommand.j"
+			],
+			[
+				"achieve",
+				"edit\\Achievement.j"
+			],
+			[
+				"netver",
+				"edit\\NetVersion.j"
+			],
+			[
+				"spin",
+				"edit\\Spin.j"
+			],
+			[
+				"cham",
+				"edit\\ChallangerMode.j"
+			],
+			[
+				"diff",
+				"edit\\Diffculty.j"
+			],
+			[
+				"item",
+				"edit\\item.j"
+			],
+			[
+				"piv",
+				"edit\\PIV.j"
+			],
+			[
+				"box",
+				"edit\\Box.j"
+			],
+			[
+				"netversion",
+				"edit\\NetVersion.j"
+			],
+			[
+				"dz",
+				"edit\\ChallangerDZ.j"
+			],
+			[
+				"itemsepl",
+				"edit\\ItemSpell.j"
+			],
+			[
+				"consatnt",
+				"edit\\Constant.j"
+			],
+			[
+				"jizi",
+				"edit\\Jizi.j"
+			],
+			[
+				"consant",
+				"edit\\Constant.j"
+			],
+			[
+				"continous",
+				"edit\\Continous.j"
+			],
+			[
+				"achi",
+				"edit\\Achievement.j"
+			],
+			[
+				"ring",
+				"edit\\Ring.j"
+			],
+			[
+				"lhbase",
+				"edit\\LHBase.j"
+			],
+			[
+				"contino",
+				"edit\\Continous.j"
+			],
+			[
+				"constnt",
+				"edit\\Constant.j"
+			],
+			[
+				"sameitem",
+				"edit\\SameItem.j"
+			],
+			[
+				"html",
+				"html\\VIP.html"
+			],
+			[
+				"htmll",
+				"html\\lunhui.js"
+			],
+			[
+				"contn",
+				"edit\\Continous.j"
+			],
+			[
+				"basev",
+				"edit\\BaseVersion.j"
+			],
+			[
+				"bassever",
+				"api\\YDJ\\AntiBJLeak\\detail\\MakeUnitsPassiveForPlayer.cfg"
+			],
+			[
+				"chatcomma",
+				"edit\\ChatCommand.j"
+			],
+			[
+				"lhother",
+				"edit\\LHOther.j"
+			],
+			[
+				"achiev",
+				"edit\\Achievement.j"
+			],
+			[
+				"xiaoting",
+				"edit\\Xiaoting.j"
+			],
+			[
+				"chatcomm",
+				"edit\\ChatCommand.j"
+			],
+			[
+				"sichen",
+				"edit\\Sichen.j"
+			],
+			[
+				"attr",
+				"edit\\Attr.j"
+			],
+			[
+				"debugnet",
+				"edit\\DebugNet.j"
+			],
+			[
+				"continou",
+				"edit\\Continous.j"
+			],
+			[
+				"diamond",
+				"edit\\Diamond.j"
+			],
+			[
+				"lhbae",
+				"edit\\LHBase.j"
+			],
+			[
+				"contnou",
+				"edit\\Continous.j"
+			],
+			[
+				"seyu",
+				"edit\\Seyu.j"
+			],
+			[
+				"lhba",
+				"edit\\LHBase.j"
+			],
+			[
+				"str",
+				"edit\\Structs.j"
+			],
+			[
+				"netvr",
+				"edit\\NetVersion.j"
+			],
+			[
+				"batt",
+				"edit\\Battle.j"
+			],
+			[
+				"spellbas",
+				"edit\\SpellBase.j"
+			],
+			[
+				"netvers",
+				"edit\\NetVersion.j"
+			],
+			[
+				"testmain",
+				"edit\\testmain.j"
+			],
+			[
+				"battle",
+				"edit\\Battle.j"
+			],
+			[
+				"continu",
+				"edit\\Continous.j"
+			],
+			[
+				"achive",
+				"edit\\Achievement.j"
+			],
+			[
+				"cangling",
+				"edit\\CangLing.j"
+			],
+			[
+				"chenji",
+				"edit\\Chenji.j"
+			],
+			[
+				"spellbase",
+				"edit\\SpellBase.j"
+			],
+			[
+				"mijing",
+				"edit\\MiJing.j"
+			],
+			[
+				"lhoth",
+				"edit\\LHOther.j"
+			],
+			[
+				"cenbse",
+				"edit\\CenterBase.j"
+			],
+			[
+				"vip",
+				"html\\VIP2.html"
+			],
+			[
+				"aura",
+				"edit\\Aura.j"
+			],
+			[
+				"qixi",
+				"edit\\Qixi.j"
+			],
+			[
+				"stru",
+				"edit\\Structs.j"
+			],
+			[
+				"huanyi",
+				"edit\\Huanyi.j"
+			],
+			[
+				"basever",
+				"edit\\BaseVersion.j"
+			],
+			[
+				"chadz",
+				"edit\\ChallangerDZ.j"
+			],
+			[
+				"chall",
+				"edit\\ChallangerDZ.j"
+			],
+			[
+				"chat",
+				"edit\\ChatCommand.j"
+			],
+			[
+				"itesm",
+				"edit\\ItemSpell.j"
+			],
+			[
+				"mode",
+				"edit\\ChallangerMode.j"
+			],
+			[
+				"challz",
+				"edit\\ChallangerDZ.j"
+			],
+			[
+				"bosss",
+				"api\\YDJ\\YDWEGeneralBounsSystem.cfg"
+			],
+			[
+				"xinglon",
+				"edit\\Xinglong.j"
+			],
+			[
+				"hundun",
+				"edit\\Hundun.j"
+			],
+			[
+				"debug",
+				"edit\\Debug.j"
+			],
+			[
+				"test",
+				"edit\\Test.j"
+			],
+			[
+				"juexing",
+				"edit\\Juexing.j"
+			],
+			[
+				"moqi",
+				"edit\\Moqi.j"
+			],
+			[
+				"spell",
+				"edit\\SpellBase.j"
+			],
+			[
+				"challmode",
+				"edit\\ChallangerMode.j"
+			],
+			[
+				"arena",
+				"edit\\Arena.j"
+			],
+			[
+				"revive",
+				"edit\\Revive.j"
+			],
+			[
+				"dif",
+				"edit\\Diffculty.j"
+			],
+			[
+				"centerbase",
+				"edit\\CenterBase.j"
+			],
+			[
+				"lhbas",
+				"edit\\LHBase.j"
+			],
+			[
+				"jbase",
+				"edit\\JBase.j"
+			],
+			[
+				"chaa",
+				"edit\\ChallangerDZ.j"
+			],
+			[
+				"patc",
+				"patch.txt"
+			],
+			[
+				"monster",
+				"edit\\MonsterSpell.j"
+			],
+			[
+				"itemattr",
+				"edit\\ItemAttr.j"
+			],
+			[
+				"shen",
+				"edit\\Shen.j"
+			],
+			[
+				"challmod",
+				"edit\\ChallangerMode.j"
+			],
+			[
+				"riing",
+				"轮回2.85\\replaceabletextures\\commandbuttonsdisabled\\disbtnbinglian.blp"
+			],
+			[
+				"思路",
+				"edit\\新图思路.txt"
+			],
+			[
+				"beast",
+				"edit\\Beast.j"
+			],
+			[
+				"tees",
+				"edit\\Tees.j"
+			],
+			[
+				"itemspl",
+				"edit\\ItemSpell.j"
+			],
+			[
+				"itemspll",
+				"edit\\ItemSpell.j"
+			],
+			[
+				"mijin",
+				"edit\\MiJing.j"
+			],
+			[
+				"shilian",
+				"edit\\Shilian.j"
+			],
+			[
+				"itematr",
+				"edit\\ItemAttr.j"
+			],
+			[
+				"js",
+				"html\\lunhui.js"
+			],
+			[
+				"constnat",
+				"edit\\Constant.j"
+			],
+			[
+				"lunhui.js",
+				"html\\lunhui.js"
+			],
+			[
+				"achie",
+				"edit\\Achievement.j"
+			],
+			[
+				"vip2",
+				"html\\VIP2.html"
+			],
+			[
+				"lunh",
+				"html\\lunhui2.js"
+			],
+			[
+				"challa",
+				"edit\\ChallangerDZ.j"
+			],
+			[
+				"achieven",
+				"edit\\Achievement.j"
+			],
+			[
+				"minigam",
+				"edit\\MiniGame.j"
+			],
+			[
+				"baseve",
+				"edit\\BaseVersion.j"
+			],
+			[
+				"challmo",
+				"edit\\ChallangerMode.j"
+			],
+			[
+				"hanshang",
+				"edit\\HanShang.j"
+			],
+			[
+				"chal",
+				"edit\\ChallangerMode.j"
+			],
+			[
+				"base",
+				"edit\\BaseVersion.j"
+			],
+			[
+				"chatac",
+				"edit\\ChatCommand.j"
+			],
+			[
+				"chatc",
+				"edit\\ChatCommand.j"
+			],
+			[
+				"diamon",
+				"edit\\Diamond.j"
+			],
+			[
+				"sim",
+				"edit\\Simulate.j"
+			],
+			[
+				"mirror",
+				"edit\\Mirror.j"
 			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 384.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 400.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -784,7 +1328,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 275.0,
+	"side_bar_width": 396.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

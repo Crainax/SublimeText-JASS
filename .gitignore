@@ -1,2 +1,4 @@
 jass.tmlanguage.cache
 Newgen.tmTheme.cache
+*.sublime-workspace
+*.sublime-project
