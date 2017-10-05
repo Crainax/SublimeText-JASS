@@ -141,6 +141,7 @@
 	],
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/ping.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/newtrigger.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/loop.sublime-snippet",
@@ -148,6 +149,11 @@
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/newTimer.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/timerStart1.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/ydwecood.sublime-snippet",
+=======
+<<<<<<< HEAD
+		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
+=======
+>>>>>>> 2e8283ecec82ca9b6fe0ced8e53c6bdb7d3b2485
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/u2i.sublime-snippet",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.plist",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.tmlanguage",
@@ -155,6 +161,7 @@
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.sublime-completions",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/jass.json",
 		"/C/Users/XlinonCrainax/AppData/Roaming/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
+>>>>>>> 0cc94ef494f3f621c9bddaa5bac558f2957cfc9f
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/createTimer.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/unitlife.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/newtrigger.sublime-snippet",
@@ -168,7 +175,6 @@
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/group.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/soutv.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/sout.sublime-snippet",
-		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/displaytext.sublime-snippet",
 		"/Users/crainax/Library/Application Support/Sublime Text 3/Packages/SublimeText-JASS/snippet/newgroup.sublime-snippet",
 		"/G/War3/Maps/Loopinghell/轮回之狱/war3map.w3t.ini",
 		"/G/War3/Maps/Loopinghell/轮回2.52/war3map.w3t.ini",
