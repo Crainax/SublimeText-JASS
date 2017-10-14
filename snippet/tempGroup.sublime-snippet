@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[local group ${1:l_group2} = CreateGroup()
+set ${1:l_group2} = GroupAddGroup(${2:l_group},${1:l_group2})
+call DestroyGroup(${1:l_group2})
+set ${1:l_group2} = null]]></content>
+    <tabTrigger>tempGroup</tabTrigger>
+    <scope>source.jass</scope>
+    <description>tempGroup</description>
+</snippet>
+
+
