@@ -115,6 +115,20 @@
 			<key>name</key>
 			<string>keyword.operator.jass</string>
 		</dict>
+		<!-- 自定义高亮区(橙) -->
+		<dict>
+			<key>match</key>
+			<string>\b(haha)\b</string>
+			<key>name</key>
+			<string>keyword.other.new.php</string>
+		</dict>
+		<!-- 自定义高亮区(绿) -->
+		<dict>
+			<key>match</key>
+			<string>\b(haha1)\b</string>
+			<key>name</key>
+			<string>storage.type.class.php</string>
+		</dict>
 		<dict>
 			<key>match</key>
 			<string>\;</string>
