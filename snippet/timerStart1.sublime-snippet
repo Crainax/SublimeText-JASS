@@ -1,7 +1,5 @@
 <snippet>
-    <content><![CDATA[key ${4}
-
-private function ${7:TimerFunction} takes nothing returns nothing
+    <content><![CDATA[private function ${7:TimerFunction} takes nothing returns nothing
 	local timer ${1} = GetExpiredTimer()
 	local integer id = GetHandleId(${1})
 	local ${8:type} ${5} = Load${2}(${3},id,${4})

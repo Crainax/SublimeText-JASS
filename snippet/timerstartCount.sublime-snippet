@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[private function ${1:TimerName} takes nothing returns nothing
+    local timer t = GetExpiredTimer()
+    local integer id = GetHandleId(t)
+    local integer i = LoadInteger(${2:spellTable},id,1)
+    if (i <= ${3:10}) then
+        set i = i + 1
+        call SaveInteger(${2},GetHandleId(t),1,i)
+    else
+        call PauseTimer(t)
+        call FlushChildHashtable(${2},id)
+        call DestroyTimer(t)
+    endif
+    set t = null 
+endfunction
+
+local timer t = CreateTimer()
+call SaveInteger(${2},GetHandleId(t),1,1)
+call TimerStart(t,${4:0.5},true,function ${1:TimerName})
+set t = null]]></content>
+    <tabTrigger>timerStartCount</tabTrigger>
+    <scope>source.jass</scope>
+    <description>timerStartCount</description>
+</snippet>
