@@ -3000,5 +3000,7 @@
         "GetDamageInt",
         "GetDamageAgi",
         "GetDamageStr",
+        "SimulateSpell",
+        "CreateSpellTextTag",
     ]
 }

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[call SimulateSpell(${1:GetAttacker()},${2:GetAttackedUnitBJ()},'${3:A0BI}',${4:1}/*level*/,6/*time*/,${5:"stomp"},${6:false}/*point*/,${7:false}/*immediately*/,${8:false}/*unit*/)]]></content>
+    <tabTrigger>simulateSpell</tabTrigger>
+    <scope>source.jass</scope>
+    <description>simulateSpell</description>
+</snippet>
+
+

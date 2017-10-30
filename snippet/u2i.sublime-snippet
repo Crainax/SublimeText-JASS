@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[GetConvertedPlayerId(GetOwningPlayer(${0:GetTriggerUnit()}))]]></content>
+    <content><![CDATA[GetConvertedPlayerId(GetOwningPlayer(${1:GetTriggerUnit()}))]]></content>
     <tabTrigger>u2i</tabTrigger>
     <scope>source.jass</scope>
     <description>UnitToInteger</description>

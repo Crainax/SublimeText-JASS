@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[call CreateSpellTextTag("${1:地震}",${2:GetAttackedUnitBJ()},100,0,100,${3:3})]]></content>
+    <tabTrigger>showTextTag</tabTrigger>
+    <scope>source.jass</scope>
+    <description>showTextTag</description>
+</snippet>
+
+

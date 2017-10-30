@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[GetOwningPlayer(${1:GetTriggerUnit()})]]></content>
+    <tabTrigger>u2p</tabTrigger>
+    <scope>source.jass</scope>
+    <description>UnitToPlayer</description>
+</snippet>
