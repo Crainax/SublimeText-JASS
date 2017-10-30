@@ -118,7 +118,7 @@
 		<!-- 自定义高亮区(橙) -->
 		<dict>
 			<key>match</key>
-			<string>\b(haha)\b</string>
+			<string>\b(DamageArea|GetDistance|GetDamageInt|GetDamageAgi|GetDamageStr)\b</string>
 			<key>name</key>
 			<string>keyword.other.new.php</string>
 		</dict>
@@ -193,7 +193,7 @@
 			<key>match</key>
 			<string>\b(super|this)\b</string>
 			<key>name</key>
-			<string>variable.language.jass</string>
+			<string>storage.type.class.php</string>
 		</dict>
 		<dict>
 			<key>match</key>

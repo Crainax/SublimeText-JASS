@@ -2995,5 +2995,10 @@
         "bj_ELEVATOR_WALL_TYPE_NORTH",
         "bj_ELEVATOR_WALL_TYPE_SOUTH",
         "bj_ELEVATOR_WALL_TYPE_WEST",
+        "DamageArea",
+        "GetDistance",
+        "GetDamageInt",
+        "GetDamageAgi",
+        "GetDamageStr",
     ]
 }
