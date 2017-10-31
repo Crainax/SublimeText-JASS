@@ -2,7 +2,7 @@
     <content><![CDATA[local integer ${1:i} = 1
 loop
     exitwhen ${1} > ${3:10}
-    YDWECoordinateX(x + ${2:900} * CosBJ(${1}*360.0/(${3}))), YDWECoordinateY(y + ${2:900} * SinBJ(${1}*360.0/(${3}))) 
+    YDWECoordinateX(x + ${2:900} * CosBJ(${1}*360.0/I2R(${3}))), YDWECoordinateY(y + ${2:900} * SinBJ(${1}*360.0/I2R(${3}))) 
     set ${1} = ${1} +1
 endloop]]></content>
     <tabTrigger>surround</tabTrigger>
