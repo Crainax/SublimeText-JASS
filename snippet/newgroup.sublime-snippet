@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[local group ${1} = CreateGroup()
-local unit ${2:l_unit}
+local unit ${2:l_unit} = null
 call GroupEnumUnitsInRange(${1:l_group}, ${3:x}, ${4:y}, ${5:radius}, null)
 loop
     set ${2} = FirstOfGroup(${1})
