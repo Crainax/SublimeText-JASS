@@ -3002,5 +3002,6 @@
         "GetDamageStr",
         "SimulateSpell",
         "CreateSpellTextTag",
+        "UnitAddAbilityP",
     ]
 }
