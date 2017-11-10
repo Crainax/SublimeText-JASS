@@ -118,7 +118,7 @@
 		<!-- 自定义高亮区(橙) -->
 		<dict>
 			<key>match</key>
-			<string>\b(DamageArea|GetDistance|GetDamageInt|GetDamageAgi|GetDamageStr|SimulateSpell|CreateSpellTextTag|UnitAddAbilityP)\b</string>
+			<string>\b(DamageArea|GetDistance|GetDamageInt|GetDamageAgi|GetDamageStr|SimulateSpell|CreateSpellTextTag|UnitAddAbilityP|ILimit)\b</string>
 			<key>name</key>
 			<string>keyword.other.new.php</string>
 		</dict>

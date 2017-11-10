@@ -3003,5 +3003,6 @@
         "SimulateSpell",
         "CreateSpellTextTag",
         "UnitAddAbilityP",
+        "ILimit",
     ]
 }

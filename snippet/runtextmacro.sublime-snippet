@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[//! runtextmacro ${1:TextMacroName}("${2:1}")]]></content>
+    <tabTrigger>runTextMacro</tabTrigger>
+    <scope>source.jass</scope>
+    <description>RunTextMacro</description>
+</snippet>
