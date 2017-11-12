@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ini</string>
+	</array>
+	<key>name</key>
+	<string>INI (War3 Data)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.comment.jass</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(--).*$\n?</string>
+			<key>name</key>
+			<string>comment.line.double-slash.jass</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.jass</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>meta.string-contents.quoted.double.jass</string>
+			<key>end</key>
+			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.jass</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.double.jass</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#interpolation</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>=|_parent</string>
+			<key>name</key>
+			<string>keyword.operator.jass</string>
+		</dict>
+		<!-- 自定义高亮区(橙) -->
+		<dict>
+			<key>match</key>
+			<string>\[(.){4}\]</string>
+			<key>name</key>
+			<string>keyword.other.new.php</string>
+		</dict>
+		<!-- 自定义高亮区(绿) -->
+		<dict>
+			<key>match</key>
+			<string>\b(EditorName|Spelldetail|TargetArt|Targetattach|Targetattachcount|isEffect|race|Buffart|Bufftip|Buffubertip|Specialart|Specialattach|EffectArt|Effectsoundlooped|EditorSuffix|Targetattach1|Targetattach2|Targetattach3|Effectsound|Effectattach|LightningEffect|Targetattach4|Targetattach5|Area|Art|BuffID|Cast|Casterattachcount|Cool|Cost|DataA|DataB|DataE|DataF|Dur|EfctID|HeroDur|Hotkey|Name|Rng|Tip|Ubertip|checkDep|hero|item|levelSkip|levels|priority|reqLevel|targs|DataC|DataD|Order|Requires|Orderoff|Orderon|Unart|Unhotkey|Untip|Unubertip|Animnames|ResearchArt|UnitID|DataG|DataH|DataI|Unorder|Researchhotkey|Researchtip|Researchubertip|CasterArt|Casterattach|Areaeffectart|Requiresamount|HP|MMBlue|MMGreen|MMRed|UserList|armor|buildTime|canPlaceDead|canPlaceRandScale|category|cliffHeight|colorB|colorG|colorR|fatLOS|file|fixedRot|flyH|fogRadius|fogVis|goldRep|lightweight|lumberRep|maxPitch|maxRoll|maxScale|minScale|numVar|occH|onCliffs|onWater|pathTex|pathTexDeath|portraitmodel|radius|repairTime|selSize|selcircsize|selectable|shadow|showInMM|targType|texID|tilesetSpecific|tilesets|useClickHelper|useMMColor|walkable|texFile|deathSnd|animInFog|defScale|floats|ignoreModelClick|showInFog|vertB|vertG|vertR|visRadius|soundLoop|Description|level|abilList|class|cooldownID|drop|droppable|goldcost|ignoreCD|lumbercost|morph|oldLevel|pawnable|perishable|pickRandom|powerup|prio|scale|sellable|stockMax|stockRegen|stockStart|usable|uses|AGI|AGIplus|Attachmentanimprops|Awakentip|Farea1|Farea2|Harea1|Harea2|Hfact1|Hfact2|INT|INTplus|LoopingSoundFadeIn|LoopingSoundFadeOut|Primary|Propernames|Qarea1|Qarea2|Qfact1|Qfact2|Requirescount|Revive|Revivetip|RngBuff1|RngBuff2|STR|STRplus|ScoreScreenIcon|acquire|atkType1|atkType2|backSw1|backSw2|bldtm|blend|blue|bountydice|bountyplus|bountysides|buffRadius|campaign|canBuildOn|canFlee|canSleep|cargoSize|castbsw|castpt|collision|cool1|cool2|customTeamColor|damageLoss1|damageLoss2|death|deathType|def|defType|defUp|dice1|dice2|dmgUp1|dmgUp2|dmgplus1|dmgplus2|dmgpt1|dmgpt2|dropItems|elevPts|elevRad|fileVerFlags|fmade|fogRad|formation|fused|green|heroAbilList|hideHeroBar|hideHeroDeathMsg|hideHeroMinimap|hideOnMinimap|hostilePal|impactSwimZ|impactZ|inEditor|isBuildOn|isbldg|launchSwimZ|launchX|launchY|launchZ|lumberbountydice|lumberbountyplus|lumberbountysides|mana0|manaN|maxSpd|minRange|minSpd|modelScale|moveFloor|moveHeight|movetp|nameCount|nbmmIcon|nbrandom|nsight|orientInterp|points|propWin|rangeN1|rangeN2|red|regenHP|regenMana|regenType|reptm|repulse|repulseGroup|repulseParam|repulsePrio|requireWaterRadius|run|scaleBull|selCircOnWater|selZ|shadowH|shadowOnWater|shadowW|shadowX|shadowY|showUI1|showUI2|sides1|sides2|sight|spd|special|spillDist1|spillDist2|spillRadius1|spillRadius2|targCount1|targCount2|targs1|targs2|teamColor|turnRate|unitShadow|unitSound|walk|weapTp1|weapTp2|weapsOn|DependencyOr|Requires1|Requires2|upgrades|weapType1|Attachmentlinkprops|Boneprops|animProps|splashTargs1|MovementSoundLabel|type|BuildingSoundLabel|Researches|Trains|buffType|buildingShadow|preventPlace|uberSplat|weapType2|splashTargs2|Casterupgradeart|Casterupgradename|Casterupgradetip|Makeitems|auto|Upgrade|Builds|Sellunits|Sellitems|RandomSoundLabel|requirePlace|base1|base2|base3|base4|effect1|global|goldbase|goldmod|inherit|lumberbase|lumbermod|maxlevel|mod1|mod2|mod3|mod4|timebase|timemod|effect2|effect3|effect4|code1|code2|Level|SpecialArt|Missileart|Missilespeed|MissileHoming|Missilearc)\b</string>
+			<key>name</key>
+			<string>storage.type.class.php</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)\b</string>
+			<key>name</key>
+			<string>constant.numeric.jass</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.ini</string>
+	<key>uuid</key>
+	<string>8728e0fe-14c6-4374-acde-da1857d0a378</string>
+</dict>
+</plist>
