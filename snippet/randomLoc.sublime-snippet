@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[local real ${1:radius} = GetRandomReal(0,${2:900})
+local real ${3:degree} = GetRandomReal(0,360)
+YDWECoordinateX(${4:x} + ${1} * CosBJ(${3})),YDWECoordinateX(${5:y} + ${1} * SinBJ(${3}))]]></content>
+    <tabTrigger>randomLoc</tabTrigger>
+    <scope>source.jass</scope>
+    <description>RandomLocation</description>
+</snippet>
