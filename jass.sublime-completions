@@ -3004,5 +3004,9 @@
         "CreateSpellTextTag",
         "UnitAddAbilityP",
         "ILimit",
+        "AddHeroStr",
+        "AddHeroAgi",
+        "AddHeroInt",
+        "AddHero3W",
     ]
 }
