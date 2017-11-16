@@ -3008,5 +3008,7 @@
         "AddHeroAgi",
         "AddHeroInt",
         "AddHero3W",
+        "IsDialoging",
+        "SetDialoging",
     ]
 }
