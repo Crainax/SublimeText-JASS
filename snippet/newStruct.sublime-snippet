@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[struct ${1:StructName} 
+
+	private timer t
+
+	static method move takes nothing returns nothing
+		local thistype this = LoadInteger(${2:YDTable},GetHandleId(GetExpiredTimer()),1)
+	endmethod
+
+	static method create takes nothing returns thistype
+	   	local thistype this = thistype.allocate()
+		set .t = CreateTimer()
+		call SaveInteger(${2},GetHandleId(.t),1,this)
+		call TimerStart(.t,${3:inteval},true,function thistype.move)
+		return this
+	endmethod
+
+	method onDestroy takes nothing returns nothing
+		call FlushChildHashtable(${2},GetHandleId(.t))
+		call PauseTimer(.t)
+		call DestroyTimer(.t)
+		set .t = null
+	endmethod
+endstruct]]></content>
+    <tabTrigger>newStruct</tabTrigger>
+    <scope>source.jass</scope>
+    <description>newStruct</description>
+</snippet>

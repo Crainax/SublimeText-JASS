@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[|cff00ccff${1:内容}|r]]></content>
+    <tabTrigger>蓝</tabTrigger>
+    <scope>source.ini</scope>
+    <description>天蓝色</description>
+</snippet>
+

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[Tip = "${1:切换背包}(|cffffcc00${2:G}|r)"]]></content>
+    <tabTrigger>TIP</tabTrigger>
+    <scope>source.ini</scope>
+    <description>提示文本</description>
+</snippet>
+
+

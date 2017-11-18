@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA["Buttonpos:1" = ${1:1}
+"Buttonpos:2" = ${2:1}]]></content>
+    <tabTrigger>xy</tabTrigger>
+    <scope>source.ini</scope>
+    <description>xy</description>
+</snippet>
+
+

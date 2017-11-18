@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[|cffff99cc${1:内容}|r]]></content>
+    <tabTrigger>粉</tabTrigger>
+    <scope>source.ini</scope>
+    <description>粉色</description>
+</snippet>
+

@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[[${1:A000}]
+_parent = "ANcl"
+Animnames = "spell,channel"
+"Buttonpos:1" = ${2:1}
+"Buttonpos:2" = ${3:1}
+CasterArt = ""
+Casterattach = ""
+Cool = 10
+Cost = ${4:10}
+DataA = 0.0
+DataB = 2
+DataC = 1
+DataD = 0.0000
+DataE = 0
+EffectArt = ""
+DataF = "${5:rainofchaos}"
+Hotkey = "${6:D}"
+Name = "${7:切换背包}"
+Order = "${5}"
+Rng = 1200.0000
+TargetArt = ""
+Targetattach = ""
+Tip = "${7}(|cffffcc00${6}|r)"
+Ubertip = "${8:当前为背包1,点击切换为背包2.|n|n|cffffff00★|r|cff00ccff处于不同背包时,物品上的以蓝色标注的属性可以保留在英雄身上.|n|r|cffffff00★|r|cff95ff95你可以通过其他方式来扩充自己的背包容量.|r}"
+hero = 0
+levels = 1]]></content>
+    <tabTrigger>location</tabTrigger>
+    <scope>source.ini</scope>
+    <description>点施法</description>
+</snippet>
+
+

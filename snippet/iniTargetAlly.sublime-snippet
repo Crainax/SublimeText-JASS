@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[targs = "ground,mechanical,structure,vulnerable,air,friend,organic,self"]]></content>
+    <tabTrigger>targetAlly</tabTrigger>
+    <scope>source.ini</scope>
+    <description>友方目标</description>
+</snippet>
