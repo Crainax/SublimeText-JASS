@@ -3010,5 +3010,6 @@
         "AddHero3W",
         "IsDialoging",
         "SetDialoging",
+        "IsPackageAvailable",
     ]
 }
