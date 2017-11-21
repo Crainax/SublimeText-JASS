@@ -3011,5 +3011,12 @@
         "IsDialoging",
         "SetDialoging",
         "IsPackageAvailable",
+        "GetFacing",
+        "CreateUnitEffectTime",
+        "CreateUnitEffect",
+        "RecoverUnitHP",
+        "RecoverUnitMP",
+        "IsAlly",
+        "YDWESyStemAnyUnitDamagedRegistTrigger",
     ]
 }

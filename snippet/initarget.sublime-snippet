@@ -17,6 +17,7 @@ EffectArt = ""
 Rng = 600.0000
 Cool = 10
 Hotkey = "${6:D}"
+TargetArt = ""
 Name = "${7:切换背包}"
 Order = "${5}"
 Tip = "${7}(|cffffcc00${6}|r)"

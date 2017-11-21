@@ -118,7 +118,7 @@
 		<!-- 自定义高亮区(橙) -->
 		<dict>
 			<key>match</key>
-			<string>\b(DamageArea|GetDistance|GetDamageInt|GetDamageAgi|GetDamageStr|SimulateSpell|CreateSpellTextTag|UnitAddAbilityP|ILimit|AddHeroStr|AddHeroAgi|AddHeroInt|AddHero3W|IsDialoging|SetDialoging|IsPackageAvailable)\b</string>
+			<string>\b(DamageArea|GetDistance|GetDamageInt|GetDamageAgi|GetDamageStr|SimulateSpell|CreateSpellTextTag|UnitAddAbilityP|ILimit|AddHeroStr|AddHeroAgi|AddHeroInt|AddHero3W|IsDialoging|SetDialoging|IsPackageAvailable|GetFacing|CreateUnitEffectTime|CreateUnitEffect|RecoverUnitHP|RecoverUnitMP|IsAlly|YDWESyStemAnyUnitDamagedRegistTrigger)\b</string>
 			<key>name</key>
 			<string>keyword.other.new.php</string>
 		</dict>
