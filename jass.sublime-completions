@@ -3266,5 +3266,6 @@
         "UNIT_STATE_MIN_RANGE",
         "UNIT_STATE_AS_TARGET_TYPE",
         "UNIT_STATE_TYPE",
+        "YDWEGetLastPoolAbstractedItem",
     ]
 }
