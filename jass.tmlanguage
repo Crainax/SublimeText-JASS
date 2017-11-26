@@ -216,7 +216,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b([0-9A-Z_])*\b</string>
+			<string>\b([0-9A-Z]*)_([0-9A-Z_]*)\b</string>
 			<key>name</key>
 			<string>constant.numeric.jass</string>
 		</dict>
