@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[[${1:I07T}]
+_parent = "fgrg"
+Art = "ReplaceableTextures\\CommandButtons\\BTN${2:yb}.blp"
+Description = "${3:内容}"
+Name = "${4:名字}"
+Tip = "${4}"
+Ubertip = "${3}"
+abilList = "${5:A000}"
+class = "Charged"
+cooldownID = "${5}"
+file = "Objects\\InventoryItems\\tomeRed\\tomeRed.mdl"
+goldcost = 2
+stockRegen = 0
+
+[${5}]
+_parent = "APsa"
+Area = 1.0000
+Cool = ${6:1.0000}
+DataA = 0.0000
+Dur = 0.1000
+EditorSuffix = "${4}"
+HeroDur = 0.1000
+Name = " "
+targs = "enemy"]]></content>
+    <tabTrigger>clickItem</tabTrigger>
+    <scope>source.ini</scope>
+    <description>可点击的物品</description>
+</snippet>
+
+
