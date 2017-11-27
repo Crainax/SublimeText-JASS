@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[[${1:I07T}]
+_parent = "fgrd"
+Art = "ReplaceableTextures\\\\CommandButtons\\\\BTN${2:yb}.blp"
+"Buttonpos:1" = ${3:1}
+"Buttonpos:2" = ${4:2}
+Description = "${5:内容}"
+Hotkey = "${7:W}"
+Name = "${6:名字}(|cffffcc00${7}|r)"
+Tip = "${6}"
+Ubertip = "${5}"
+abilList = ""
+class = "PowerUp"
+cooldownID = ""
+file = "Objects\\\\InventoryItems\\\\tomeGreen\\\\tomeGreen.mdl"
+goldcost = ${8:100}
+pickRandom = 0
+powerup = 1
+sellable = 0
+stockRegen = 1]]></content>
+    <tabTrigger>buyItem</tabTrigger>
+    <scope>source.ini</scope>
+    <description>购买的书</description>
+</snippet>
+
+
