@@ -3267,5 +3267,18 @@
         "UNIT_STATE_AS_TARGET_TYPE",
         "UNIT_STATE_TYPE",
         "YDWEGetLastPoolAbstractedItem",
+        "GetEnemyGroup",
+        "GetAllyHeroGroup",
+        "CopyGroup",
+        "YDWE_GET_OBJECT_PROPERTY_YDWE_OBJECT_TYPE_ABILITY",
+        "YDWE_GET_OBJECT_PROPERTY_YDWE_OBJECT_TYPE_BUFF",
+        "YDWE_GET_OBJECT_PROPERTY_YDWE_OBJECT_TYPE_UNIT",
+        "YDWE_GET_OBJECT_PROPERTY_YDWE_OBJECT_TYPE_ITEM",
+        "YDWE_GET_OBJECT_PROPERTY_YDWE_OBJECT_TYPE_UPGRADE",
+        "YDWE_GET_OBJECT_PROPERTY_YDWE_OBJECT_TYPE_DOODAD",
+        "YDWE_GET_OBJECT_PROPERTY_YDWE_OBJECT_TYPE_DESTRUCTABLE",
+        "YDWEGetObjectPropertyInteger",
+        "YDWEGetObjectPropertyReal",
+        "YDWEGetObjectPropertyString",
     ]
 }

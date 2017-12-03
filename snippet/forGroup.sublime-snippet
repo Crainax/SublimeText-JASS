@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[local group ${2:temp} = CopyGroup(${1:originGroup})
+local integer ${3:iGroup} = 1
+local integer ${4:iMaxGroup} = CountUnitsInGroup(${2})
+local unit ${5:l_unit} = null
+loop
+	exitwhen ${3} > ${4:iMaxGroup}
+    set ${5} = FirstOfGroup(${2})
+    call GroupRemoveUnit(${2}, ${5})
+    if (${5} != null) then
+    	${0:// body...}
+    endif
+	set ${3} = ${3} +1
+endloop
+call DestroyGroup(${2})
+set ${2} = null
+set ${5} = null]]></content>
+    <tabTrigger>groupDo</tabTrigger>
+    <scope>source.jass</scope>
+    <description>复制单位组并执行动作</description>
+</snippet>
+
