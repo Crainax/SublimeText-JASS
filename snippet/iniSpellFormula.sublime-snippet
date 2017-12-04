@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[力量*<Spel,DataA${1:1},%>%+敏捷*<Spel,DataB${1},%>%+智力*<Spel,DataC${1},%>%+主属性*<Spel,DataD${1},%>%+<Spel,DataE${1}>]]></content>
+    <tabTrigger>formula1</tabTrigger>
+    <scope>source.ini</scope>
+    <description>法术伤害的公式</description>
+</snippet>

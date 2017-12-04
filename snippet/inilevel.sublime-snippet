@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[${1:|cff008000破于原力|r} - [|cffffcc00等级 ${2:1}|r]]]></content>
+    <tabTrigger>等级</tabTrigger>
+    <scope>source.ini</scope>
+    <description>技能等级</description>
+</snippet>

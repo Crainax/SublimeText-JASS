@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[[${1:AJG0}]
+_parent = "ACba"
+Area = ${2:1200}
+Art = "ReplaceableTextures\\CommandButtons\\btn${1}.blp"
+BuffID = "${3:B01M}"
+"Buttonpos:1" = 0
+"Buttonpos:2" = 0
+DataA = 0.0000
+EditorSuffix = ""
+Name = "|cff008000${4:破于原力}|r"
+Researchtip = "${5:光环效果:增加900范围所有友方英雄10%-30%的力量。}"
+TargetArt = ""
+Targetattach = ""
+Tip = "|cff008000${4}|r"
+Ubertip = "|cff00ff00光环效果:|r${6:增加1200范围所有友方英雄|cff00ff0011%|r的力量。}"
+targs = "ground,vulnerable,air,invulnerable,hero,friend,self"
+levels = 1
+hero = ${7:1}
+
+[${8:B01M}]
+_parent = "BHab"
+-- 图标
+Buffart = "ReplaceableTextures\\CommandButtons\\btn${1}.blp"
+-- 工具提示
+Bufftip = "|cff008000${4}|r"
+-- 工具提示 - 扩展
+Buffubertip = "|cff00ff00光环效果:|r${6:增加1200范围所有友方英雄|cff00ff0011%|r的力量。}"]]></content>
+    <tabTrigger>aura</tabTrigger>
+    <scope>source.ini</scope>
+    <description>光环模版</description>
+</snippet>
+
+

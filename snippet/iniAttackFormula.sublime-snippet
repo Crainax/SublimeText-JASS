@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[英雄攻击力*<For2,DataA${1:1},%>%]]></content>
+    <tabTrigger>formula2</tabTrigger>
+    <scope>source.ini</scope>
+    <description>物理伤害的公式</description>
+</snippet>
