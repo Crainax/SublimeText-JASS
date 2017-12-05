@@ -3280,5 +3280,6 @@
         "YDWEGetObjectPropertyInteger",
         "YDWEGetObjectPropertyReal",
         "YDWEGetObjectPropertyString",
+        "tempString",
     ]
 }
