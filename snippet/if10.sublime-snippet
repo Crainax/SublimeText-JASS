@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[if (index == 1${1:}) then
+	1${2:}
+elseif (index == 2${1}) then
+	2${2}
+elseif (index == 3${1}) then
+	3${2}
+elseif (index == 4${1}) then
+	4${2}
+elseif (index == 5${1}) then
+	5${2}
+elseif (index == 6${1}) then
+	6${2}
+elseif (index == 7${1}) then
+	7${2}
+elseif (index == 8${1}) then
+	8${2}
+elseif (index == 9${1}) then
+	9${2}
+elseif (index == 10${1}) then
+	10${2}
+endif]]></content>
+    <tabTrigger>if10</tabTrigger>
+    <scope>source.jass</scope>
+    <description>if10</description>
+</snippet>
