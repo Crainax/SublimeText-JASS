@@ -1,0 +1,40 @@
+<snippet>
+    <content><![CDATA[[${1:uJD0}]
+_parent = "hpea"
+Builds = ""
+HP = 100
+Name = "${2:特效-群体治疗}"
+Specialart = ""
+abilList = "Aloc,Avul"
+canFlee = 0
+cargoSize = 0
+collision = 0.0000
+death = 2.0000
+file = "effects\\${3:AJD0_2}.mdl"
+fused = 0
+hideOnMinimap = 1
+maxPitch = 25.0000
+maxRoll = 25.0000
+modelScale = ${4:3.0000}
+movetp = ""
+nsight = 0
+points = 0
+regenHP = 0.0000
+scale = 0.1000
+shadowH = 0.0000
+shadowW = 0.0000
+shadowX = 0.0000
+shadowY = 0.0000
+sight = 0
+spd = 0
+stockMax = 0
+stockRegen = 0
+type = "standon"
+unitShadow = ""
+unitSound = ""
+upgrades = ""
+weapsOn = 0]]></content>
+    <tabTrigger>unitEffect</tabTrigger>
+    <scope>source.ini</scope>
+    <description>单位特效模版</description>
+</snippet>

@@ -3281,5 +3281,7 @@
         "YDWEGetObjectPropertyReal",
         "YDWEGetObjectPropertyString",
         "tempString",
+        "DamageAreaMagic",
+        "DamageAreaPhysical",
     ]
 }

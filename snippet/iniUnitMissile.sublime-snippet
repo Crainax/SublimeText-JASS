@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[[${1:uJd0}]
+_parent = "hpea"
+Builds = ""
+EditorSuffix = "${2:投射物-AJD0}"
+HP = 1
+Name = ""
+abilList = "Aloc,Avul"
+collision = 0.0000
+file = "effects\\${3:AJD0_1}.mdl"
+fused = 0
+modelScale = ${4:3.0}
+moveHeight = 100.0000
+movetp = "fly"
+nsight = 0
+points = 1
+regenHP = 0.0000
+sight = 100
+spd = 522
+type = ""
+unitShadow = ""
+upgrades = ""
+weapsOn = 0]]></content>
+    <tabTrigger>unitMissile</tabTrigger>
+    <scope>source.ini</scope>
+    <description>单位投射物模版</description>
+</snippet>
