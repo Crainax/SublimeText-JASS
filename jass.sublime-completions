@@ -3285,5 +3285,17 @@
         "DamageAreaPhysical",
         "GetPhysicalDamage",
         "GetSpellDamage",
+        "YDWECoordinateX",
+        "YDWECoordinateY",
+        "YDWEDistanceBetweenUnits",
+        "YDWEAngleBetweenUnits",
+        "YDWEGetRect",
+        "YDWEFlyEnable",
+        "YDWEId2S",
+        "YDWES2Id",
+        "YDWES2UnitId",
+        "YDWES2ItemId",
+        "GetLastAbilityCastingUnit",
+        "GetLastAbilityTargetUnit",
     ]
 }
