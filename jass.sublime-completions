@@ -3283,5 +3283,7 @@
         "tempString",
         "DamageAreaMagic",
         "DamageAreaPhysical",
+        "GetPhysicalDamage",
+        "GetSpellDamage",
     ]
 }
