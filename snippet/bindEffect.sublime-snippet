@@ -1,9 +1,6 @@
 <snippet>
-    <content><![CDATA[call YDWETimerDestroyEffect(${1:time},AddSpecialEffectTargetUnitBJ("${2:overhead}",${3:Huanyi},"${4:war3mapImported\\music.mdx}"))]]></content>
+    <content><![CDATA[call SaveEffectHandle(YDTable,GetHandleId(t),11,AddSpecialEffectTargetUnitBJ("${2:overhead}",${3:Huanyi},"${4:war3mapImported\\music.mdx}"))]]></content>
     <tabTrigger>bindEffect</tabTrigger>
     <scope>source.jass</scope>
     <description>绑定特效</description>
 </snippet>
-
-
-

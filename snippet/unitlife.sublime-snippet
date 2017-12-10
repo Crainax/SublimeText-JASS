@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[local unit ${1:u} = CreateUnit(GetOwningPlayer(${2:GetSpellAbilityUnit()}),${3:'uyan'},${4:x},${5:y},0)
-call UnitApplyTimedLifeBJ( ${6:5.00}, 'BHwe',${1} )]]></content>
+call UnitApplyTimedLifeBJ( ${6:5.00}, 'BTLF',${1} )]]></content>
     <tabTrigger>unitlife</tabTrigger>
     <scope>source.jass</scope>
     <description>CreateUnitAndSetLife</description>

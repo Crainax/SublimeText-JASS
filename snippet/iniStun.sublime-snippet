@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[[${1:AuZ3}]
+_parent = "Awrs"
+Area = ${2:600}.0000
+BuffID = "${3:B01T}"
+Cool = 0.0000
+Cost = 0
+DataA = 0.0000
+DataB = 0.0000
+DataC = 0
+EditorSuffix = ""
+Dur = ${4:2}.0
+HeroDur = ${4}.0000
+Name = "(眩晕${4}秒)"
+targs = "air,ground,debris,enemy,neutral,organic"
+
+[${3:B01T}]
+_parent = "BSTN"
+Buffart = "ReplaceableTextures\\CommandButtons\\BTNPurge.blp"
+Bufftip = "被击晕的"
+TargetArt = "Abilities\\Spells\\Orc\\Purge\\PurgeBuffTarget.mdl"]]></content>
+    <tabTrigger>stun</tabTrigger>
+    <scope>source.ini</scope>
+    <description>群体眩晕</description>
+</snippet>
+
+

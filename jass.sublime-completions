@@ -3297,5 +3297,8 @@
         "YDWES2ItemId",
         "GetLastAbilityCastingUnit",
         "GetLastAbilityTargetUnit",
+        "SimulateSpellUnit",
+        "SimulateSpellPos",
+        "SimulateSpellImm",
     ]
 }
