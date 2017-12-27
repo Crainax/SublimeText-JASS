@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[#ifndef ${1:DYCbase}Included
+#define ${1:}Included
+
+${2:#endif} 
+]]></content>
+    <tabTrigger>include</tabTrigger>
+    <scope>source.jass</scope>
+    <description>include</description>
+</snippet>
+
