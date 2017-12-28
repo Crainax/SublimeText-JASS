@@ -15,7 +15,7 @@ endloop
 call DestroyGroup(${2})
 set ${2} = null
 set ${5} = null]]></content>
-    <tabTrigger>groupDo</tabTrigger>
+    <tabTrigger>forGroup</tabTrigger>
     <scope>source.jass</scope>
     <description>复制单位组并执行动作</description>
 </snippet>
