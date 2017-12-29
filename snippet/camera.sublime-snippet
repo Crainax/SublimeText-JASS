@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[call PanCameraToTimedForPlayer(${1:GetOwningPlayer(GetBuyingUnit())},${2:x,y},${3:0.2})]]></content>
+    <tabTrigger>camera</tabTrigger>
+    <scope>source.jass</scope>
+    <description>camera</description>
+</snippet>
+
+

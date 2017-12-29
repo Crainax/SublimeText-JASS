@@ -3300,5 +3300,6 @@
         "SimulateSpellUnit",
         "SimulateSpellPos",
         "SimulateSpellImm",
+        "CreateTextTagUnitOffX",
     ]
 }

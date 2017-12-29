@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[[${1:A000}]
 _parent = "ANcl"
-Art = "ReplaceableTextures\\CommandButtons\\BTNAJB3.blp"
+Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAJB3.blp"
 Animnames = "spell,slam"
 "Buttonpos:1" = ${2:1}
 "Buttonpos:2" = ${3:1}
