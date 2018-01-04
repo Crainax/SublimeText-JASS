@@ -2,7 +2,7 @@
     <content><![CDATA[[${1:AJG0}]
 _parent = "ACba"
 Area = ${2:1200}
-Art = "ReplaceableTextures\\CommandButtons\\btn${1}.blp"
+Art = "ReplaceableTextures\\\\CommandButtons\\\\btn${1}.blp"
 BuffID = "${3:B01M}"
 "Buttonpos:1" = 0
 "Buttonpos:2" = 0
@@ -21,7 +21,7 @@ hero = ${7:1}
 [${8:B01M}]
 _parent = "BHab"
 -- 图标
-Buffart = "ReplaceableTextures\\CommandButtons\\btn${1}.blp"
+Buffart = "ReplaceableTextures\\\\CommandButtons\\\\btn${1}.blp"
 -- 工具提示
 Bufftip = "|cff008000${4}|r"
 -- 工具提示 - 扩展
