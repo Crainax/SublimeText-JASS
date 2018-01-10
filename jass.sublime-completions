@@ -3301,5 +3301,9 @@
         "SimulateSpellPos",
         "SimulateSpellImm",
         "CreateTextTagUnitOffX",
+        "GetItemLevelAttr",
+        "GetItemLevelAttrReal",
+        "UnitDamageTargetEx",
+        "RLimit"
     ]
 }
