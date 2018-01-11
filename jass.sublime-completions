@@ -3304,6 +3304,10 @@
         "GetItemLevelAttr",
         "GetItemLevelAttrReal",
         "UnitDamageTargetEx",
-        "RLimit"
+        "RLimit",
+        "GetItemQuality",
+        "TriggerRegisterAnyUnitAttackEvent",
+        "TriggerUnregisterAnyUnitAttackEvent",
+        "CreateSpellTextTagB"
     ]
 }
