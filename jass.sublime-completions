@@ -3308,6 +3308,8 @@
         "GetItemQuality",
         "TriggerRegisterAnyUnitAttackEvent",
         "TriggerUnregisterAnyUnitAttackEvent",
-        "CreateSpellTextTagB"
+        "CreateSpellTextTagB",
+        "ImmuteDamageInterval",
+        "ImmuteDamage",
     ]
 }
