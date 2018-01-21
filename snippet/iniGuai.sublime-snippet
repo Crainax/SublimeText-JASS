@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[${1:Art = "ReplaceableTextures\\CommandButtons\\BTNAMR5.blp"}
+HP = 1
+Name = "${2:|cff0000ff精灵|r}"
+Ubertip = ""
+abilList = ""
+acquire = 900.0000
+atkType1 = "hero"
+bountydice = 0
+bountyplus = 0
+bountysides = 0
+collision = 16.0000
+cool1 = 1.0000
+def = 0.0000
+defType = "hero"
+dmgplus1 = 1
+dmgpt1 = 0.4000
+${3:file = "hero\\umr5.mdl"}
+fused = 0
+points = 5
+race = "human"
+regenHP = 0.0000
+scale = 1.0000
+shadowH = 100.0000
+shadowW = 100.0000
+shadowX = 50.0000
+shadowY = 50.0000
+sides1 = 1
+targs1 = "ground,structure,debris,air,item,ward"
+${4:unitSound = "Wisp"}
+${5:weapTp1 = "missile"
+rangeN1 = 600
+weapType1 = ""
+"Missileart:1" = "missile\\aimiliya.mdl"
+"Missilespeed:1" = 1200}]]></content>
+    <tabTrigger>summon</tabTrigger>
+    <scope>source.ini</scope>
+    <description>召唤物/怪物模版</description>
+</snippet>
