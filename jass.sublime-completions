@@ -3311,5 +3311,7 @@
         "CreateSpellTextTagB",
         "ImmuteDamageInterval",
         "ImmuteDamage",
+        "SetItemCD",
+        "IsItemCDOK",
     ]
 }
