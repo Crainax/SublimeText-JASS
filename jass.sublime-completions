@@ -3314,5 +3314,6 @@
         "SetItemCD",
         "IsItemCDOK",
         "CreateLightning",
+        "PlayerPlaySound",
     ]
 }

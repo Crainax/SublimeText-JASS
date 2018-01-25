@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[call CreateSpellTextTag(${1:"漂浮文字"},${2:whichUnit},${3:red%},${4:green%},${5:blue%},${6:second})]]></content>
+    <content><![CDATA[call ShowTextTagUnitOffX(${1:"漂浮文字"},${2:whichUnit},${3:red%},${4:green%},${5:blue%},${6:second},${7:size},${8:off})]]></content>
     <tabTrigger>createTexttag</tabTrigger>
     <scope>source.jass</scope>
     <description>createTexttag</description>
