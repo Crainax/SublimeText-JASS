@@ -3315,6 +3315,7 @@
         "IsItemCDOK",
         "CreateLightning",
         "PlayerPlaySound",
-        "GetItemTypeName"
+        "GetItemTypeName",
+        "tempItem",
     ]
 }
