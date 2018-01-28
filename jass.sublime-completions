@@ -3315,5 +3315,6 @@
         "IsItemCDOK",
         "CreateLightning",
         "PlayerPlaySound",
+        "GetItemTypeName"
     ]
 }
