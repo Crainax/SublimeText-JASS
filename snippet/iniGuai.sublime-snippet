@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[${1:Art = "ReplaceableTextures\\CommandButtons\\BTNAMR5.blp"}
+    <content><![CDATA[${1:Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAMR5.blp"}
 HP = 1
 Name = "${2:|cff0000ff精灵|r}"
 Ubertip = ""
@@ -15,7 +15,7 @@ def = 0.0000
 defType = "hero"
 dmgplus1 = 1
 dmgpt1 = 0.4000
-${3:file = "hero\\umr5.mdl"}
+${3:file = "hero\\\\umr5.mdl"}
 fused = 0
 points = 5
 regenHP = 0.0000
@@ -31,7 +31,7 @@ ${4:unitSound = "Wisp"}
 ${5:weapTp1 = "missile"
 rangeN1 = 600
 weapType1 = ""
-"Missileart:1" = "missile\\aimiliya.mdl"
+"Missileart:1" = "missile\\\\aimiliya.mdl"
 "Missilespeed:1" = 1200}]]></content>
     <tabTrigger>summon</tabTrigger>
     <scope>source.ini</scope>
