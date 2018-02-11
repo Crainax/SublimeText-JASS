@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[[${1:A0H4}]
+_parent = "AUcs"
+Cool = 0.0000
+Cost = 0
+DataA = 1.0000
+DataB = 1000.0000
+DataC = ${2:1800}.0000
+DataD = ${3:100}
+Rng = 99999
+Area = ${3}
+Hotkey = ""
+Missileart = ${4:"Abilities\\Weapons\\PoisonArrow\\PoisonArrowMissile.mdl"}
+Name = "${5:瞬伐心之箭}"
+Tip = ""
+Ubertip = ""
+hero = 0
+levels = 1
+targs = "air,ground,debris,enemy,neutral,organic"]]></content>
+    <tabTrigger>fuchou</tabTrigger>
+    <scope>source.ini</scope>
+    <description>腐臭蜂群模版</description>
+</snippet>
+
+
+
+
+
+
