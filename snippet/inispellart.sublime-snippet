@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[upgrades = "R000"
+Casterupgradename = "${1:拥有的技能}"
+Casterupgradetip = "${2:30%10倍攻击}"
+Casterupgradeart = "replaceabletextures\\commandbuttons\\${3:typeuispell}.blp"]]></content>
+    <tabTrigger>spellart</tabTrigger>
+    <scope>source.ini</scope>
+    <description>右测的魔法提示</description>
+</snippet>
