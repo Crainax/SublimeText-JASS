@@ -3339,5 +3339,7 @@
         "YBMultiBoardSetItemColorBJ",
         "YBMultiBoardSetItemWidthBJ",
         "YBMultiBoardSetItemIconBJ",
+        "GetRectRandomX",
+        "GetRectRandomY",
     ]
 }
