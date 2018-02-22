@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[mana0 = ${1:100}
+manaN = ${2:100}
+regenMana = ${3:2}]]></content>
+    <tabTrigger>mana</tabTrigger>
+    <scope>source.ini</scope>
+    <description>mana</description>
+</snippet>
