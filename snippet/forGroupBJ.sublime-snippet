@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[private function ${1:FlashAttackCenterBase}A takes nothing returns nothing
+	${0://body}
+endfunction
+
+call ForGroupBJ(${2:GGuai},function ${1}A)]]></content>
+    <tabTrigger>forGroupBJ</tabTrigger>
+    <scope>source.jass</scope>
+    <description>传统的Forgroup</description>
+</snippet>
