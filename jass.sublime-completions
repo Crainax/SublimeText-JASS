@@ -3341,5 +3341,7 @@
         "YBMultiBoardSetItemIconBJ",
         "GetRectRandomX",
         "GetRectRandomY",
+        "IsBossBit",
+        "SetBossBit",
     ]
 }
