@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[call DestroyEffect(AddSpecialEffectTargetUnitBJ("${2:overhead}",${3:Huanyi},"${4:war3mapImported\\music.mdx}"))]]></content>
+    <tabTrigger>effect2</tabTrigger>
+    <scope>source.jass</scope>
+    <description>创建到人身上的特效</description>
+</snippet>
+
