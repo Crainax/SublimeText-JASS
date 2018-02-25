@@ -3343,5 +3343,6 @@
         "GetRectRandomY",
         "IsBossBit",
         "SetBossBit",
+        "GetRandomEnemyUnit",
     ]
 }
