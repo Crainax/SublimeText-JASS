@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[call CreateUnitEffectTime(${1:GetOwningPlayer(u)},'${2:uJZ3}',${3:x,y},${4:facing},${5:time})]]></content>
+    <tabTrigger>createuniteffect</tabTrigger>
+    <scope>source.jass</scope>
+    <description>单位时间特效</description>
+</snippet>
