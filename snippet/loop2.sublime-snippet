@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[local integer ${1:i} = 1
+local integer ${3:j} = 1
+loop
+	exitwhen ${1:i} > ${2:1}
+	set ${3:j} = 1
+	loop
+		exitwhen ${3:j} > ${4:1}
+		${0:// body...}
+		set ${3:j} = ${3:j} +1
+	endloop
+	set ${1:i} = ${1:i} +1
+endloop]]></content>
+    <tabTrigger>loop2</tabTrigger>
+    <scope>source.jass</scope>
+    <description>loop2</description>
+</snippet>
