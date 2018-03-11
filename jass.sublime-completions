@@ -3344,5 +3344,7 @@
         "IsBossBit",
         "SetBossBit",
         "GetRandomEnemyUnit",
+        "R2IRandom",
+        "Divide1",
     ]
 }
