@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[S2I(SubStringBJ(${1:str},${2:8},${3:StringLength(${1})}))]]></content>
+    <tabTrigger>LS2I</tabTrigger>
+    <scope>source.jass</scope>
+    <description>快速截取字符串(测试中要用)</description>
+</snippet>
