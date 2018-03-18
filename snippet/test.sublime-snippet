@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[library_once Test initializer InitTest  
+
+
+    private function TTestAct1 takes nothing returns nothing
+        //已经去除s符号了
+    endfunction
+
+    private function TTestAct takes nothing returns nothing
+        local string str = GetEventPlayerChatString()
+        local integer i = 1
+
+        if (SubStringBJ(str,1,1) == "s") then
+            call TTestAct1(SubStringBJ(str,2,StringLength(str)))
+            return
+        endif
+
+        if (str == "1") then
+        elseif (str == "2") then
+        elseif (str == "3") then
+        elseif (str == "4") then
+        elseif (str == "5") then
+        elseif (str == "6") then
+        elseif (str == "7") then
+        elseif (str == "8") then
+        elseif (str == "9") then
+        elseif (str == "10") then
+        endif
+
+    endfunction
+
+    function InitTest takes nothing returns nothing
+        
+        local trigger t = CreateTrigger()
+        call TriggerRegisterPlayerChatEvent( t, Player(0), "", false )
+        call TriggerAddAction(t, function TTestAct)
+        set t = null
+    endfunction
+endlibrary]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.jass</scope>
+    <description>外部测试</description>
+</snippet>

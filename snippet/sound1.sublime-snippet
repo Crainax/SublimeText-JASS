@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[call PlaySoundBJ(gg_snd_${1:mengji_4})]]></content>
+    <tabTrigger>sound1</tabTrigger>
+    <scope>source.jass</scope>
+    <description>全局音效</description>
+</snippet>

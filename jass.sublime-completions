@@ -3346,5 +3346,6 @@
         "GetRandomEnemyUnit",
         "R2IRandom",
         "Divide1",
+        "GetRectEnemyGroup",
     ]
 }
