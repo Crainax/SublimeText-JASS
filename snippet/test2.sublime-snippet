@@ -1,0 +1,46 @@
+<snippet>
+    <content><![CDATA[#ifdef TestMode
+
+private function TTestAct${3:FubenBC}1 takes string str returns nothing
+    //已经去除s符号了
+endfunction
+
+private function TTestAct${3} takes nothing returns nothing
+    local string str = GetEventPlayerChatString()
+    local integer i = 1
+
+    if (SubStringBJ(str,1,${1:1}+1) == "${2:s}s") then
+        call TTestAct${3}1(SubStringBJ(str,2+${1},StringLength(str)))
+        return
+    endif
+
+    if (str == "${2}1") then
+    elseif (str == "${2}2") then
+    elseif (str == "${2}3") then
+    elseif (str == "${2}4") then
+    elseif (str == "${2}5") then
+    elseif (str == "${2}6") then
+    elseif (str == "${2}7") then
+    elseif (str == "${2}8") then
+    elseif (str == "${2}9") then
+    elseif (str == "${2}10") then
+    endif
+
+endfunction
+
+#endif
+
+#ifdef TestMode
+
+local trigger t = CreateTrigger()
+call TriggerRegisterPlayerChatEvent( t, Player(0), "", false )
+call TriggerAddAction(t, function TTestAct${3})
+set t = null
+
+#endif]]></content>
+    <tabTrigger>test2</tabTrigger>
+    <scope>source.jass</scope>
+    <description>内置测试</description>
+</snippet>
+
+

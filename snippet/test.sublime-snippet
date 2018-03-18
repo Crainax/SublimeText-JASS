@@ -2,7 +2,7 @@
     <content><![CDATA[library_once Test initializer InitTest  
 
 
-    private function TTestAct1 takes nothing returns nothing
+    private function TTestAct1 takes string str returns nothing
         //已经去除s符号了
     endfunction
 
