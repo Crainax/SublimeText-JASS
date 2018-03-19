@@ -1,6 +1,45 @@
 <snippet>
     <content><![CDATA[library_once Test initializer InitTest  
 
+    private function TTest1 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest2 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest3 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest4 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest5 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest6 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest7 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest8 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest9 takes nothing returns nothing
+        // body...
+    endfunction
+
+    private function TTest10 takes nothing returns nothing
+        // body...
+    endfunction
 
     private function TTestAct1 takes string str returns nothing
         //已经去除s符号了
@@ -16,20 +55,30 @@
         endif
 
         if (str == "1") then
+            call TTest1()
         elseif (str == "2") then
+            call TTest2()
         elseif (str == "3") then
+            call TTest3()
         elseif (str == "4") then
+            call TTest4()
         elseif (str == "5") then
+            call TTest5()
         elseif (str == "6") then
+            call TTest6()
         elseif (str == "7") then
+            call TTest7()
         elseif (str == "8") then
+            call TTest8()
         elseif (str == "9") then
+            call TTest9()
         elseif (str == "10") then
+            call TTest10()
         endif
 
     endfunction
 
-    function InitTest takes nothing returns nothing
+    private function InitTest takes nothing returns nothing
         
         local trigger t = CreateTrigger()
         call TriggerRegisterPlayerChatEvent( t, Player(0), "", false )

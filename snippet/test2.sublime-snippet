@@ -1,6 +1,46 @@
 <snippet>
     <content><![CDATA[#ifdef TestMode
 
+private function TTest${3}1 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}2 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}3 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}4 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}5 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}6 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}7 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}8 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}9 takes nothing returns nothing
+    // body...
+endfunction
+
+private function TTest${3}10 takes nothing returns nothing
+    // body...
+endfunction
+
 private function TTestAct${3:FubenBC}1 takes string str returns nothing
     //已经去除s符号了
 endfunction
@@ -15,15 +55,25 @@ private function TTestAct${3} takes nothing returns nothing
     endif
 
     if (str == "${2}1") then
+        call TTest${3}1()
     elseif (str == "${2}2") then
+        call TTest${3}2()
     elseif (str == "${2}3") then
+        call TTest${3}3()
     elseif (str == "${2}4") then
+        call TTest${3}4()
     elseif (str == "${2}5") then
+        call TTest${3}5()
     elseif (str == "${2}6") then
+        call TTest${3}6()
     elseif (str == "${2}7") then
+        call TTest${3}7()
     elseif (str == "${2}8") then
+        call TTest${3}8()
     elseif (str == "${2}9") then
+        call TTest${3}9()
     elseif (str == "${2}10") then
+        call TTest${3}10()
     endif
 
 endfunction
