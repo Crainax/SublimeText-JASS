@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[YDWECoordinateX(${1:x} + ${2:100} *CosBJ(${3:facing})),YDWECoordinateY(${4:y} + ${2} * SinBJ(${3}))]]></content>
+    <tabTrigger>jxy</tabTrigger>
+    <scope>source.jass</scope>
+    <description>带极坐标位移的xy</description>
+</snippet>

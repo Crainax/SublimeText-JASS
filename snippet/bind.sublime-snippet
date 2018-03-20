@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[local ${1:integer} ${2:i} = Load${3:Integer}(${4:spellTable},GetHandleId(${5:TYingyue}),${6:1})
+    <content><![CDATA[local ${1:integer} ${2:i} = Load${3:Integer}(${4:YDTable},GetHandleId(${5:t}),${6:1})
 call Save${3}(${4},GetHandleId(${5}),${6},${7:0})]]></content>
     <tabTrigger>bind</tabTrigger>
     <scope>source.jass</scope>
