@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[#ifdef TestMode
+${1://todo}
+#endif]]></content>
+    <tabTrigger>ifdef</tabTrigger>
+    <scope>source.jass</scope>
+    <description>测试模式</description>
+</snippet>
+
+
