@@ -2,5 +2,5 @@
     <content><![CDATA[call PlayerPlaySound(${1:Player(0)},gg_snd_${2:mengji_4})]]></content>
     <tabTrigger>sound2</tabTrigger>
     <scope>source.jass</scope>
-    <description>全局音效</description>
+    <description>局部音效</description>
 </snippet>
