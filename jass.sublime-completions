@@ -3481,5 +3481,7 @@
         "DzFrameSetSize",
         "DzCreateFrameByTagName",
         "DzFrameSetVertexColor",
+        "DzAPI_Map_IsRPGLobby",
+        "DzAPI_Map_GetMapConfig",
     ]
 }
