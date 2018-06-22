@@ -3481,5 +3481,6 @@
         "DzFrameSetSize",
         "DzCreateFrameByTagName",
         "DzFrameSetVertexColor",
+        "GetUnitAbilityLevelEx",
     ]
 }

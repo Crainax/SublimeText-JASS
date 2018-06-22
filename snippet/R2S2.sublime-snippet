@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[local timer ${1:t} = CreateTimer()
+call TimerStart(${1},${2:time},${3:true},function ${4:TimerFunction})
+set ${1} = null]]></content>
+    <tabTrigger>newTimer</tabTrigger>
+    <scope>source.jass</scope>
+    <description>CreateLocalNewTimer</description>
+</snippet>
