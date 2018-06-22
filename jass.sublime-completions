@@ -3481,7 +3481,11 @@
         "DzFrameSetSize",
         "DzCreateFrameByTagName",
         "DzFrameSetVertexColor",
+<<<<<<< HEAD
         "DzAPI_Map_IsRPGLobby",
         "DzAPI_Map_GetMapConfig",
+=======
+        "GetUnitAbilityLevelEx",
+>>>>>>> f2e3187a6943e68be116decb0bbae64d7df374a5
     ]
 }

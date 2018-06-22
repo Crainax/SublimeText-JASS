@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[call SetItemCharges(${1:it},GetItemCharges(${1})+1)
-if (GetItemCharges(${$1}) >= ${2:100}) then
+if (GetItemCharges(${1}) >= ${2:100}) then
     ${0}
     call SetItemCharges(${1},0)
 endif]]></content>

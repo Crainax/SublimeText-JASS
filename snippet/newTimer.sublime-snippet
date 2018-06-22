@@ -1,8 +1,6 @@
 <snippet>
-    <content><![CDATA[local timer ${1:t} = CreateTimer()
-call TimerStart(${1},${2:time},${3:true},function ${4:TimerFunction})
-set ${1} = null]]></content>
-    <tabTrigger>newTimer</tabTrigger>
+    <content><![CDATA[R2SW(${1:0.1},0,1)]]></content>
+    <tabTrigger>R2S2</tabTrigger>
     <scope>source.jass</scope>
-    <description>CreateLocalNewTimer</description>
+    <description>有1位小数点的R2S</description>
 </snippet>
