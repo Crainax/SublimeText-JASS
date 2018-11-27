@@ -3482,5 +3482,21 @@
         "DzCreateFrameByTagName",
         "DzFrameSetVertexColor",
         "GetUnitAbilityLevelEx",
+        "RefreshAbility",
+        "GetRandomIntExcept",
+        "GetUnitTypeName",
+        "DamageAreaChaosExcept",
+        "DzTriggerRegisterMouseEventByCode",
+        "DzTriggerRegisterKeyEventByCode",
+        "DzTriggerRegisterMouseWheelEventByCode",
+        "DzTriggerRegisterMouseMoveEventByCode",
+        "DzTriggerRegisterWindowResizeEventByCode",
+        "DzSetMemory",
+        "DzSetUnitID",
+        "DzSetUnitModel",
+        "DzSetWar3MapMap",
+        "DzFrameSetUpdateCallbackByCode",
+        "DzFrameSetScriptByCode",
+        "DzGetTriggerUIEventFrame"
     ]
 }

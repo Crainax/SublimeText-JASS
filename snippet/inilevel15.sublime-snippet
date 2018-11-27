@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[{"${1:|cff008000破于原力|r} - [|cffffcc00等级 1|r]","${1} - [|cffffcc00等级 2|r]","${1} - [|cffffcc00等级 3|r]","${1} - [|cffffcc00等级 4|r]","${1} - [|cffffcc00等级 5|r]","${1} - [|cffffcc00等级 6|r]","${1} - [|cffffcc00等级 7|r]","${1} - [|cffffcc00等级 8|r]","${1} - [|cffffcc00等级 9|r]","${1} - [|cffffcc00等级 10|r]","${1} - [|cffffcc00等级 11|r]","${1} - [|cffffcc00等级 12|r]","${1} - [|cffffcc00等级 13|r]","${1} - [|cffffcc00等级 14|r]","${1} - [|cffffcc00等级 15|r]"}]]></content>
+    <tabTrigger>等级15</tabTrigger>
+    <scope>source.ini</scope>
+    <description>技能等级-15</description>
+</snippet>
+
