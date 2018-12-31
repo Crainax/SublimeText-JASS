@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[globals
+	private boolean BPressedKey${1:27} = false
+endglobals
+
+private function Key${1}Pressed takes nothing returns nothing
+
+	if not(BPressedKey${1}) then
+		${0:// body...}
+		set BPressedKey${1} = true
+	endif
+endfunction
+
+private function Key${1}Up takes nothing returns nothing
+	set BPressedKey${1} = false
+endfunction
+
+
+	call DzTriggerRegisterKeyEventByCode(null,${1},FRAME_EVENT_KEY_PRESSED,true,function Key${1}Pressed)
+	call DzTriggerRegisterKeyEventByCode(null,${1},FRAME_EVENT_KEY_UP,true,Key${1}Up)]]></content>
+    <tabTrigger>keyPressed</tabTrigger>
+    <scope>source.jass</scope>
+    <description>KeyPressed</description>
+</snippet>
