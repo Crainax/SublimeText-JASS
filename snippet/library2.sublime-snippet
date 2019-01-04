@@ -1,0 +1,114 @@
+<snippet>
+    <content><![CDATA[#ifndef ${1:LibraryName}Included
+#define ${1}Included
+
+/*
+    ${3:库名}
+*/
+library_once ${1} initializer Init${1} requires ${2:CRBase} 
+
+//---------------------------------------------------------------------------------------------------
+	/*
+	    单元测试
+	*/
+	#ifdef TestMode
+	
+	private function TTest${1}1 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}2 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}3 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}4 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}5 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}6 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}7 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}8 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}9 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTest${1}10 takes nothing returns nothing
+	    // body...
+	endfunction
+	
+	private function TTestAct${1}1 takes string str returns nothing
+	    //已经去除s符号了
+	endfunction
+	
+	private function TTestAct${1} takes nothing returns nothing
+	    local string str = GetEventPlayerChatString()
+	    local integer i = 1
+	
+	    if (SubStringBJ(str,1,${4:1}+1) == "${5:s}s") then
+	        call TTestAct${1}1(SubStringBJ(str,2+${4},StringLength(str)))
+	        return
+	    endif
+	
+	    if (str == "${5}1") then
+	        call TTest${1}1()
+	    elseif (str == "${5}2") then
+	        call TTest${1}2()
+	    elseif (str == "${5}3") then
+	        call TTest${1}3()
+	    elseif (str == "${5}4") then
+	        call TTest${1}4()
+	    elseif (str == "${5}5") then
+	        call TTest${1}5()
+	    elseif (str == "${5}6") then
+	        call TTest${1}6()
+	    elseif (str == "${5}7") then
+	        call TTest${1}7()
+	    elseif (str == "${5}8") then
+	        call TTest${1}8()
+	    elseif (str == "${5}9") then
+	        call TTest${1}9()
+	    elseif (str == "${5}10") then
+	        call TTest${1}10()
+	    endif
+	
+	endfunction
+	
+	#endif
+//---------------------------------------------------------------------------------------------------
+	/*
+	    初始化${3}
+	*/
+	private function Init${1} takes nothing returns nothing
+		
+		#ifdef TestMode
+		
+		call TriggerAddAction(TUnitTest, function TTestAct${1})
+		
+		#endif
+	endfunction
+endlibrary
+
+#endif 
+]]></content>
+    <tabTrigger>library2</tabTrigger>
+    <scope>source.jass</scope>
+    <description>新建一个库，并带上单元测试</description>
+</snippet>
+

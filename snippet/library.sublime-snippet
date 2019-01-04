@@ -4,5 +4,5 @@
 endlibrary]]></content>
     <tabTrigger>library</tabTrigger>
     <scope>source.jass</scope>
-    <description>Library</description>
+    <description>新建一个库</description>
 </snippet>
