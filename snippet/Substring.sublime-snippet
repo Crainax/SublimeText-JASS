@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[SubStringBJ(${1:str},1,StringLength("${2:drop}")) == "${2}"]]></content>
+    <tabTrigger>Sub</tabTrigger>
+    <scope>source.jass</scope>
+    <description>测试条件用-快速截取</description>
+</snippet>
+
