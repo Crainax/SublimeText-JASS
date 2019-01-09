@@ -68,6 +68,7 @@
         "TextAreaMaxLines",
         "TabFocusDefault",
         "TabFocusNext",
+        "EditTextFrame",
         "ControlShortcutKey",
         "TextAreaScrollBar",
         "SliderLayoutHorizontal",
