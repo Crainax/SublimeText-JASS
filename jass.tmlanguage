@@ -168,7 +168,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>#\b(define|ifdef|include|ifndef|endif|undef)\b</string>
+			<string>#\b(define|ifdef|include|ifndef|endif|undef|elif|else)\b</string>
 			<key>name</key>
 			<string>keyword.other.jass</string>
 		</dict>
