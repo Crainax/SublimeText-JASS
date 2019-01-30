@@ -16,8 +16,8 @@ private function Key${1}Up takes nothing returns nothing
 endfunction
 
 
-	call DzTriggerRegisterKeyEventByCode(null,${1},FRAME_EVENT_KEY_PRESSED,true,function Key${1}Pressed)
-	call DzTriggerRegisterKeyEventByCode(null,${1},FRAME_EVENT_KEY_UP,true,Key${1}Up)]]></content>
+	call DzTriggerRegisterKeyEventByCode(null,${1},FRAME_EVENT_KEY_PRESSED,false,function Key${1}Pressed)
+	call DzTriggerRegisterKeyEventByCode(null,${1},FRAME_EVENT_KEY_UP,false,function Key${1}Up)]]></content>
     <tabTrigger>keyPressed</tabTrigger>
     <scope>source.jass</scope>
     <description>KeyPressed</description>
