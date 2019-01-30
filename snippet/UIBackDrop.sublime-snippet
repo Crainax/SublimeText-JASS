@@ -1,7 +1,8 @@
 <snippet>
     <content><![CDATA[set ${1:UIShopTitleText} = CreateBackDrop(${2:UIShopTitle})
-call DzFrameSetTexture(${1},"ui\\\\image\\\\${3:icon_unlock_white}.blp",0)
-call DzFrameSetPoint(${1},FRAME_ANCHOR_${4:LEFT},${2},FRAME_ANCHOR_${5:LEFT},0,0)]]></content>
+call DzFrameSetSize(${1},${3:0},${3})
+call DzFrameSetTexture(${1},"ui\\\\image\\\\${4:icon_unlock_white}.blp",0)
+call DzFrameSetPoint(${1},FRAME_ANCHOR_${5:TOPLEFT},${2},FRAME_ANCHOR_${6:TOPLEFT},0,0)]]></content>
     <tabTrigger>UIBackDrop</tabTrigger>
     <scope>source.jass</scope>
     <description>快速创建Backdrop的UI</description>
