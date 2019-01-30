@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[call DzFrameSetPoint(${1:UIShopContent},FRAME_ANCHOR_TOPLEFT,${2:UIShopMenu},FRAME_ANCHOR_TOPLEFT,${3:0.01},-${3})
+call DzFrameSetPoint(${1},FRAME_ANCHOR_BOTTOMRIGHT,${2},FRAME_ANCHOR_BOTTOMRIGHT,-${3},${3})]]></content>
+    <tabTrigger>UIPointInner</tabTrigger>
+    <scope>source.jass</scope>
+    <description>内嵌一定的距离</description>
+</snippet>
+
+
