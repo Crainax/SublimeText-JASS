@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[set ${1:UIShopMenuItemButton} = CreateButton(${2:UIShopMenu})
+call DzFrameSetAllPoints(${1},${2})
+call DzFrameSetScriptByCode(${1},FRAME_MOUSE_UP,function ${3:OnShopMenuItemClick},false)]]></content>
+    <tabTrigger>UIButton</tabTrigger>
+    <scope>source.jass</scope>
+    <description>快速创建Button的UI</description>
+</snippet>
+
