@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[set ${1:UIForceTabItemButton} = CreateButton(${2:UIForceTabItem})
+call DzFrameSetAllPoints(${1},${2})
+call DzFrameSetScriptByCode(${1},FRAME_MOUSE_${3:LEAVE},function ${4:OnEquitStarsLeave},false)]]></content>
+    <tabTrigger>UIButton</tabTrigger>
+    <scope>source.jass</scope>
+    <description>快速创建Button的UI</description>
+</snippet>
+
