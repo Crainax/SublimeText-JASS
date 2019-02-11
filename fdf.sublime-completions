@@ -99,5 +99,8 @@
         "SliderMaxValue",
         "SliderInitialValue",
         "SliderStepSize",
+        "NormalText",
+        "DisabledText",
+        "HighlightText",
     ]
 }
