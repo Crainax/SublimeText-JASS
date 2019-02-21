@@ -103,5 +103,9 @@
         "NormalText",
         "DisabledText",
         "HighlightText",
+        "UseActiveContext",
+        "BackgroundArt",
+        "BackgroundArt",
+        "LayerStyle",
     ]
 }
