@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA["|cffff9900"+${1:内容}+"|r"]]></content>
+    <tabTrigger>橙</tabTrigger>
+    <scope>source.jass</scope>
+    <description>橙色</description>
+</snippet>
+
