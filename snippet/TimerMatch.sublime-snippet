@@ -3,7 +3,7 @@
 local integer index = 0
 local integer i = 1
 loop
-	exitwhen (i > MAX_PLAYER_COUNT or index != 0）
+	exitwhen (i > MAX_PLAYER_COUNT or index != 0)
 	if (${1:TAutoFox}[i] == t) then
 		set index = i
 	endif
