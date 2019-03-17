@@ -11,7 +11,7 @@
     endif
     set t = null 
 endfunction
-1231321123
+
 local timer t = CreateTimer()
 call TimerStart(t,${4:0.5},true,function ${1:TimerName})
 set t = null]]></content>
