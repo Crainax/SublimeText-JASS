@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[if (index <= 0 or index > MAX_PLAYER_COUNT) then
+	return
+endif]]></content>
+    <tabTrigger>indexBounder</tabTrigger>
+    <scope>source.jass</scope>
+    <description>玩家索引的边界值</description>
+</snippet>
