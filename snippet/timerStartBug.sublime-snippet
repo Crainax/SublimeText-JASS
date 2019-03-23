@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[private function Destroy${2:I506Active}Timer takes timer t returns nothing
+    local integer index = 0
+    local integer id = GetHandleId(t)
+    local integer i = 1
+    loop
+        exitwhen (i > MAX_PLAYER_COUNT or index != 0)
+        if (${1:TI506}[i] == t) then
+            set index = i
+        endif
+        set i = i +1
+    endloop
+    
+    if (index == 0) then
+        return
+    endif
+    
+    call PauseTimer(t)
+    call FlushChildHashtable(YDTable,GetHandleId(t))
+    call DestroyTimer(t)
+    set ${1:TI506}[index] = null
+endfunction
+
+private function ${2:I506Active}Timer takes nothing returns nothing
+    call Destroy${2:I506Active}Timer(GetExpiredTimer())
+endfunction
+
+if (${1:TI506}[index] != null) then
+    call Destroy${2:I506Active}Timer(${1:TI506}[index])
+endif
+
+set ${1:TI506}[index] = CreateTimer()
+${0://todo}
+call TimerStart(${1:TI506}[index],${3:10},false,function ${2:I506Active}Timer)]]></content>
+    <tabTrigger>timerStarttBug</tabTrigger>
+    <scope>source.jass</scope>
+    <description>防重叠与防卡BUG的写法</description>
+</snippet>
+
