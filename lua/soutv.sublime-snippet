@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[print("${0}:"+${0:variable})]]></content>
+    <content><![CDATA[print("${1}:" .. ${1:variable})${0}]]></content>
     <tabTrigger>soutv</tabTrigger>
     <scope>source.lua</scope>
     <description>print变量值</description>
