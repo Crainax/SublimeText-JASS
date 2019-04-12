@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[print("${0}:"+${0:variable})]]></content>
+    <tabTrigger>soutv</tabTrigger>
+    <scope>source.lua</scope>
+    <description>print变量值</description>
+</snippet>

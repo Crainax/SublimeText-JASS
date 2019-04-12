@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[print("${0:text}")]]></content>
+    <tabTrigger>sout</tabTrigger>
+    <scope>source.lua</scope>
+    <description>print</description>
+</snippet>
