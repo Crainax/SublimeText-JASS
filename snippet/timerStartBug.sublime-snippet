@@ -14,7 +14,8 @@
     if (index == 0) then
         return
     endif
-    
+    set i = index
+
     call PauseTimer(t)
     call FlushChildHashtable(YDTable,GetHandleId(t))
     call DestroyTimer(t)
