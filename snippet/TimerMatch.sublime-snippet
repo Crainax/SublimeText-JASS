@@ -14,6 +14,7 @@ set t = null
 if (index == 0) then
 	return
 endif
+set i = index
 
 ${0://todo}
 
