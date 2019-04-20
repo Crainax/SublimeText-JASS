@@ -16,9 +16,7 @@ if (index == 0) then
 endif
 set i = index
 
-${0://todo}
-
-set t = null]]></content>
+${0://todo}]]></content>
     <tabTrigger>timerMatch</tabTrigger>
     <scope>source.jass</scope>
     <description>匹配全局Timer</description>
