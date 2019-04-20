@@ -9,9 +9,9 @@ loop
 	endif
 	set i = i +1
 endloop
+set t = null
 
 if (index == 0) then
-	set t = null
 	return
 endif
 
