@@ -3528,6 +3528,8 @@
         "DzSetWar3MapMap",
         "DzFrameSetUpdateCallbackByCode",
         "DzFrameSetScriptByCode",
-        "DzGetTriggerUIEventFrame"
+        "DzGetTriggerUIEventFrame",
+        "R2SF",
+        "I2SB",
     ]
 }
