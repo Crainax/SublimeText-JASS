@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[local ${1:integer} ${2:i} = Load${3:Integer}(${4:YDTable},id,${6:1})
-call Save${3}(${4},GetHandleId(${5}),${6},${7:0})]]></content>
+call Save${3}(${4},GetHandleId(${5:t}),${6},${7:0})]]></content>
     <tabTrigger>bind</tabTrigger>
     <scope>source.jass</scope>
     <description>BindTimer</description>
