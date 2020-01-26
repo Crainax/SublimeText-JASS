@@ -3580,5 +3580,6 @@
         "DzGetClientWidth",
         "DzGetClientHeight",
         "DamageAreaChaos",
+        "I2SM",
     ]
 }
