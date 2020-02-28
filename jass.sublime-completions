@@ -3581,5 +3581,6 @@
         "DzGetClientHeight",
         "DamageAreaChaos",
         "I2SM",
+        "GetRandomEnemyUnit2",
     ]
 }
