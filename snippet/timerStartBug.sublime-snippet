@@ -17,7 +17,6 @@
     set i = index
 
     call PauseTimer(t)
-    call FlushChildHashtable(YDTable,GetHandleId(t))
     call DestroyTimer(t)
     set ${1:TI506}[index] = null
 endfunction
