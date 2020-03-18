@@ -2,6 +2,11 @@
     <content><![CDATA[local timer t = GetExpiredTimer()
 local integer index = 0
 local integer i = 1
+
+if (t == null) then
+    return
+endif
+
 loop
 	exitwhen (i > MAX_PLAYER_COUNT or index != 0)
 	if (${1:TAutoFox}[i] == t) then
