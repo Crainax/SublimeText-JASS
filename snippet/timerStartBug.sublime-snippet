@@ -1,7 +1,6 @@
 <snippet>
     <content><![CDATA[private function Destroy${2:I506Active}Timer takes timer t returns nothing
     local integer index = 0
-    local integer id = GetHandleId(t)
     local integer i = 1
     loop
         exitwhen (i > MAX_PLAYER_COUNT or index != 0)
