@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[YDWECoordinateX(GetUnitX(${1:H[index]}) + GetRandomReal(-${2:300},${2})),YDWECoordinateY(GetUnitY(${1}) + GetRandomReal(-${2},${2}))]]></content>
+    <tabTrigger>rxy2</tabTrigger>
+    <scope>source.jass</scope>
+    <description>偏移随机点</description>
+</snippet>

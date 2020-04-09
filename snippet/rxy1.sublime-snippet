@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[GetRectRandomX(gg_rct_${1:Fuben_FMG_Center}),GetRectRandomY(gg_rct_${1})]]></content>
-    <tabTrigger>rxy</tabTrigger>
+    <tabTrigger>rxy1</tabTrigger>
     <scope>source.jass</scope>
-    <description>GetRectRandomXY</description>
+    <description>矩形内随机点</description>
 </snippet>

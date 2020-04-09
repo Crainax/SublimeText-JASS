@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[YDWECoordinateX(${1:x} + ${2:100} *CosBJ(${3:facing})),YDWECoordinateY(${4:y} + ${2} * SinBJ(${3}))]]></content>
+    <content><![CDATA[local real ${1:distance} = GetRandomReal(${2:100},${3:200})
+local real ${4:facing} = GetRandomReal(0,360)
+YDWECoordinateX(${5:x} + ${1} *CosBJ(${4})),YDWECoordinateY(${6:y} + ${1} * SinBJ(${4}))]]></content>
     <tabTrigger>jxy</tabTrigger>
     <scope>source.jass</scope>
     <description>带极坐标位移的xy</description>
