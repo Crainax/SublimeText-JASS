@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[local integer index = GetConvertedPlayerId(p)]]></content>
+    <tabTrigger>In1</tabTrigger>
+    <scope>source.jass</scope>
+    <description>玩家的索引</description>
+</snippet>

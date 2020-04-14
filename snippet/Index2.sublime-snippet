@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[local integer index = GetConvertedPlayerId(GetOwningPlayer(${1:u}))]]></content>
+    <tabTrigger>In2</tabTrigger>
+    <scope>source.jass</scope>
+    <description>单位的索引</description>
+</snippet>
