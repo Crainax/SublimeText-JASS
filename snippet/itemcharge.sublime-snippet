@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[call SetItemCharges(${1:it},GetItemCharges(${1})+1)
-if (GetItemCharges(${1}) >= ${2:100}) then
-    ${0}
-    call SetItemCharges(${1},0)
+    <content><![CDATA[set ${1:ICount[index]} = ${1} + 1
+if (${1} >= ${2:50}) then
+	${3://todo}
+	set ${1} = 0
 endif]]></content>
-    <tabTrigger>itemCharge</tabTrigger>
+    <tabTrigger>varCharge</tabTrigger>
     <scope>source.jass</scope>
-    <description>物品充能</description>
+    <description>变量充能</description>
 </snippet>
