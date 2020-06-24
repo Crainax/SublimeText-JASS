@@ -54,7 +54,21 @@ library_once ${1} initializer Init${1} requires ${2:CRBase}
 	endfunction
 	
 	private function TTestAct${1}1 takes string str returns nothing
-	    //已经去除s符号了
+		local player p = GetTriggerPlayer()
+		local integer index = GetConvertedPlayerId(p)
+		local string s = SubStringBJ(str,1,1)
+		local integer iData1 = S2I(SubStringBJ(str,2,StringLength(str)))
+		local integer rData1 = S2R(SubStringBJ(str,2,StringLength(str)))
+
+		if (s == "a") then
+		
+		elseif (s == "b") then
+
+		endif
+
+		set p = null
+		set s = null
+
 	endfunction
 	
 	private function TTestAct${1} takes nothing returns nothing
