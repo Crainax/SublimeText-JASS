@@ -58,7 +58,7 @@ library_once ${1} initializer Init${1} requires ${2:CRBase}
 		local integer index = GetConvertedPlayerId(p)
 		local string s = SubStringBJ(str,1,1)
 		local integer iData1 = S2I(SubStringBJ(str,2,StringLength(str)))
-		local integer rData1 = S2R(SubStringBJ(str,2,StringLength(str)))
+		local real rData1 = S2R(SubStringBJ(str,2,StringLength(str)))
 
 		if (s == "a") then
 		
