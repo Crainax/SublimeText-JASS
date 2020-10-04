@@ -1,43 +1,47 @@
 <snippet>
-    <content><![CDATA[private function Destroy${2:I506Active}Timer takes timer t returns nothing
+    <content><![CDATA[private function GuajiTimer takes nothing returns nothing
+    local timer t = GetExpiredTimer()
     local integer index = 0
     local integer i = 1
-
+    
     if (t == null) then
         return
     endif
-
+    
     loop
         exitwhen (i > MAX_PLAYER_COUNT or index != 0)
-        if (${1:TI506}[i] == t) then
+        if (${1:TAutoFox[i]} == t) then
             set index = i
         endif
         set i = i +1
     endloop
+    set t = null
     
     if (index == 0) then
         return
     endif
     set i = index
+    
+    //todo
 
-    call PauseTimer(t)
-    call DestroyTimer(t)
-    set ${1:TI506}[index] = null
+    if (true) then
+        call PauseTimer(${1})
+        call DestroyTimer(${1})
+        set ${1} = null
+    endif
 endfunction
 
-private function ${2:I506Active}Timer takes nothing returns nothing
-    call Destroy${2:I506Active}Timer(GetExpiredTimer())
-endfunction
-
-if (${1:TI506}[index] != null) then
-    call Destroy${2:I506Active}Timer(${1:TI506}[index])
-endif
-
-set ${1:TI506}[index] = CreateTimer()
-${0://todo}
-call TimerStart(${1:TI506}[index],${3:10},false,function ${2:I506Active}Timer)]]></content>
-    <tabTrigger>timerStarttBug</tabTrigger>
+function StartGuaji takes player p returns nothing
+    if (${1} != null) then
+        call PauseTimer(${1})
+        call DestroyTimer(${1})
+        set ${1} = null
+    endif
+    set ${1} = CreateTimer()
+    call TimerStart(${1},1.0,true,function GuajiTimer)
+endfunction]]></content>
+    <tabTrigger>timerStartBug2</tabTrigger>
     <scope>source.jass</scope>
-    <description>防重叠与防卡BUG的写法</description>
+    <description>防卡BUG的循环写法</description>
 </snippet>
 
