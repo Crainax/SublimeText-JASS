@@ -3582,5 +3582,9 @@
         "DamageAreaChaos",
         "I2SM",
         "GetRandomEnemyUnit2",
+        "DzAPI_Map_Statistics",
+        "DzAPI_Map_Returns",
+        "DzAPI_Map_ContinuousCount",
+        "DzAPI_Map_IsPlayer",
     ]
 }
