@@ -3586,5 +3586,18 @@
         "DzAPI_Map_Returns",
         "DzAPI_Map_ContinuousCount",
         "DzAPI_Map_IsPlayer",
+        "DzAPI_Map_MapsTotalPlayed",
+        "DzAPI_Map_MapsLevel",
+        "DzAPI_Map_MapsConsumeGold",
+        "DzAPI_Map_MapsConsumeLumber",
+        "DzAPI_Map_MapsConsumeLv1",
+        "DzAPI_Map_MapsConsumeLv2",
+        "DzAPI_Map_MapsConsumeLv3",
+        "DzAPI_Map_MapsConsumeLv4",
+        "DzAPI_Map_GetForumData",
+        "DzAPI_Map_OpenMall",
+        "DzTriggerRegisterMallItemSyncData",
+        "DzGetTriggerMallItemPlayer",
+        "DzGetTriggerMallItem",
     ]
 }
