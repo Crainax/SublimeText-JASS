@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[call DisplayTextToPlayer(Player(0), 0., 0., "|cFFFF66CC【消息】|r${1:true}:"+S3(${1},"true","false"))]]></content>
-    <tabTrigger>soutt</tabTrigger>
-    <scope>source.jass</scope>
-    <description>boolean型message</description>
-</snippet>

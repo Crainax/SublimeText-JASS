@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[set ${0:A} = ${0} + 1]]></content>
+    <tabTrigger>pp</tabTrigger>
+    <scope>source.jass</scope>
+    <description>变量自增1</description>
+</snippet>

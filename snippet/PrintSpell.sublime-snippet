@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[call PrintSpell(GetOwningPlayer(${1:moqi}),GetAbilityName(${2:GetSpellAbilityId()}),${3:damage})]]></content>
-    <tabTrigger>printSpell</tabTrigger>
-    <scope>source.jass</scope>
-    <description>printSpell</description>
-</snippet>

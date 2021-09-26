@@ -5,7 +5,7 @@ loop
     call CreateFogModifierRectBJ( true, ConvertedPlayer(i), FOG_OF_WAR_VISIBLE, GetPlayableMapRect() )
     set i = i +1
 endloop]]></content>
-    <tabTrigger>SeeAll</tabTrigger>
+    <tabTrigger>视野</tabTrigger>
     <scope>source.jass</scope>
     <description>视野全开</description>
 </snippet>
