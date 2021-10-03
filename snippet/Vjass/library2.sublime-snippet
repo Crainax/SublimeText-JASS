@@ -3,7 +3,7 @@
 #define ${1}Included
 
 /*
-    ${3:库名}
+${3:库名}
 */
 library_once ${1} initializer Init${1} requires ${2:CRBase} 
 
@@ -120,6 +120,7 @@ library_once ${1} initializer Init${1} requires ${2:CRBase}
 endlibrary
 
 #endif 
+
 ]]></content>
     <tabTrigger>library2</tabTrigger>
     <scope>source.jass</scope>

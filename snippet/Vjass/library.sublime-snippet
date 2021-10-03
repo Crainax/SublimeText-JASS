@@ -1,8 +1,18 @@
 <snippet>
-    <content><![CDATA[library_once ${1:library_name} initializer ${2:Init${1}} requires ${3:other_library_name} 
+    <content><![CDATA[#ifndef ${1}Included
+#define ${1}Included
+
+/*
+${3:库名}
+*/
+library_once ${1:library_name} requires ${2:other_library_name} 
 	${0:// body...}
-endlibrary]]></content>
+endlibrary
+
+#endif 
+
+]]></content>
     <tabTrigger>library</tabTrigger>
     <scope>source.jass</scope>
-    <description>新建一个库</description>
+    <description>无框架库</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[/*
-    ${0:Body}
+${0:Body}
 */]]></content>
     <tabTrigger>CM</tabTrigger>
     <scope>source.jass</scope>
