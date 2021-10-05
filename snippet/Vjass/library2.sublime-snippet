@@ -3,13 +3,13 @@
 #define ${1}Included
 
 /*
-${3:库名}
+	${3:库名}
 */
-library_once ${1} initializer Init${1} requires ${2:CRBase} 
+library_once ${1} initializer onInit requires ${2:CRBase} 
 
 //---------------------------------------------------------------------------------------------------
 	/*
-	    单元测试
+    单元测试
 	*/
 	#ifdef TestMode
 	
@@ -107,9 +107,9 @@ library_once ${1} initializer Init${1} requires ${2:CRBase}
 	#endif
 //---------------------------------------------------------------------------------------------------
 	/*
-	    初始化${3}
+    初始化${3}
 	*/
-	private function Init${1} takes nothing returns nothing
+	private function onInit takes nothing returns nothing
 		
 		#ifdef TestMode
 		
