@@ -2,5 +2,5 @@
     <content><![CDATA[call BJDebugMsg("${0:text}")]]></content>
     <tabTrigger>sout</tabTrigger>
     <scope>source.jass</scope>
-    <description>BJDebugMsg</description>
+    <description>调试信息</description>
 </snippet>

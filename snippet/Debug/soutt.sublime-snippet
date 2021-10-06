@@ -2,5 +2,5 @@
     <content><![CDATA[call BJDebugMsg("${0}"+"="+I2S(${0:variable}))]]></content>
     <tabTrigger>soutv</tabTrigger>
     <scope>source.jass</scope>
-    <description>BJDebugMsgVariable</description>
+    <description>调试变量</description>
 </snippet>

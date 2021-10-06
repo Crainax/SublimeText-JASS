@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[#ifndef NormalMode
+call BJDebugMsg("${0:text}")
+#endif
+]]></content>
+    <tabTrigger>soutb</tabTrigger>
+    <scope>source.jass</scope>
+    <description>非正式环境的报错</description>
+</snippet>
