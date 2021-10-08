@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[#ifdef StructMode
+static integer max = 0
+
+static method ShowMax takes nothing returns nothing
+    call BJDebugMsg("${0:ll_node}.max"+"="+I2S(max))
+endmethod
+#endif
+
+//这条写在create里面
+#ifdef StructMode
+set max = IMaxBJ(this,max)
+#endif]]></content>
+    <tabTrigger>HookStruct</tabTrigger>
+    <scope>source.jass</scope>
+    <description>结构体检测容量代码</description>
+</snippet>

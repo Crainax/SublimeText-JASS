@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[static method create takes ${1:nothing} returns thistype
-   	local thistype ${2:var} = thistype.allocate()
+   	local thistype ${2:this} = allocate()
 	${0:// body...}
 	return ${2}
 endmethod]]></content>

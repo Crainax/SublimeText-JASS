@@ -2,10 +2,12 @@
     <content><![CDATA[#ifndef ${1:LibraryName}Included
 #define ${1}Included
 
+#include "${6:edit/Constant/${2}.j}"
+
 /*
 	${3:库名}
 */
-library_once ${1} initializer onInit requires ${2:CRBase} 
+library_once ${1} initializer onInit requires ${2:Variable} 
 
 //---------------------------------------------------------------------------------------------------
 	/*

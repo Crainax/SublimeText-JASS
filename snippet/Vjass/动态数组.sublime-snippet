@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[type ${1:xx} extends ${2:integer} array[${3:8}]]]></content>
+    <tabTrigger>typedef</tabTrigger>
+    <scope>source.jass</scope>
+    <description>定义动态数组</description>
+</snippet>
