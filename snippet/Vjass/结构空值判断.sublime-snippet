@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[method isExist takes nothing returns boolean
+	return (this != null and si__${1:SS}_V[this] == -1)
+endmethod]]></content>
+    <tabTrigger>exists</tabTrigger>
+    <scope>source.jass</scope>
+    <description>结构是否是空值判断</description>
+</snippet>
+		

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[local string ${1:s} = ""
+local integer ${2:i} = 1
+loop
+	exitwhen ${2} > ${3:DEAPTH_XX}
+	set ${1} = ${1} + "|cffff0000[" + I2S(${2}) + "]|r" + I2S(${4:IIndex}[${2}]) + "->"
+	set ${2} = ${2} +1
+endloop
+set ${1} = ${1} + "/"
+call BJDebugMsg(${1})]]></content>
+    <tabTrigger>souta</tabTrigger>
+    <scope>source.jass</scope>
+    <description>输出数组的值</description>
+</snippet>
+

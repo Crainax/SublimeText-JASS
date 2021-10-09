@@ -1,0 +1,53 @@
+<snippet>
+    <content><![CDATA[//自定义二维allocate
+#define WIDTH_${2:XX} 5 //横向分割,就是参数索引
+#define DEAPTH_${2} 10 //纵向分割,最多有几个
+
+globals
+	integer array F${1:Xx}
+	integer array V${1} [WIDTH_${2}][DEAPTH_${2}]
+	integer array I${1}
+endglobals
+
+//注意F/V/I的区别
+static method Allocate${1} takes integer index returns integer
+	local integer this
+ 	if (index <= 0 or index > WIDTH_XX) then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Index Error1:${1}")
+ 		return 0
+ 	endif
+ 	set this = F${1}[index]
+    if (this!=0) then
+        set F${1}[index]=V${1}[index][this]
+    else
+        set I${1}[index]=I${1}[index]+1//间隔
+        set this=I${1}[index]
+    endif
+    if (this>DEAPTH_XX) then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Unable to allocate id for an object of type: ${1}")
+        return 0
+    endif
+
+    set V${1}[index][this]=-1
+ return this
+endmethod
+
+static method Deallocate${1} takes integer index, integer this returns nothing
+    if this==null then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Attempt to destroy a null struct of type: ${1}")
+        return
+    elseif (index <= 0 or index > WIDTH_XX) then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Index Error2:${1}")
+        return
+    elseif (V${1}[index][this]!=-1) then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Double free of type: ${1}")
+        return
+    endif
+    set V${1}[index][this]=F${1}[index]
+    set F${1}[index]=this
+endmethod]]></content>
+    <tabTrigger>allocate2</tabTrigger>
+    <scope>source.jass</scope>
+    <description>二维Allocate</description>
+</snippet>
+

@@ -2,38 +2,38 @@
     <content><![CDATA[//自定义allocate
 globals
 	integer F${1:Xx} = 0
-	integer array V${1:Xx}
-	integer I${1:Xx} = 0
+	integer array V${1}
+	integer I${1} = 0
 endglobals
 
 //注意F/V/I的区别
 static method Allocate${1} takes nothing returns integer
- local integer this=F${1:Xx}
+ local integer this=F${1}
     if (this!=0) then
-        set F${1:Xx}=V${1:Xx}[this]
+        set F${1}=V${1}[this]
     else
-        set I${1:Xx}=I${1:Xx}+${2:1//间隔}
-        set this=I${1:Xx}
+        set I${1}=I${1}+${2:1//间隔}
+        set this=I${1}
     endif
     if (this>${3:8183}) then
-        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Unable to allocate id for an object of type: ${1:Xx}")
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Unable to allocate id for an object of type: ${1}")
         return 0
     endif
 
-    set V${1:Xx}[this]=-1
+    set V${1}[this]=-1
  return this
 endmethod
 
-static method Deallocate${1:Xx} takes integer this returns nothing
+static method Deallocate${1} takes integer this returns nothing
     if this==null then
-            debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Attempt to destroy a null struct of type: ${1:Xx}")
+            debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Attempt to destroy a null struct of type: ${1}")
         return
-    elseif (V${1:Xx}[this]!=-1) then
-            debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Double free of type: ${1:Xx}")
+    elseif (V${1}[this]!=-1) then
+            debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Double free of type: ${1}")
         return
     endif
-    set V${1:Xx}[this]=F${1:Xx}
-    set F${1:Xx}=this
+    set V${1}[this]=F${1}
+    set F${1}=this
 endmethod]]></content>
     <tabTrigger>allocate1</tabTrigger>
     <scope>source.jass</scope>

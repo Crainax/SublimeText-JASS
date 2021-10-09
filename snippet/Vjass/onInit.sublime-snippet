@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[static method onInit takes nothing returns nothing
+    <content><![CDATA[private static method onInit takes nothing returns nothing
 	${0:// body...}
 endmethod]]></content>
     <tabTrigger>onInit</tabTrigger>
