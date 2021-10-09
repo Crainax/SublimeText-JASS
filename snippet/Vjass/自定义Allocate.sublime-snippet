@@ -7,7 +7,7 @@ globals
 endglobals
 
 //注意F/V/I的区别
-function Allocate${1} takes nothing returns integer
+static method Allocate${1} takes nothing returns integer
  local integer this=F${1:Xx}
     if (this!=0) then
         set F${1:Xx}=V${1:Xx}[this]
@@ -22,9 +22,9 @@ function Allocate${1} takes nothing returns integer
 
     set V${1:Xx}[this]=-1
  return this
-endfunction
+endmethod
 
-function Deallocate${1:Xx} takes integer this returns nothing
+static method Deallocate${1:Xx} takes integer this returns nothing
     if this==null then
             debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Attempt to destroy a null struct of type: ${1:Xx}")
         return
@@ -34,7 +34,7 @@ function Deallocate${1:Xx} takes integer this returns nothing
     endif
     set V${1:Xx}[this]=F${1:Xx}
     set F${1:Xx}=this
-endfunction]]></content>
+endmethod]]></content>
     <tabTrigger>allocate1</tabTrigger>
     <scope>source.jass</scope>
     <description>自定义Allocate</description>

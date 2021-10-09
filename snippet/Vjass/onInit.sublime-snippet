@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[static method onInit takes nothing returns nothing
+	${0:// body...}
+endmethod]]></content>
+    <tabTrigger>onInit</tabTrigger>
+    <scope>source.jass</scope>
+    <description>结构体中的初始化</description>
+</snippet>
