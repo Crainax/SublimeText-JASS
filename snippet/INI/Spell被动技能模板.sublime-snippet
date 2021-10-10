@@ -5,8 +5,8 @@ Art = "${2:ReplaceableTextures\\\\CommandButtons\\\\BTNChimaera.blp}"
 EditorSuffix = ""
 Name = "${3:奇美拉之体}"
 Tip = "${3}"
-"Buttonpos:1" = ${4:1}
-"Buttonpos:2" = ${5:1}
+Buttonpos_1 = ${4:1}
+Buttonpos_2 = ${5:1}
 Ubertip = "${0:在自身HP低于50%时，攻击有8%几率封冻对方1s。（无视魔法免疫）|n|cff99ccff能控制对方的所有非英雄单位|r|n}"]]></content>
     <tabTrigger>passive</tabTrigger>
     <scope>source.ini</scope>

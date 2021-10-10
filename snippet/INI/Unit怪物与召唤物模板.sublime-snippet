@@ -31,8 +31,8 @@ ${4:unitSound = "Wisp"}
 ${5:weapTp1 = "missile"
 rangeN1 = 600
 weapType1 = ""
-"Missileart:1" = "missile\\\\aimiliya.mdl"
-"Missilespeed:1" = 1200}]]></content>
+Missileart_1 = "missile\\\\aimiliya.mdl"
+Missilespeed_1 = 1200}]]></content>
     <tabTrigger>summon</tabTrigger>
     <scope>source.ini</scope>
     <description>召唤物/怪物模版</description>

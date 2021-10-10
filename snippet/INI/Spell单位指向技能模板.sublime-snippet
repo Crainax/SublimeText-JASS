@@ -3,8 +3,8 @@
 _parent = "ANcl"
 Art = "ReplaceableTextures\\CommandButtons\\BTNAJB3.blp"
 Animnames = "spell,throw"
-"Buttonpos:1" = ${2:1}
-"Buttonpos:2" = ${3:1}
+Buttonpos_1 = ${2:1}
+Buttonpos_2 = ${3:1}
 CasterArt = ""
 Casterattach = ""
 Cost = ${4:10}

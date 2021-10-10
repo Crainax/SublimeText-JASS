@@ -2,8 +2,8 @@
     <content><![CDATA[[${1:I07T}]
 _parent = "fgrd"
 Art = "ReplaceableTextures\\\\CommandButtons\\\\BTN${2:yb}.blp"
-"Buttonpos:1" = ${3:1}
-"Buttonpos:2" = ${4:2}
+Buttonpos_1 = ${3:1}
+Buttonpos_2 = ${4:2}
 Description = "${5:内容}"
 Hotkey = "${7:W}"
 Name = "${6:名字}(|cffffcc00${7}|r)"
