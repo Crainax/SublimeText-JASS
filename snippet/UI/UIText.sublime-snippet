@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[set ${1:UIShopTitleText} = CreateText${2:Big}(${3:UIShopTitle})
+    <content><![CDATA[set ${1:UIShopTitleText} = NewText${2:XXL}(${3:UIShopTitle})
 call DzFrameSetText(${1},"${4:商店|cffff9900(F3)|r}")
 call DzFrameSetPoint(${1},FRAME_ANCHOR_${5:TOPLEFT},${3},FRAME_ANCHOR_${6:TOPLEFT},0,0)]]></content>
     <tabTrigger>UIText</tabTrigger>
