@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[set ${1:gg_snd_btn_down_01}=CreateSound("sound\\${2:btn_down_01.wav}", false, false, false, 10, 10, "")
+call SetSoundDuration(${1}, ${3:131})
+call SetSoundChannel(${1}, 0)
+call SetSoundVolume(${1}, 127)
+call SetSoundPitch(${1}, 1.0)]]></content>
+    <tabTrigger>soundNew</tabTrigger>
+    <scope>source.jass</scope>
+    <description>新建一个音效</description>
+</snippet>
+
+

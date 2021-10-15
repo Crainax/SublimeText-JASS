@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[EXExecuteScript("(require'jass.slk').${1:unit}[" + I2S(${2:GetUnitTypeId(USelected[index])}) + "].${3:Casterupgradetip}")]]></content>
+    <tabTrigger>slk</tabTrigger>
+    <scope>source.jass</scope>
+    <description>SLK读取数据</description>
+</snippet>
