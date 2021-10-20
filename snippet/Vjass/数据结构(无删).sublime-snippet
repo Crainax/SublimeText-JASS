@@ -1,0 +1,39 @@
+<snippet>
+    <content><![CDATA[globals
+	private integer ISize = 0
+	private unit array UData
+endglobals
+
+//这种方法感觉不需要删除，只有创建与计时器循环
+//注意这种方法可能会重复注入
+private function AlloData takes unit u returns nothing
+	set ISize = ISize + 1 
+	set UData[ISize] = u
+endfunction
+
+private function Timer takes nothing returns nothing
+	local integer i = 1
+	loop
+		exitwhen i > ISize
+		//处理 UData[i]
+
+		if (true) then
+			//这里清空[i]有关的数据
+
+			//删除i对应的数据,互换尾部
+			set UData[i] = UData[ISize]
+			set ISize = ISize - 1
+		else
+			set i = i +1
+		endif
+
+	endloop
+
+	if (ISize <= 0) then
+		//数据都处理完了，停止计时器吧
+	endif
+endfunction]]></content>
+    <tabTrigger>DataStructS</tabTrigger>
+    <scope>source.jass</scope>
+    <description>数据结构简化版,无删</description>
+</snippet>
