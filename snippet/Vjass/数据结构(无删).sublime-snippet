@@ -33,7 +33,7 @@ private function Timer takes nothing returns nothing
 		//数据都处理完了，停止计时器吧
 	endif
 endfunction]]></content>
-    <tabTrigger>DataStructS</tabTrigger>
+    <tabTrigger>DataStructD</tabTrigger>
     <scope>source.jass</scope>
     <description>数据结构简化版,无删</description>
 </snippet>

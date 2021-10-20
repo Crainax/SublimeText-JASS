@@ -1,63 +1,98 @@
 <snippet>
-    <content><![CDATA[/*
-英灵的实现方法
-实现方法：计时到了把尾部的数据移到空缺位。和下阙的Tisi有点像。
-但是和下阙的最大区别就是删除时候基本不需要用到循环。
-下阙好处就是自动去重，但是有循环，但是有上限。
+    <content><![CDATA[globals
+    //Allocate有关的
+    private integer FXx = 0
+    private integer array VXx
+    private integer IXx = 0
+    //静态成员
+    private integer array List
+    private integer INum = 0
+    //结构成员
+    private unit array u
+    private integer array uID
+endglobals
 
-wID的作用就是判断延迟其他动画的功能。
-*/
+function Allo takes unit u returns integer
+    local integer this=FXx
+    if u==null then
+        return 0
+    endif
+    if (this!=0) then
+        set FXx=VXx[this]
+    else
+        set IXx=IXx+1//间隔
+        set this=IXx
+    endif
+    if (this>8183) then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Unable to allocate id for an object of type: Xx")
+        return 0
+    endif
+    set VXx[this]=-1
 
-function s__Frame_Wait takes integer this,real r returns nothing
-    if r==0 then
+    //数据设置都放这
+    set u[this]=u
+    //这里是初始化时的设置内容,不需要改
+    if uID[this]==0 then
+        set INum=INum+1
+        set List[INum]=this
+        set uID[this]=INum
+    endif
+    
+    return this
+endfunction
+
+function Deallo takes integer this returns nothing
+    if this==null then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Attempt to destroy a null struct of type: Xx")
+        return
+    elseif (VXx[this]!=-1) then
+        debug call DisplayTimedTextToPlayer(GetLocalPlayer(),0,0,1000.,"Double free of type: Xx")
         return
     endif
-    set s__Frame_wTime[this]=r
-    set s__Frame_wNow[this]=0
-    if s__Frame_wID[this]==0 then
-        set s__Frame_wNum=s__Frame_wNum+1
-        //WList和WID是对偶关系吧。。
-        set s__Frame_wList[s__Frame_wNum]=this
-        set s__Frame_wID[this]=s__Frame_wNum
+
+    //数据解除都放这里
+    set u[this] = null
+    if uID[this] != 0 then
+        //这个其实就是将List的[2]设成5  假设2是删  5是最长   
+        //然后实例5的trID设成了2(之后再新建的话又是5了  这个基本也是独立)
+        //但是实例[2]本身的内容已经被清除. 循环读的是List不受影响(虽然List[5]还是5但是无影响)
+        set List[uID[this]]=List[INum]
+        set uID[List[uID[this]]]=uID[this]
+        set INum=INum-1
+        set uID[this]=0
     endif
-endfunction
 
-function s__Frame_Stop takes integer this returns nothing
-if s__Frame_wID[this]!=0 then
-    //将当前位置替换成尾端位置的
-    set s__Frame_wList[s__Frame_wID[this]]=s__Frame_wList[s__Frame_wNum]
-    //你这3重[[[]]]我吐了。其实就是 wID[旧尾端this] = 被删wID。（毕竟wID的索引是this,不是简单的wNum）
-    set s__Frame_wID[s__Frame_wList[s__Frame_wID[this]]]=s__Frame_wID[this]
-    set s__Frame_wNum=s__Frame_wNum-1
-    set s__Frame_wID[this]=0
-endif
-endfunction
+    set VXx[this]=FXx
+    set FXx=this
+endmethod
 
-function s__Frame_Animation_Timer takes nothing returns nothing
+private function Run takes nothing returns nothing
     local integer i
     local integer this
-    local real cjlocgn_00000000
-    if s__Frame_wNum>0 then
+    if INum>0 then
         set i=1
         loop
-            exitwhen i>s__Frame_wNum
-            set this=s__Frame_wList[i]
-            set s__Frame_wNow[this]=s__Frame_wNow[this]+.01
+            exitwhen i>INum
+            set this=List[i]
+            //干的活在这 u[this]
             
-            if s__Frame_wNow[this]>=s__Frame_wTime[this] then
-                call s__Frame_Show(this)
-                set s__Frame_wList[i]=s__Frame_wList[s__Frame_wNum]
-                set s__Frame_wID[s__Frame_wList[i]]=i
-                set s__Frame_wNum=s__Frame_wNum-1
-                set s__Frame_wID[this]=0
+
+            //结束了
+            if (true) then
+                call Deallo()
             endif
             set i=i+1
         endloop
     endif
+
+    if (INum <= 0) then
+        //在这删计时器
+        //可以在Allo外Hook一层判断0来创建计时器
+    endif
 endfunction]]></content>
     <tabTrigger>DataStruct</tabTrigger>
     <scope>source.jass</scope>
-    <description>Loop型处理数据结构</description>
+    <description>结构数据正式版</description>
 </snippet>
 
 

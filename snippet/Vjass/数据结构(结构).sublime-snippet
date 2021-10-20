@@ -1,0 +1,68 @@
+<snippet>
+    <content><![CDATA[//静态成员
+	static thistype array List
+	static integer INum = 0
+//结构成员
+	unit u
+	integer uID
+
+method reg takes unit u returns nothing
+    if u==null then
+        return
+    endif
+    //数据设置都放这
+    set .u=u
+    //这里是初始化时的设置内容,不需要改
+    if .uID==0 then
+        set INum=INum+1
+        set List[INum]=this
+        set .uID=INum
+    endif
+endmethod
+
+method unreg takes nothing returns nothing
+	//数据解除都放这里
+	set .u = null
+
+	if .uID != 0 then
+		//这个其实就是将List的[2]设成5  假设2是删  5是最长   
+		//然后实例5的trID设成了2(之后再新建的话又是5了  这个基本也是独立)
+		//但是实例[2]本身的内容已经被清除. 循环读的是List不受影响(虽然List[5]还是5但是无影响)
+		set List[.uID]=List[INum]
+		set List[.uID].uID=.uID
+		set INum=INum-1
+		set .uID=0
+	endif
+endmethod
+
+private static method Run takes nothing returns nothing
+    local integer i
+    local integer this
+    if INum>0 then
+        set i=1
+        loop
+            exitwhen i>INum
+            //从结论来说i就是.uID
+            set this=List[i]
+            //干的活在这 .u
+            
+
+            //结束了
+            if (true) then
+                set List[i]=List[INum]
+                set List[i].uID=i
+                set INum=INum-1
+                set .uID=0
+            endif
+            set i=i+1
+        endloop
+    endif
+
+    if (INum <= 0) then
+    	//这里就删计时器吧
+    endif
+endmethod]]></content>
+    <tabTrigger>DataStructS</tabTrigger>
+    <scope>source.jass</scope>
+    <description>数据结构结构体版</description>
+</snippet>
