@@ -1,0 +1,63 @@
+<snippet>
+    <content><![CDATA[/*
+英灵的实现方法
+实现方法：计时到了把尾部的数据移到空缺位。和下阙的Tisi有点像。
+但是和下阙的最大区别就是删除时候基本不需要用到循环。
+下阙好处就是自动去重，但是有循环，但是有上限。
+
+wID的作用就是判断延迟其他动画的功能。
+*/
+
+function s__Frame_Wait takes integer this,real r returns nothing
+    if r==0 then
+        return
+    endif
+    set s__Frame_wTime[this]=r
+    set s__Frame_wNow[this]=0
+    if s__Frame_wID[this]==0 then
+        set s__Frame_wNum=s__Frame_wNum+1
+        //WList和WID是对偶关系吧。。
+        set s__Frame_wList[s__Frame_wNum]=this
+        set s__Frame_wID[this]=s__Frame_wNum
+    endif
+endfunction
+
+function s__Frame_Stop takes integer this returns nothing
+if s__Frame_wID[this]!=0 then
+    //将当前位置替换成尾端位置的
+    set s__Frame_wList[s__Frame_wID[this]]=s__Frame_wList[s__Frame_wNum]
+    //你这3重[[[]]]我吐了。其实就是 wID[旧尾端this] = 被删wID。（毕竟wID的索引是this,不是简单的wNum）
+    set s__Frame_wID[s__Frame_wList[s__Frame_wID[this]]]=s__Frame_wID[this]
+    set s__Frame_wNum=s__Frame_wNum-1
+    set s__Frame_wID[this]=0
+endif
+endfunction
+
+function s__Frame_Animation_Timer takes nothing returns nothing
+    local integer i
+    local integer this
+    local real cjlocgn_00000000
+    if s__Frame_wNum>0 then
+        set i=1
+        loop
+            exitwhen i>s__Frame_wNum
+            set this=s__Frame_wList[i]
+            set s__Frame_wNow[this]=s__Frame_wNow[this]+.01
+            
+            if s__Frame_wNow[this]>=s__Frame_wTime[this] then
+                call s__Frame_Show(this)
+                set s__Frame_wList[i]=s__Frame_wList[s__Frame_wNum]
+                set s__Frame_wID[s__Frame_wList[i]]=i
+                set s__Frame_wNum=s__Frame_wNum-1
+                set s__Frame_wID[this]=0
+            endif
+            set i=i+1
+        endloop
+    endif
+endfunction]]></content>
+    <tabTrigger>DataStruct</tabTrigger>
+    <scope>source.jass</scope>
+    <description>Loop型处理数据结构</description>
+</snippet>
+
+
