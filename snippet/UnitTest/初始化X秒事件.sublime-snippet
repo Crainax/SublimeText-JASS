@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[local trigger ${1:TRInit01} = CreateTrigger()
+call TriggerRegisterTimerEventSingle(${1},${2:0.0})
+call TriggerAddAction(${1}, function ${3:InitZeroTime})
+set ${1} = null]]></content>
+    <tabTrigger>InitEvent</tabTrigger>
+    <scope>source.jass</scope>
+    <description>开局X秒触发</description>
+</snippet>
+
