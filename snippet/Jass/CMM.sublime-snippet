@@ -1,6 +1,5 @@
 <snippet>
     <content><![CDATA[//-----------------------------
-
 ]]></content>
     <tabTrigger>CMM</tabTrigger>
     <scope>source.jass</scope>
