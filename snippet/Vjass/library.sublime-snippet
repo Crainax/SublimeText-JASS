@@ -5,7 +5,7 @@
 /*
     ${3:库名}
 */
-library_once ${1:library_name} requires ${2:other_library_name} 
+library ${1:library_name} requires ${2:other_library_name} 
 	${0:// body...}
 endlibrary
 
