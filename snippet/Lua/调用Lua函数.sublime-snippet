@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[call Cheat("exec-lua:${1:folder.name}")]]></content>
+    <tabTrigger>Lua</tabTrigger>
+    <scope>source.jass</scope>
+    <description>调用Lua</description>
+</snippet>
