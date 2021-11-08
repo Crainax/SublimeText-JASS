@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[-- 魔法书技能位置
+[AT1q]
+Name = "背包上限强化"
+	_parent = "Amgr"
+	Art = "ReplaceableTextures\\CommandButtons\\btntf14.blp"
+	"Buttonpos:1" = 0
+	"Buttonpos:2" = 0
+	EditorSuffix = ""
+	Tip = "|cff99cc00[被动]|r背包上限强化"
+	Ubertip = "背包格子数量+1."
+
+-- 魔法书入口
+[ATF0]
+Name = "天赋技能树"
+	_parent = "Aspb"
+	Art = "ReplaceableTextures\\CommandButtons\\btnui2.blp"
+	"Buttonpos:2" = 1
+	DataA = "" -- 法术列表
+	DataB = 0 -- 共享法术CD间隔
+	DataC = 11 -- 最小法术数量
+	DataD = 11 -- 最大法术数量
+	DataE = "blight" -- 基础命令ID
+	Hotkey = "G"
+	Tip = "|cffccffcc天赋技能树|r(|cffffcc00G|r)"
+	Ubertip = "你可以在本局游戏中不断强化你的天赋效果,打造独一无二的属性效果!\n\n|cffffff00★|r|cff00ccff天赋总上限为11个\n|r|cffff9900★|r|cffffffff每次学习你的天赋时,随机从天赋池中挑选几个天赋来选择学习.\n|r|cffffff00★|r|cff95ff95每达到一定的条件即可解锁天赋树位置|r"
+	item = 0
+	race = "human"
+
+-- 这个是隐藏起来的同名魔法书
+[ATFa]
+Name = "天赋魔法书"
+	_parent = "Aspb"
+	"Buttonpos:2" = -11
+	DataA = "ATFl" -- 法术列表
+	DataB = 0 -- 共享法术CD间隔
+	DataC = 1 -- 最小法术数量
+	DataD = 1 -- 最大法术数量
+	DataE = "blight" -- 基础命令ID
+	Tip = " "
+	Ubertip = " "
+	item = 0
+	race = "human"]]></content>
+    <tabTrigger>magicbook</tabTrigger>
+    <scope>source.ini</scope>
+    <description>魔法书模板</description>
+</snippet>
+
+
