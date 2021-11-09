@@ -1,6 +1,6 @@
 <snippet>
-    <content><![CDATA[Buttonpos_1 = ${1:1}
-Buttonpos_2 = ${2:1}]]></content>
+    <content><![CDATA[Buttonpos_1 = ${1:1} -- 按钮位置 - 普通 (X)
+Buttonpos_2 = ${2:1} -- 按钮位置 - 普通 (Y)]]></content>
     <tabTrigger>xy</tabTrigger>
     <scope>source.ini</scope>
     <description>xy</description>

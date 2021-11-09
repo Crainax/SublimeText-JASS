@@ -1,27 +1,27 @@
 <snippet>
     <content><![CDATA[[${1:A000}]
 _parent = "ANcl"
-Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAJB3.blp"
-Animnames = "spell,slam"
-Buttonpos_1 = ${2:1}
-Buttonpos_2 = ${3:1}
-CasterArt = ""
-Casterattach = ""
-Cost = ${4:10}
-DataA = 0.0000
-DataC = 1
-DataD = 0.0000
-DataE = 0
-DataF = "${5:rainofchaos}"
-Hotkey = "${6:D}"
-Name = "${7:切换背包}"
-Order = "${5}"
-Rng = 0.0000
-Cool = 10
-Tip = "${7}(|cffffcc00${6}|r)"
-Ubertip = "${8:当前为背包1,点击切换为背包2.|n|n|cffffff00★|r|cff00ccff处于不同背包时,物品上的以蓝色标注的属性可以保留在英雄身上.|n|r|cffffff00★|r|cff95ff95你可以通过其他方式来扩充自己的背包容量.|r}"
-hero = 0
-levels = 1]]></content>
+Animnames = "spell,slam" -- 效果 - 施法动作
+Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAJB3.blp" -- 图标 - 普通
+Buttonpos_1 = ${2:1} -- 按钮位置 - 普通 (X)
+Buttonpos_2 = ${3:1} -- 按钮位置 - 普通 (Y)
+CasterArt = "" -- 效果 - 施法者
+Casterattach = "" -- 效果 - 施法者附加点1
+Cool = 10 -- 魔法施放时间间隔
+Cost = ${4:10} -- 魔法消耗
+DataA = 0.0000 -- 施法持续时间
+DataC = 1 -- 选项
+DataD = 0.0000 -- 动作持续时间
+DataE = 0 -- 使其他技能无效
+DataF = "${5:rainofchaos}" -- 基础命令ID
+Hotkey = "${6:D}" -- 热键 - 普通
+Name = "${7:切换背包}" -- 名字
+Order = "${5}" -- 命令串 - 使用/打开
+Rng = 0.0000 -- 施法距离
+Tip = "${7}(|cffffcc00${6}|r)" -- 提示工具 - 普通
+Ubertip = "${8:当前为背包1,点击切换为背包2.|n|n|cffffff00★|r|cff00ccff处于不同背包时,物品上的以蓝色标注的属性可以保留在英雄身上.|n|r|cffffff00★|r|cff95ff95你可以通过其他方式来扩充自己的背包容量.|r}" -- 提示工具 - 普通 - 扩展
+hero = 0 -- 英雄技能
+levels = 1 -- 等级]]></content>
     <tabTrigger>immediate</tabTrigger>
     <scope>source.ini</scope>
     <description>立即施法</description>

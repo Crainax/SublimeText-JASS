@@ -1,9 +1,10 @@
 <snippet>
-    <content><![CDATA[upgrades = "R000"
-race = "creeps"
-Casterupgradename = "${1:查看怪物技能}"
-Casterupgradetip = "${2:30%10倍攻击}"
-Casterupgradeart = "ui\\ua\\typespl.blp"]]></content>
+    <content><![CDATA[upgrades = "R000" -- 使用科技
+race = "creeps" -- 种族
+Casterupgradename = "${1:查看怪物技能}" -- 魔法升级名字
+Casterupgradetip = "${2:30%10倍攻击}" -- 魔法升级说明
+Casterupgradeart = "ui\\ua\\typespl.blp" -- 魔法升级图标
+]]></content>
     <tabTrigger>spellart</tabTrigger>
     <scope>source.ini</scope>
     <description>右测的魔法提示</description>

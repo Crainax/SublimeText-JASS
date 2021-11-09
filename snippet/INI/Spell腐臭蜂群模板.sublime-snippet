@@ -1,22 +1,22 @@
 <snippet>
     <content><![CDATA[[${1:A0H4}]
-_parent = "AUcs"
-Cool = 0.0000
-Cost = 0
-DataA = 1.0000
-DataB = 1000.0000
-DataC = ${2:1800}.0000
-DataD = ${3:100}
-Rng = 99999
-Area = ${3}
-Hotkey = ""
-Missileart = ${4:"Abilities\\Weapons\\PoisonArrow\\PoisonArrowMissile.mdl"}
-Name = "${5:瞬伐心之箭}"
-Tip = ""
-Ubertip = ""
-hero = 0
-levels = 1
-targs = "air,ground,debris,enemy,neutral,organic"]]></content>
+Name = "${5:瞬伐心之箭}" -- 名字
+    _parent = "AUcs"
+    Area = ${3} -- 影响区域
+    Cool = 0.0000 -- 魔法施放时间间隔
+    Cost = 0 -- 魔法消耗
+    DataA = 1.0000 -- 伤害
+    DataB = 1000.0000 -- 最大伤害
+    DataC = ${2:1800}.0000 -- 距离
+    DataD = ${3:100} -- 最终区域范围
+    Hotkey = "" -- 热键 - 普通
+    Missileart = ${4:"Abilities\\Weapons\\PoisonArrow\\PoisonArrowMissile.mdl"} -- 效果 - 投射物图像
+    Rng = 99999 -- 施法距离
+    Tip = "" -- 提示工具 - 普通
+    Ubertip = "" -- 提示工具 - 普通 - 扩展
+    hero = 0 -- 英雄技能
+    levels = 1 -- 等级
+    targs = "air,ground,debris,enemy,neutral,organic" -- 目标允许]]></content>
     <tabTrigger>fuchou</tabTrigger>
     <scope>source.ini</scope>
     <description>腐臭蜂群模版</description>

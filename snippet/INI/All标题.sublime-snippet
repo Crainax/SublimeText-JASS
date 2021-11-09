@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[Tip = "${1:切换背包}(|cffffcc00${2:G}|r)"]]></content>
+    <content><![CDATA[Tip = "${1:切换背包}(|cffffcc00${2:G}|r)" -- 提示工具 - 基础]]></content>
     <tabTrigger>TIP</tabTrigger>
     <scope>source.ini</scope>
     <description>提示文本</description>

@@ -1,26 +1,26 @@
 <snippet>
     <content><![CDATA[[${1:uJd0}]
-_parent = "hpea"
-Builds = ""
-EditorSuffix = "${2:投射物-AJD0}"
-HP = 1
-Name = ""
-abilList = "Aloc,Avul"
-collision = 0.0000
-file = "effects\\\\${3:AJD0_1}.mdl"
-fused = 0
-modelScale = ${4:3.0}
-moveHeight = 100.0000
-movetp = "fly"
-nsight = 0
-points = 0
-regenHP = 0.0000
-sight = 100
-spd = 522
-type = ""
-unitShadow = ""
-upgrades = ""
-weapsOn = 0]]></content>
+Name = "" -- 名字
+    _parent = "hpea"
+    Builds = "" -- 可建造建筑
+    EditorSuffix = "${2:投射物-AJD0}" -- 名字 - 编辑器后缀
+    HP = 1 -- 生命最大值
+    abilList = "Aloc,Avul" -- 普通
+    collision = 0.0000 -- 碰撞体积
+    file = "effects\\\\${3:AJD0_1}.mdl" -- 模型文件
+    fused = 0 -- 占用人口
+    modelScale = ${4:3.0} -- 模型缩放
+    moveHeight = 100.0000 -- 高度
+    movetp = "fly" -- 类型
+    nsight = 0 -- 视野范围(夜晚)
+    points = 0 -- 单位附加值
+    regenHP = 0.0000 -- 生命回复
+    sight = 100 -- 视野范围(白天)
+    spd = 522 -- 基础速度
+    type = "" -- 单位类别
+    unitShadow = "" -- 阴影图像(单位)
+    upgrades = "" -- 使用科技
+    weapsOn = 0 -- 允许攻击模式]]></content>
     <tabTrigger>unitMissile</tabTrigger>
     <scope>source.ini</scope>
     <description>单位投射物模版</description>

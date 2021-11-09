@@ -1,7 +1,7 @@
 <snippet>
-    <content><![CDATA[mana0 = ${1:100}
-manaN = ${2:100}
-regenMana = ${3:2}]]></content>
+    <content><![CDATA[mana0 = ${1:100} -- 魔法初始数量
+manaN = ${2:100} -- 魔法最大值
+regenMana = ${3:2} -- 魔法回复]]></content>
     <tabTrigger>mana</tabTrigger>
     <scope>source.ini</scope>
     <description>mana</description>

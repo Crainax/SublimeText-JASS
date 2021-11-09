@@ -1,24 +1,24 @@
 <snippet>
     <content><![CDATA[[${1:AuZ3}]
-_parent = "Awrs"
-Area = ${2:600}.0000
-BuffID = "${3:B01T}"
-Cool = 0.0000
-Cost = 0
-DataA = 0.0000
-DataB = 0.0000
-DataC = 0
-EditorSuffix = ""
-Dur = ${4:2}.0
-HeroDur = ${4}.0000
-Name = "(眩晕${4}秒)"
-targs = "air,ground,debris,enemy,neutral,organic"
+Name = "(眩晕${4}秒)" -- 名字
+    _parent = "Awrs"
+    Area = ${2:600}.0000
+    BuffID = "${3:B01T}" -- 影响区域
+    Cool = 0.0000 -- 魔法效果
+    Cost = 0 -- 魔法施放时间间隔
+    DataA = 0.0000 -- 魔法消耗
+    DataB = 0.0000 -- 伤害
+    DataC = 0 -- 地形变形幅度
+    EditorSuffix = "" -- 地形变形持续时间(毫秒)
+    Dur = ${4:2}.0 -- 持续时间 - 普通
+    HeroDur = ${4}.0000 -- 编辑器后缀
+    targs = "air,ground,debris,enemy,neutral,organic" -- 目标允许
 
 [${3:B01T}]
 _parent = "BSTN"
-Buffart = "ReplaceableTextures\\CommandButtons\\BTNPurge.blp"
-Bufftip = "被击晕的"
-TargetArt = "Abilities\\Spells\\Orc\\Purge\\PurgeBuffTarget.mdl"]]></content>
+Buffart = "ReplaceableTextures\\CommandButtons\\BTNPurge.blp" -- 图标
+Bufftip = "被击晕的" -- 工具提示
+TargetArt = "Abilities\\Spells\\Orc\\Purge\\PurgeBuffTarget.mdl" -- 效果 - 目标]]></content>
     <tabTrigger>stun</tabTrigger>
     <scope>source.ini</scope>
     <description>群体眩晕</description>

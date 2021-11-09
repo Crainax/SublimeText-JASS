@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA[Art = "ReplaceableTextures\\\\CommandButtons\\\\btn${1:tf14}.blp"]]></content>
+    <content><![CDATA[Art = "ReplaceableTextures\\\\CommandButtons\\\\btn${1:tf14}.blp" -- 图标 - 游戏界面]]></content>
     <tabTrigger>ART</tabTrigger>
     <scope>source.ini</scope>
     <description>图标</description>

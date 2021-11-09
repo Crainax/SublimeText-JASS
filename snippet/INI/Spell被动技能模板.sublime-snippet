@@ -1,13 +1,11 @@
 <snippet>
     <content><![CDATA[[${1:Amgr}]
-_parent = "Amgr"
-Art = "${2:ReplaceableTextures\\\\CommandButtons\\\\BTNChimaera.blp}"
-EditorSuffix = ""
-Name = "${3:奇美拉之体}"
-Tip = "${3}"
-Buttonpos_1 = ${4:1}
-Buttonpos_2 = ${5:1}
-Ubertip = "${0:在自身HP低于50%时，攻击有8%几率封冻对方1s。（无视魔法免疫）|n|cff99ccff能控制对方的所有非英雄单位|r|n}"]]></content>
+Name = "${3:奇美拉之体}" -- 名字
+    _parent = "Amgr"
+    Art = "${2:ReplaceableTextures\\\\CommandButtons\\\\BTNChimaera.blp}" -- 图标 - 普通
+    EditorSuffix = "" -- 编辑器后缀
+    Tip = "${3}"  -- 提示工具 - 普通
+    Ubertip = "${0:在自身HP低于50%时，攻击有8%几率封冻对方1s。（无视魔法免疫）|n|cff99ccff能控制对方的所有非英雄单位|r|n}" -- 提示工具 - 普通 - 扩展]]></content> 
     <tabTrigger>passive</tabTrigger>
     <scope>source.ini</scope>
     <description>passive</description>
