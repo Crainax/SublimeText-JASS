@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[[AH15]
+Name = "天赋技能主动模板" -- 名字
+EditorSuffix = "(玩家1)" -- 编辑器后缀
+    _parent = "ANbr"
+    Animnames = "" -- 效果 - 施法动作
+    Area = 0.0 -- 影响区域
+    Art = "ReplaceableTextures\\PassiveButtons\\PASBTNEvasion.blp" -- 图标 - 普通
+    CasterArt = "" -- 效果 - 施法者
+    Cool = 0.0 -- 魔法施放时间间隔
+    Cost = 0 -- 魔法消耗
+    DataA = 0.0 -- 攻击增加
+    DataG = 1 -- 最大单位数量
+    Dur = 0.001 -- 持续时间 - 普通
+    HeroDur = 0.001 -- 持续时间 - 英雄
+    Tip = "闪避" -- 提示工具 - 普通
+    Ubertip = "有CD" -- 提示工具 - 普通 - 扩展
+    hero = 0 -- 英雄技能
+    levels = 1 -- 等级
+    race = "orc" -- 种族
+    targs = "none" -- 目标允许]]></content> 
+    <tabTrigger>passive2</tabTrigger>
+    <scope>source.ini</scope>
+    <description>被动带冷却</description>
+</snippet>

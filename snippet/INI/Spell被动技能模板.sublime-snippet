@@ -1,14 +1,16 @@
 <snippet>
-    <content><![CDATA[[${1:Amgr}]
-Name = "${3:奇美拉之体}" -- 名字
+    <content><![CDATA[[Ah01]
+Name = "凯撒天赋技能数据" -- 名字
     _parent = "Amgr"
-    Art = "${2:ReplaceableTextures\\\\CommandButtons\\\\BTNChimaera.blp}" -- 图标 - 普通
+    Art = "ReplaceableTextures\\CommandButtons\\BTNChimaera.blp" -- 图标 - 普通
     EditorSuffix = "" -- 编辑器后缀
-    Tip = "${3}"  -- 提示工具 - 普通
-    Ubertip = "${0:在自身HP低于50%时，攻击有8%几率封冻对方1s。（无视魔法免疫）|n|cff99ccff能控制对方的所有非英雄单位|r|n}" -- 提示工具 - 普通 - 扩展]]></content> 
-    <tabTrigger>passive</tabTrigger>
+    Tip = "凯撒天赋技能数据1,"  -- 字符串段1
+    Ubertip = "凯撒天赋技能数据2," -- 字符串段2
+    Untip = "凯撒天赋技能数据3,"  -- 字符串段3
+    Unubertip = "凯撒天赋技能数据4." -- 字符串段3]]></content> 
+    <tabTrigger>spellData</tabTrigger>
     <scope>source.ini</scope>
-    <description>passive</description>
+    <description>spellData</description>
 </snippet>
 
 
