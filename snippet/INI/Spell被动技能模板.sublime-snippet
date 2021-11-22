@@ -7,7 +7,11 @@ Name = "凯撒天赋技能数据" -- 名字
     Tip = "凯撒天赋技能数据1,"  -- 字符串段1
     Ubertip = "凯撒天赋技能数据2," -- 字符串段2
     Untip = "凯撒天赋技能数据3,"  -- 字符串段3
-    Unubertip = "凯撒天赋技能数据4." -- 字符串段3]]></content> 
+    Unubertip = "凯撒天赋技能数据4." -- 字符串段3
+    Cool = 0.0 -- 魔法施放时间间隔
+    Cost = 0 -- 魔法消耗
+    Area = 0.0 -- 影响区域
+    Rng = 0.0 -- 施法距离]]></content> 
     <tabTrigger>spellData</tabTrigger>
     <scope>source.ini</scope>
     <description>spellData</description>
