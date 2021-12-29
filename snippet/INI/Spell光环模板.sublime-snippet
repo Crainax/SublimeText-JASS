@@ -20,12 +20,9 @@ hero = ${7:1}
 
 [${8:B01M}]
 _parent = "BHab"
--- 图标
-Buffart = "ReplaceableTextures\\\\CommandButtons\\\\btn${1}.blp"
--- 工具提示
-Bufftip = "|cff008000${4}|r"
--- 工具提示 - 扩展
-Buffubertip = "|cff00ff00光环效果:|r${6:增加1200范围所有友方英雄|cff00ff0011%|r的力量。}"]]></content>
+Buffart = "ReplaceableTextures\\\\CommandButtons\\\\btn${1}.blp" -- 图标
+Bufftip = "|cff008000${4}|r" -- 工具提示
+Buffubertip = "|cff00ff00光环效果:|r${6:增加1200范围所有友方英雄|cff00ff0011%|r的力量。}" -- 工具提示 - 扩展]]></content>
     <tabTrigger>aura</tabTrigger>
     <scope>source.ini</scope>
     <description>光环模版</description>
