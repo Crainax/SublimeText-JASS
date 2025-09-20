@@ -6,6 +6,7 @@ Name = "${7:切换背包}" -- 名字
     Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAJB3.blp" -- 图标 - 普通
     Buttonpos_1 = ${2:1} -- 按钮位置 - 普通 (X)
     Buttonpos_2 = ${3:1} -- 按钮位置 - 普通 (Y)
+    Requires = "R008" -- 需求
     CasterArt = "" -- 效果 - 施法者
     Casterattach = "" -- 效果 - 施法者附加点1
     Cool = 10 -- 魔法施放时间间隔

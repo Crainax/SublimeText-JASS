@@ -2,7 +2,7 @@
     <content><![CDATA[[nlv1]
 Name = "|cff0000ff精灵|r" -- 名字
     _parent = "nlv1"
-    Art = "ReplaceableTextures\\CommandButtons\\BTNAMR5.blp" -- 图标 - 游戏界面
+    Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAMR5.blp" -- 图标 - 游戏界面
     HP = 1 -- 生命最大值
     Ubertip = "" -- 提示工具 - 扩展
     abilList = "" -- 普通
@@ -22,8 +22,8 @@ Name = "|cff0000ff精灵|r" -- 名字
     rangeN1 = 600 -- 攻击 1 - 攻击范围
     regenHP = 0.0000 -- 生命回复
     scale = 1.0000 -- 选择缩放
-    -- file = "hero\\umr5.mdl" -- 模型文件
-    -- Missileart_1 = "missile\\aimiliya.mdl" -- 攻击 1 - 投射物图像
+    -- file = "hero\\\\umr5.mdl" -- 模型文件
+    -- Missileart_1 = "missile\\\\aimiliya.mdl" -- 攻击 1 - 投射物图像
     -- Missilespeed_1 = 1200 -- 攻击 1 - 射弹速率
     -- shadowH = 100.0000 -- 阴影图像 - 高度
     -- shadowW = 100.0000 -- 阴影图像 - 宽度

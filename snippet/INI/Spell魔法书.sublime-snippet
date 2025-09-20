@@ -1,48 +1,54 @@
 <snippet>
-    <content><![CDATA[-- 魔法书技能位置
-[AT1q]
-Name = "背包上限强化" -- 名字
-	_parent = "Amgr"
-	Art = "ReplaceableTextures\\CommandButtons\\btntf14.blp" -- 图标 - 普通
-	EditorSuffix = "" -- 编辑器后缀
-	Tip = "|cff99cc00[被动]|r背包上限强化" -- 提示工具 - 普通
-	Ubertip = "背包格子数量+1." -- 提示工具 - 普通 - 扩展
+    <content><![CDATA[
+-- 主动的书内技能
+[AMI0]
+Name = "主动道具" -- 名字
+    _parent = "ANcl"
+    Animnames = "spell,slam" -- 效果 - 施法动作
+    Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAJB3.blp" -- 图标 - 普通
+    Buttonpos_1 = 0 -- 按钮位置 - 普通 (X)
+    Buttonpos_2 = 2 -- 按钮位置 - 普通 (Y)
+    Requires = "RMI0" -- 需求
+    CasterArt = "" -- 效果 - 施法者
+    Casterattach = "" -- 效果 - 施法者附加点1
+    Cool = 0 -- 魔法施放时间间隔
+    Cost = 0 -- 魔法消耗
+    DataA = 0.0000 -- 施法持续时间
+    DataC = 1 -- 选项
+    DataD = 0.0000 -- 动作持续时间
+    DataE = 0 -- 使其他技能无效
+    DataF = "rainofchaos" -- 基础命令ID
+    Hotkey = "Q" -- 热键 - 普通
+    Order = "rainofchaos" -- 命令串 - 使用/打开
+    Rng = 0.0000 -- 施法距离
+    Tip = "主动道具(|cffffcc00Q|r)" -- 提示工具 - 普通
+    Ubertip = "这是道具1的说明" -- 提示工具 - 普通 - 扩展
+    hero = 0 -- 英雄技能
+    levels = 1 -- 等级
 
--- 魔法书入口
-[ATF0]
-Name = "天赋技能树" -- 名字
-	_parent = "Aspb"
-	Art = "ReplaceableTextures\\CommandButtons\\btnui2.blp" -- 图标 - 普通
-	DataA = "" -- 法术列表
-	DataB = 0 -- 共享法术CD间隔
-	DataC = 11 -- 最小法术数量
-	DataD = 11 -- 最大法术数量
-	DataE = "blight" -- 基础命令ID
-	Hotkey = "G" -- 热键 - 普通
-	Tip = "|cffccffcc天赋技能树|r(|cffffcc00G|r)" -- 提示工具 - 普通
-	Ubertip = "你可以在本局游戏中不断强化你的天赋效果,打造独一无二的属性效果!\n\n|cffffff00★|r|cff00ccff天赋总上限为11个\n|r|cffff9900★|r|cffffffff每次学习你的天赋时,随机从天赋池中挑选几个天赋来选择学习.\n|r|cffffff00★|r|cff95ff95每达到一定的条件即可解锁天赋树位置|r"
-	-- 提示工具 - 普通 - 扩展
-	item = 0 -- 物品技能
-	race = "human" -- 种族
+-- 被动的书内技能
+[Amgr]
+Name = "被动道具" -- 名字
+    _parent = "Amgr"
+    Requires = "RMI0" -- 需求
+    Art = "ReplaceableTextures\\\\CommandButtons\\\\BTNAJB3.blp" -- 图标 - 普通
+    EditorSuffix = "" -- 编辑器后缀
+    Tip = "被动道具"  -- 提示工具 - 普通
+    Ubertip = "这是道具2的说明" -- 提示工具 - 普通 - 扩展
 
--- 这个是隐藏起来的同名魔法书
-[ATFa]
-Name = "天赋魔法书" -- 名字
-	_parent = "Aspb"
-	Buttonpos_1 = 0 -- 按钮位置 - 普通 (X)
-	Buttonpos_2 = -11 -- 按钮位置 - 普通 (Y)
-	DataA = "ATFl" -- 法术列表
-	DataB = 0 -- 共享法术CD间隔
-	DataC = 1 -- 最小法术数量
-	DataD = 1 -- 最大法术数量
-	DataE = "blight" -- 基础命令ID
-	Tip = " " -- 提示工具 - 普通
-	Ubertip = " " -- 提示工具 - 普通 - 扩展
-	item = 0 -- 物品技能
-	race = "human" -- 种族]]></content>
-    <tabTrigger>magicbook</tabTrigger>
+-- 该技能的科技(upgrade.ini)
+[RMI0]
+Name = "获得商城道具" -- 名字
+	_parent = "Rhcd" 
+	Requires = ""  -- 需求
+	Tip = "获得商城道具"  -- 提示工具
+	Ubertip = "获得商城道具"  -- 提示工具 - 扩展
+	goldbase = 0  -- 基础黄金消耗
+	lumberbase = 0 -- 基础木材消耗
+]]></content>
+    <tabTrigger>bookItem</tabTrigger>
     <scope>source.ini</scope>
-    <description>魔法书模板</description>
+    <description>书内内容与科技</description>
 </snippet>
 
 

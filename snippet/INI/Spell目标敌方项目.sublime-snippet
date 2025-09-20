@@ -1,5 +1,5 @@
 <snippet>
-    <content><![CDATA["air,ground,debris,enemy,neutral,organic"]]></content>
+    <content><![CDATA["air,ground,enemy,neutral,organic"]]></content>
     <tabTrigger>targetEnemy</tabTrigger>
     <scope>source.ini</scope>
     <description>敌方目标</description>
